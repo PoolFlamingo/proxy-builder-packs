@@ -15,7 +15,7 @@
      1792
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/background.png",
+    "fichero": "layers/joker/background.png",
     "zona": {
      "x": 0.0,
      "y": 0.0,
@@ -37,7 +37,7 @@
      1792
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/background-copy.png",
+    "fichero": "layers/joker/background-copy.png",
     "zona": {
      "x": 0.0,
      "y": 0.0,
@@ -59,7 +59,7 @@
      1855
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/layer-37.png",
+    "fichero": "layers/joker/layer-37.png",
     "zona": {
      "x": 0.0,
      "y": 0.0,
@@ -81,7 +81,7 @@
      1107
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/backgrounds__balatro.png",
+    "fichero": "layers/joker/backgrounds__balatro.png",
     "zona": {
      "x": 0.0,
      "y": 11.954,
@@ -103,7 +103,7 @@
      1223
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/backgrounds__colorless.png",
+    "fichero": "layers/joker/backgrounds__colorless.png",
     "zona": {
      "x": 0.0,
      "y": 4.476,
@@ -125,7 +125,7 @@
      1223
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/backgrounds__gold.png",
+    "fichero": "layers/joker/backgrounds__gold.png",
     "zona": {
      "x": 0.0,
      "y": 4.476,
@@ -147,7 +147,7 @@
      1223
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/backgrounds__green.png",
+    "fichero": "layers/joker/backgrounds__green.png",
     "zona": {
      "x": 0.0,
      "y": 4.476,
@@ -169,7 +169,7 @@
      1223
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/backgrounds__red.png",
+    "fichero": "layers/joker/backgrounds__red.png",
     "zona": {
      "x": 0.0,
      "y": 4.476,
@@ -191,7 +191,7 @@
      1231
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/backgrounds__black.png",
+    "fichero": "layers/joker/backgrounds__black.png",
     "zona": {
      "x": 0.0,
      "y": 4.883,
@@ -213,7 +213,7 @@
      1231
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/backgrounds__blue.png",
+    "fichero": "layers/joker/backgrounds__blue.png",
     "zona": {
      "x": 0.0,
      "y": 4.883,
@@ -235,7 +235,7 @@
      1223
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/backgrounds__white.png",
+    "fichero": "layers/joker/backgrounds__white.png",
     "zona": {
      "x": 0.0,
      "y": 4.476,
@@ -257,7 +257,7 @@
      1788
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/frame__frame.png",
+    "fichero": "layers/joker/frame__frame.png",
     "zona": {
      "x": 0.0,
      "y": 0.254,
@@ -279,7 +279,7 @@
      1677
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/frame__non-legendary.png",
+    "fichero": "layers/joker/frame__non-legendary.png",
     "zona": {
      "x": 2.235,
      "y": 55.445,
@@ -301,7 +301,7 @@
      1677
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/frame__layer-19.png",
+    "fichero": "layers/joker/frame__layer-19.png",
     "zona": {
      "x": 2.235,
      "y": 55.445,
@@ -323,7 +323,7 @@
      1677
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/frame__legendary.png",
+    "fichero": "layers/joker/frame__legendary.png",
     "zona": {
      "x": 2.235,
      "y": 55.445,
@@ -345,7 +345,7 @@
      1001
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/frame__white-box.png",
+    "fichero": "layers/joker/frame__white-box.png",
     "zona": {
      "x": 2.235,
      "y": 14.243,
@@ -367,7 +367,7 @@
      1136
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/frame__typeline.png",
+    "fichero": "layers/joker/frame__typeline.png",
     "zona": {
      "x": 1.27,
      "y": 48.68,
@@ -389,7 +389,7 @@
      1705
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/frame__p-t.png",
+    "fichero": "layers/joker/frame__p-t.png",
     "zona": {
      "x": 43.135,
      "y": 77.623,
@@ -411,7 +411,7 @@
      442
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/frame__mana-box__1-mana.png",
+    "fichero": "layers/joker/frame__mana-box__1-mana.png",
     "zona": {
      "x": 53.804,
      "y": 12.106,
@@ -433,7 +433,7 @@
      442
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/frame__mana-box__2-mana.png",
+    "fichero": "layers/joker/frame__mana-box__2-mana.png",
     "zona": {
      "x": 49.13,
      "y": 12.106,
@@ -455,7 +455,7 @@
      442
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/frame__mana-box__3-mana.png",
+    "fichero": "layers/joker/frame__mana-box__3-mana.png",
     "zona": {
      "x": 44.456,
      "y": 12.106,
@@ -477,7 +477,7 @@
      442
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/frame__mana-box__4-mana.png",
+    "fichero": "layers/joker/frame__mana-box__4-mana.png",
     "zona": {
      "x": 39.781,
      "y": 12.106,
@@ -499,7 +499,7 @@
      442
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/frame__mana-box__5-mana.png",
+    "fichero": "layers/joker/frame__mana-box__5-mana.png",
     "zona": {
      "x": 35.107,
      "y": 12.106,
@@ -521,7 +521,7 @@
      442
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/frame__mana-box__6-mana.png",
+    "fichero": "layers/joker/frame__mana-box__6-mana.png",
     "zona": {
      "x": 30.433,
      "y": 12.106,
@@ -543,7 +543,7 @@
      1585
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/frame__attractions__off-lights.png",
+    "fichero": "layers/joker/frame__attractions__off-lights.png",
     "zona": {
      "x": 58.173,
      "y": 55.394,
@@ -565,7 +565,7 @@
      1577
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/frame__attractions__6-on.png",
+    "fichero": "layers/joker/frame__attractions__6-on.png",
     "zona": {
      "x": 58.58,
      "y": 74.469,
@@ -587,7 +587,7 @@
      1504
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/frame__attractions__5-on.png",
+    "fichero": "layers/joker/frame__attractions__5-on.png",
     "zona": {
      "x": 58.58,
      "y": 70.756,
@@ -609,7 +609,7 @@
      1431
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/frame__attractions__4-on.png",
+    "fichero": "layers/joker/frame__attractions__4-on.png",
     "zona": {
      "x": 58.58,
      "y": 67.043,
@@ -631,7 +631,7 @@
      1358
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/frame__attractions__3-on.png",
+    "fichero": "layers/joker/frame__attractions__3-on.png",
     "zona": {
      "x": 58.58,
      "y": 63.329,
@@ -653,7 +653,7 @@
      1285
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/frame__attractions__2-on.png",
+    "fichero": "layers/joker/frame__attractions__2-on.png",
     "zona": {
      "x": 58.58,
      "y": 59.616,
@@ -675,7 +675,7 @@
      1109
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/words__legal__set__common.png",
+    "fichero": "layers/joker/words__legal__set__common.png",
     "zona": {
      "x": 47.86,
      "y": 49.951,
@@ -697,7 +697,7 @@
      1109
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/words__legal__set__uncomon.png",
+    "fichero": "layers/joker/words__legal__set__uncomon.png",
     "zona": {
      "x": 47.86,
      "y": 49.951,
@@ -719,7 +719,7 @@
      1109
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/words__legal__set__rare.png",
+    "fichero": "layers/joker/words__legal__set__rare.png",
     "zona": {
      "x": 47.86,
      "y": 49.951,
@@ -741,7 +741,7 @@
      1109
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/words__legal__set__mythic-rare.png",
+    "fichero": "layers/joker/words__legal__set__mythic-rare.png",
     "zona": {
      "x": 47.86,
      "y": 49.951,
@@ -888,7 +888,7 @@
      1713
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/words__legal__dot.png",
+    "fichero": "layers/joker/words__legal__dot.png",
     "zona": {
      "x": 8.485,
      "y": 83.32,
@@ -957,7 +957,7 @@
      409
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/words__mana-10-pixels-apart__colorless__colorless.png",
+    "fichero": "layers/joker/words__mana-10-pixels-apart__colorless__colorless.png",
     "zona": {
      "x": 46.183,
      "y": 13.48,
@@ -1008,7 +1008,7 @@
      409
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/words__mana-10-pixels-apart__blue.png",
+    "fichero": "layers/joker/words__mana-10-pixels-apart__blue.png",
     "zona": {
      "x": 55.531,
      "y": 13.48,
@@ -1030,7 +1030,7 @@
      409
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/words__mana-10-pixels-apart__blue-copy.png",
+    "fichero": "layers/joker/words__mana-10-pixels-apart__blue-copy.png",
     "zona": {
      "x": 50.857,
      "y": 13.48,
@@ -1052,7 +1052,7 @@
      409
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/words__mana-10-pixels-apart__white.png",
+    "fichero": "layers/joker/words__mana-10-pixels-apart__white.png",
     "zona": {
      "x": 50.857,
      "y": 13.48,
@@ -1074,7 +1074,7 @@
      409
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/words__mana-10-pixels-apart__red.png",
+    "fichero": "layers/joker/words__mana-10-pixels-apart__red.png",
     "zona": {
      "x": 55.531,
      "y": 13.48,
@@ -1096,7 +1096,7 @@
      409
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/words__mana-10-pixels-apart__green.png",
+    "fichero": "layers/joker/words__mana-10-pixels-apart__green.png",
     "zona": {
      "x": 36.835,
      "y": 13.48,
@@ -1118,7 +1118,7 @@
      409
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/words__mana-10-pixels-apart__black.png",
+    "fichero": "layers/joker/words__mana-10-pixels-apart__black.png",
     "zona": {
      "x": 55.531,
      "y": 13.48,
@@ -1223,7 +1223,7 @@
      1375
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/words__tap-symbol.png",
+    "fichero": "layers/joker/words__tap-symbol.png",
     "zona": {
      "x": 54.261,
      "y": 64.398,
@@ -1245,7 +1245,7 @@
      1600
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/words__tap-symbol-copy-2.png",
+    "fichero": "layers/joker/words__tap-symbol-copy-2.png",
     "zona": {
      "x": 9.653,
      "y": 75.843,
@@ -1267,7 +1267,7 @@
      1533
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/words__colorless-copy-2__colorless.png",
+    "fichero": "layers/joker/words__colorless-copy-2__colorless.png",
     "zona": {
      "x": 11.889,
      "y": 72.435,
@@ -1447,7 +1447,7 @@
      1870
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/small-scanlines__b.png",
+    "fichero": "layers/joker/small-scanlines__b.png",
     "zona": {
      "x": 0.0,
      "y": 0.0,
@@ -1469,7 +1469,7 @@
      1874
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/small-scanlines__g.png",
+    "fichero": "layers/joker/small-scanlines__g.png",
     "zona": {
      "x": 0.0,
      "y": 0.0,
@@ -1491,7 +1491,7 @@
      1865
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/small-scanlines__r.png",
+    "fichero": "layers/joker/small-scanlines__r.png",
     "zona": {
      "x": 0.0,
      "y": 0.0,
@@ -1513,7 +1513,7 @@
      1856
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/small-scanlines__vertical.png",
+    "fichero": "layers/joker/small-scanlines__vertical.png",
     "zona": {
      "x": 0.0,
      "y": 0.0,
@@ -1535,7 +1535,7 @@
      941
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/tap-symbol-copy.png",
+    "fichero": "layers/joker/tap-symbol-copy.png",
     "zona": {
      "x": 23.117,
      "y": 35.556,
@@ -1557,7 +1557,7 @@
      1855
     ],
     "tipo": "imagen",
-    "fichero": "capas/joker/layer-40.png",
+    "fichero": "layers/joker/layer-40.png",
     "zona": {
      "x": 0.0,
      "y": 0.0,
@@ -1585,7 +1585,7 @@
      1793
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/background-copy.png",
+    "fichero": "layers/land/background-copy.png",
     "zona": {
      "x": 0.051,
      "y": 0.051,
@@ -1607,7 +1607,7 @@
      1856
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/layer-38.png",
+    "fichero": "layers/land/layer-38.png",
     "zona": {
      "x": 0.0,
      "y": 0.0,
@@ -1629,7 +1629,7 @@
      1856
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/layer-39.png",
+    "fichero": "layers/land/layer-39.png",
     "zona": {
      "x": 0.0,
      "y": 0.0,
@@ -1651,7 +1651,7 @@
      1793
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/layer-1.png",
+    "fichero": "layers/land/layer-1.png",
     "zona": {
      "x": 0.051,
      "y": 0.051,
@@ -1673,7 +1673,7 @@
      1793
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/backgrounds__basic.png",
+    "fichero": "layers/land/backgrounds__basic.png",
     "zona": {
      "x": 0.051,
      "y": 0.051,
@@ -1695,7 +1695,7 @@
      1793
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/backgrounds__bonus.png",
+    "fichero": "layers/land/backgrounds__bonus.png",
     "zona": {
      "x": 0.051,
      "y": 0.051,
@@ -1717,7 +1717,7 @@
      1793
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/backgrounds__mult.png",
+    "fichero": "layers/land/backgrounds__mult.png",
     "zona": {
      "x": 0.051,
      "y": 0.051,
@@ -1739,7 +1739,7 @@
      1561
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/backgrounds__layer-32.png",
+    "fichero": "layers/land/backgrounds__layer-32.png",
     "zona": {
      "x": 0.051,
      "y": 13.632,
@@ -1761,7 +1761,7 @@
      1793
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/backgrounds__wild.png",
+    "fichero": "layers/land/backgrounds__wild.png",
     "zona": {
      "x": 0.051,
      "y": 0.051,
@@ -1783,7 +1783,7 @@
      1793
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/backgrounds__gold.png",
+    "fichero": "layers/land/backgrounds__gold.png",
     "zona": {
      "x": 0.051,
      "y": 0.051,
@@ -1805,7 +1805,7 @@
      1793
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/backgrounds__stone.png",
+    "fichero": "layers/land/backgrounds__stone.png",
     "zona": {
      "x": 0.051,
      "y": 0.051,
@@ -1827,7 +1827,7 @@
      1793
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/backgrounds__steel.png",
+    "fichero": "layers/land/backgrounds__steel.png",
     "zona": {
      "x": 0.051,
      "y": 0.051,
@@ -1849,7 +1849,7 @@
      1793
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/backgrounds__lucky.png",
+    "fichero": "layers/land/backgrounds__lucky.png",
     "zona": {
      "x": 0.051,
      "y": 0.051,
@@ -1871,7 +1871,7 @@
      1793
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__references__1mountain.png",
+    "fichero": "layers/land/frame__basic-land-format__references__1mountain.png",
     "zona": {
      "x": 0.051,
      "y": 0.051,
@@ -1893,7 +1893,7 @@
      1793
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__references__2mountain.png",
+    "fichero": "layers/land/frame__basic-land-format__references__2mountain.png",
     "zona": {
      "x": 0.051,
      "y": 0.051,
@@ -1915,7 +1915,7 @@
      1793
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__references__3mountain.png",
+    "fichero": "layers/land/frame__basic-land-format__references__3mountain.png",
     "zona": {
      "x": 0.051,
      "y": 0.051,
@@ -1937,7 +1937,7 @@
      1793
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__references__4mountain.png",
+    "fichero": "layers/land/frame__basic-land-format__references__4mountain.png",
     "zona": {
      "x": 0.051,
      "y": 0.051,
@@ -1959,7 +1959,7 @@
      1793
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__references__5mountain.png",
+    "fichero": "layers/land/frame__basic-land-format__references__5mountain.png",
     "zona": {
      "x": 0.051,
      "y": 0.051,
@@ -1981,7 +1981,7 @@
      1793
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__references__6mountain.png",
+    "fichero": "layers/land/frame__basic-land-format__references__6mountain.png",
     "zona": {
      "x": 0.051,
      "y": 0.051,
@@ -2003,7 +2003,7 @@
      1793
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__references__7mountain.png",
+    "fichero": "layers/land/frame__basic-land-format__references__7mountain.png",
     "zona": {
      "x": 0.051,
      "y": 0.051,
@@ -2025,7 +2025,7 @@
      1793
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__references__8mountain.png",
+    "fichero": "layers/land/frame__basic-land-format__references__8mountain.png",
     "zona": {
      "x": 0.051,
      "y": 0.051,
@@ -2047,7 +2047,7 @@
      1793
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__references__9mountain.png",
+    "fichero": "layers/land/frame__basic-land-format__references__9mountain.png",
     "zona": {
      "x": 0.051,
      "y": 0.051,
@@ -2069,7 +2069,7 @@
      1793
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__references__10mountain.png",
+    "fichero": "layers/land/frame__basic-land-format__references__10mountain.png",
     "zona": {
      "x": 0.051,
      "y": 0.051,
@@ -2091,7 +2091,7 @@
      1747
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__typeline.png",
+    "fichero": "layers/land/frame__basic-land-format__typeline.png",
     "zona": {
      "x": 3.76,
      "y": 79.76,
@@ -2113,7 +2113,7 @@
      1497
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__parts__other-assets__layer-40.png",
+    "fichero": "layers/land/frame__basic-land-format__parts__other-assets__layer-40.png",
     "zona": {
      "x": 6.249,
      "y": 15.006,
@@ -2135,7 +2135,7 @@
      1497
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__parts__other-assets__layer-41.png",
+    "fichero": "layers/land/frame__basic-land-format__parts__other-assets__layer-41.png",
     "zona": {
      "x": 0.0,
      "y": 15.006,
@@ -2157,7 +2157,7 @@
      1307
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__parts__other-assets__layer-42.png",
+    "fichero": "layers/land/frame__basic-land-format__parts__other-assets__layer-42.png",
     "zona": {
      "x": 0.0,
      "y": 24.671,
@@ -2179,7 +2179,7 @@
      927
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__parts__other-assets__layer-43.png",
+    "fichero": "layers/land/frame__basic-land-format__parts__other-assets__layer-43.png",
     "zona": {
      "x": 9.196,
      "y": 35.353,
@@ -2201,7 +2201,7 @@
      1454
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__parts__other-assets__layer-44.png",
+    "fichero": "layers/land/frame__basic-land-format__parts__other-assets__layer-44.png",
     "zona": {
      "x": 13.362,
      "y": 17.193,
@@ -2223,7 +2223,7 @@
      1117
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__parts__other-assets__layer-45.png",
+    "fichero": "layers/land/frame__basic-land-format__parts__other-assets__layer-45.png",
     "zona": {
      "x": 15.293,
      "y": 34.335,
@@ -2245,7 +2245,7 @@
      2447
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__parts__other-assets__layer-46.png",
+    "fichero": "layers/land/frame__basic-land-format__parts__other-assets__layer-46.png",
     "zona": {
      "x": 0.0,
      "y": 0.0,
@@ -2267,7 +2267,7 @@
      956
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__parts__chips__chips.png",
+    "fichero": "layers/land/frame__basic-land-format__parts__chips__chips.png",
     "zona": {
      "x": 9.552,
      "y": 42.525,
@@ -2289,7 +2289,7 @@
      1158
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__parts__chips__blue-chip.png",
+    "fichero": "layers/land/frame__basic-land-format__parts__chips__blue-chip.png",
     "zona": {
      "x": 36.835,
      "y": 46.187,
@@ -2311,7 +2311,7 @@
      680
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__parts__chips__red-chip.png",
+    "fichero": "layers/land/frame__basic-land-format__parts__chips__red-chip.png",
     "zona": {
      "x": 26.775,
      "y": 21.873,
@@ -2333,7 +2333,7 @@
      1022
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__parts__chips__black-chip.png",
+    "fichero": "layers/land/frame__basic-land-format__parts__chips__black-chip.png",
     "zona": {
      "x": 26.775,
      "y": 39.269,
@@ -2355,7 +2355,7 @@
      473
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__parts__chips__green-chip-copy-8.png",
+    "fichero": "layers/land/frame__basic-land-format__parts__chips__green-chip-copy-8.png",
     "zona": {
      "x": 26.775,
      "y": 11.343,
@@ -2377,7 +2377,7 @@
      1569
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__parts__chips__white-chip-copy-9.png",
+    "fichero": "layers/land/frame__basic-land-format__parts__chips__white-chip-copy-9.png",
     "zona": {
      "x": 26.775,
      "y": 67.094,
@@ -2399,7 +2399,7 @@
      1630
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__parts__nums__1.png",
+    "fichero": "layers/land/frame__basic-land-format__parts__nums__1.png",
     "zona": {
      "x": 4.623,
      "y": 5.748,
@@ -2421,7 +2421,7 @@
      1630
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__parts__nums__2.png",
+    "fichero": "layers/land/frame__basic-land-format__parts__nums__2.png",
     "zona": {
      "x": 4.623,
      "y": 5.748,
@@ -2443,7 +2443,7 @@
      1630
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__parts__nums__3.png",
+    "fichero": "layers/land/frame__basic-land-format__parts__nums__3.png",
     "zona": {
      "x": 4.623,
      "y": 5.748,
@@ -2465,7 +2465,7 @@
      1630
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__parts__nums__4.png",
+    "fichero": "layers/land/frame__basic-land-format__parts__nums__4.png",
     "zona": {
      "x": 4.623,
      "y": 5.748,
@@ -2487,7 +2487,7 @@
      1630
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__parts__nums__5.png",
+    "fichero": "layers/land/frame__basic-land-format__parts__nums__5.png",
     "zona": {
      "x": 4.573,
      "y": 5.748,
@@ -2509,7 +2509,7 @@
      1630
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__parts__nums__6.png",
+    "fichero": "layers/land/frame__basic-land-format__parts__nums__6.png",
     "zona": {
      "x": 4.623,
      "y": 5.748,
@@ -2531,7 +2531,7 @@
      1630
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__parts__nums__7.png",
+    "fichero": "layers/land/frame__basic-land-format__parts__nums__7.png",
     "zona": {
      "x": 4.623,
      "y": 5.748,
@@ -2553,7 +2553,7 @@
      1630
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__parts__nums__8.png",
+    "fichero": "layers/land/frame__basic-land-format__parts__nums__8.png",
     "zona": {
      "x": 4.623,
      "y": 5.748,
@@ -2575,7 +2575,7 @@
      1630
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__parts__nums__9.png",
+    "fichero": "layers/land/frame__basic-land-format__parts__nums__9.png",
     "zona": {
      "x": 4.623,
      "y": 5.748,
@@ -2597,7 +2597,7 @@
      1630
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__parts__nums__10.png",
+    "fichero": "layers/land/frame__basic-land-format__parts__nums__10.png",
     "zona": {
      "x": 4.623,
      "y": 5.748,
@@ -2677,7 +2677,7 @@
      1722
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__land-type__island.png",
+    "fichero": "layers/land/frame__basic-land-format__land-type__island.png",
     "zona": {
      "x": 44.608,
      "y": 81.133,
@@ -2699,7 +2699,7 @@
      1722
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__land-type__forest.png",
+    "fichero": "layers/land/frame__basic-land-format__land-type__forest.png",
     "zona": {
      "x": 44.608,
      "y": 81.133,
@@ -2721,7 +2721,7 @@
      1722
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__land-type__mountain.png",
+    "fichero": "layers/land/frame__basic-land-format__land-type__mountain.png",
     "zona": {
      "x": 44.608,
      "y": 81.133,
@@ -2743,7 +2743,7 @@
      1722
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__land-type__swamp.png",
+    "fichero": "layers/land/frame__basic-land-format__land-type__swamp.png",
     "zona": {
      "x": 44.608,
      "y": 81.133,
@@ -2765,7 +2765,7 @@
      1722
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__basic-land-format__land-type__plains.png",
+    "fichero": "layers/land/frame__basic-land-format__land-type__plains.png",
     "zona": {
      "x": 44.608,
      "y": 81.133,
@@ -3001,7 +3001,7 @@
      1747
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__non-basic-land-format__rules-box.png",
+    "fichero": "layers/land/frame__non-basic-land-format__rules-box.png",
     "zona": {
      "x": 3.76,
      "y": 72.994,
@@ -3023,7 +3023,7 @@
      1501
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__non-basic-land-format__layer-30.png",
+    "fichero": "layers/land/frame__non-basic-land-format__layer-30.png",
     "zona": {
      "x": 4.877,
      "y": 61.498,
@@ -3045,7 +3045,7 @@
      1431
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__non-basic-land-format__box-extension.png",
+    "fichero": "layers/land/frame__non-basic-land-format__box-extension.png",
     "zona": {
      "x": 4.877,
      "y": 59.26,
@@ -3067,7 +3067,7 @@
      338
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__non-basic-land-format__name-plate.png",
+    "fichero": "layers/land/frame__non-basic-land-format__name-plate.png",
     "zona": {
      "x": 2.947,
      "y": 2.849,
@@ -3089,7 +3089,7 @@
      1722
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__non-basic-land-format__set__common.png",
+    "fichero": "layers/land/frame__non-basic-land-format__set__common.png",
     "zona": {
      "x": 44.608,
      "y": 81.133,
@@ -3111,7 +3111,7 @@
      1722
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__non-basic-land-format__set__uncomon.png",
+    "fichero": "layers/land/frame__non-basic-land-format__set__uncomon.png",
     "zona": {
      "x": 44.608,
      "y": 81.133,
@@ -3133,7 +3133,7 @@
      1722
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__non-basic-land-format__set__rare.png",
+    "fichero": "layers/land/frame__non-basic-land-format__set__rare.png",
     "zona": {
      "x": 44.608,
      "y": 81.133,
@@ -3155,7 +3155,7 @@
      1722
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/frame__non-basic-land-format__set__mythic-rare.png",
+    "fichero": "layers/land/frame__non-basic-land-format__set__mythic-rare.png",
     "zona": {
      "x": 44.608,
      "y": 81.133,
@@ -3456,7 +3456,7 @@
      1493
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/symbols__colorless-copy-3__colorless.png",
+    "fichero": "layers/land/symbols__colorless-copy-3__colorless.png",
     "zona": {
      "x": 7.977,
      "y": 69.84,
@@ -3478,7 +3478,7 @@
      1484
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/symbols__colorless-copy-3__colorless-symbol.png",
+    "fichero": "layers/land/symbols__colorless-copy-3__colorless-symbol.png",
     "zona": {
      "x": 8.485,
      "y": 70.247,
@@ -3529,7 +3529,7 @@
      1408
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/symbols__colorless-copy-4__colorless.png",
+    "fichero": "layers/land/symbols__colorless-copy-4__colorless.png",
     "zona": {
      "x": 19.205,
      "y": 65.517,
@@ -3551,7 +3551,7 @@
      1399
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/symbols__colorless-copy-4__colorless-symbol.png",
+    "fichero": "layers/land/symbols__colorless-copy-4__colorless-symbol.png",
     "zona": {
      "x": 19.713,
      "y": 65.924,
@@ -3602,7 +3602,7 @@
      1427
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/symbols__blue.png",
+    "fichero": "layers/land/symbols__blue.png",
     "zona": {
      "x": 36.276,
      "y": 66.483,
@@ -3624,7 +3624,7 @@
      1392
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/symbols__white.png",
+    "fichero": "layers/land/symbols__white.png",
     "zona": {
      "x": 20.831,
      "y": 64.703,
@@ -3646,7 +3646,7 @@
      1427
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/symbols__red.png",
+    "fichero": "layers/land/symbols__red.png",
     "zona": {
      "x": 39.629,
      "y": 66.483,
@@ -3668,7 +3668,7 @@
      1392
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/symbols__green.png",
+    "fichero": "layers/land/symbols__green.png",
     "zona": {
      "x": 10.923,
      "y": 64.703,
@@ -3690,7 +3690,7 @@
      1392
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/symbols__black.png",
+    "fichero": "layers/land/symbols__black.png",
     "zona": {
      "x": 24.133,
      "y": 64.703,
@@ -3712,7 +3712,7 @@
      1408
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/symbols__tap-symbol.png",
+    "fichero": "layers/land/symbols__tap-symbol.png",
     "zona": {
      "x": 7.977,
      "y": 65.517,
@@ -3734,7 +3734,7 @@
      1493
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/symbols__tap-symbol-copy-2.png",
+    "fichero": "layers/land/symbols__tap-symbol-copy-2.png",
     "zona": {
      "x": 13.006,
      "y": 69.84,
@@ -3756,7 +3756,7 @@
      1870
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/small-scanlines__b.png",
+    "fichero": "layers/land/small-scanlines__b.png",
     "zona": {
      "x": 0.0,
      "y": 0.0,
@@ -3778,7 +3778,7 @@
      1874
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/small-scanlines__g.png",
+    "fichero": "layers/land/small-scanlines__g.png",
     "zona": {
      "x": 0.0,
      "y": 0.0,
@@ -3800,7 +3800,7 @@
      1865
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/small-scanlines__r.png",
+    "fichero": "layers/land/small-scanlines__r.png",
     "zona": {
      "x": 0.0,
      "y": 0.0,
@@ -3822,7 +3822,7 @@
      1856
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/small-scanlines__vertical.png",
+    "fichero": "layers/land/small-scanlines__vertical.png",
     "zona": {
      "x": 0.0,
      "y": 0.0,
@@ -3844,7 +3844,7 @@
      941
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/tap-symbol.png",
+    "fichero": "layers/land/tap-symbol.png",
     "zona": {
      "x": 23.117,
      "y": 35.556,
@@ -3866,7 +3866,7 @@
      1855
     ],
     "tipo": "imagen",
-    "fichero": "capas/tierra/border.png",
+    "fichero": "layers/land/border.png",
     "zona": {
      "x": 0.0,
      "y": 0.0,
@@ -3894,7 +3894,7 @@
      1792
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/background.png",
+    "fichero": "layers/planeswalker/background.png",
     "zona": {
      "x": 0.0,
      "y": 0.0,
@@ -3916,7 +3916,7 @@
      1855
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/layer-37.png",
+    "fichero": "layers/planeswalker/layer-37.png",
     "zona": {
      "x": 0.0,
      "y": 0.0,
@@ -3938,7 +3938,7 @@
      1107
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/backgrounds__balatro.png",
+    "fichero": "layers/planeswalker/backgrounds__balatro.png",
     "zona": {
      "x": 0.0,
      "y": 11.954,
@@ -3960,7 +3960,7 @@
      1223
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/backgrounds__colorless.png",
+    "fichero": "layers/planeswalker/backgrounds__colorless.png",
     "zona": {
      "x": 0.0,
      "y": 4.476,
@@ -3982,7 +3982,7 @@
      1223
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/backgrounds__gold.png",
+    "fichero": "layers/planeswalker/backgrounds__gold.png",
     "zona": {
      "x": 0.0,
      "y": 4.476,
@@ -4004,7 +4004,7 @@
      1223
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/backgrounds__green.png",
+    "fichero": "layers/planeswalker/backgrounds__green.png",
     "zona": {
      "x": 0.0,
      "y": 4.476,
@@ -4026,7 +4026,7 @@
      1223
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/backgrounds__red.png",
+    "fichero": "layers/planeswalker/backgrounds__red.png",
     "zona": {
      "x": 0.0,
      "y": 4.476,
@@ -4048,7 +4048,7 @@
      1231
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/backgrounds__black.png",
+    "fichero": "layers/planeswalker/backgrounds__black.png",
     "zona": {
      "x": 0.0,
      "y": 4.883,
@@ -4070,7 +4070,7 @@
      1231
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/backgrounds__blue.png",
+    "fichero": "layers/planeswalker/backgrounds__blue.png",
     "zona": {
      "x": 0.0,
      "y": 4.883,
@@ -4092,7 +4092,7 @@
      1223
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/backgrounds__white.png",
+    "fichero": "layers/planeswalker/backgrounds__white.png",
     "zona": {
      "x": 0.0,
      "y": 4.476,
@@ -4114,7 +4114,7 @@
      1788
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/frame__frame.png",
+    "fichero": "layers/planeswalker/frame__frame.png",
     "zona": {
      "x": 0.0,
      "y": 0.254,
@@ -4136,7 +4136,7 @@
      1705
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/frame__p-t.png",
+    "fichero": "layers/planeswalker/frame__p-t.png",
     "zona": {
      "x": 43.135,
      "y": 77.623,
@@ -4158,7 +4158,7 @@
      1409
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/frame__tick-seperator.png",
+    "fichero": "layers/planeswalker/frame__tick-seperator.png",
     "zona": {
      "x": 0.0,
      "y": 58.039,
@@ -4180,7 +4180,7 @@
      1556
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/frame__tick-3-box.png",
+    "fichero": "layers/planeswalker/frame__tick-3-box.png",
     "zona": {
      "x": 1.27,
      "y": 70.044,
@@ -4202,7 +4202,7 @@
      1365
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/frame__tick-2-box.png",
+    "fichero": "layers/planeswalker/frame__tick-2-box.png",
     "zona": {
      "x": 1.27,
      "y": 60.328,
@@ -4224,7 +4224,7 @@
      1172
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/frame__tick-1-box.png",
+    "fichero": "layers/planeswalker/frame__tick-1-box.png",
     "zona": {
      "x": 1.27,
      "y": 50.511,
@@ -4246,7 +4246,7 @@
      442
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/frame__mana-box__1-mana.png",
+    "fichero": "layers/planeswalker/frame__mana-box__1-mana.png",
     "zona": {
      "x": 53.804,
      "y": 12.106,
@@ -4268,7 +4268,7 @@
      442
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/frame__mana-box__2-mana.png",
+    "fichero": "layers/planeswalker/frame__mana-box__2-mana.png",
     "zona": {
      "x": 49.13,
      "y": 12.106,
@@ -4290,7 +4290,7 @@
      442
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/frame__mana-box__3-mana.png",
+    "fichero": "layers/planeswalker/frame__mana-box__3-mana.png",
     "zona": {
      "x": 44.456,
      "y": 12.106,
@@ -4312,7 +4312,7 @@
      442
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/frame__mana-box__4-mana.png",
+    "fichero": "layers/planeswalker/frame__mana-box__4-mana.png",
     "zona": {
      "x": 39.781,
      "y": 12.106,
@@ -4334,7 +4334,7 @@
      442
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/frame__mana-box__5-mana.png",
+    "fichero": "layers/planeswalker/frame__mana-box__5-mana.png",
     "zona": {
      "x": 35.107,
      "y": 12.106,
@@ -4356,7 +4356,7 @@
      442
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/frame__mana-box__6-mana.png",
+    "fichero": "layers/planeswalker/frame__mana-box__6-mana.png",
     "zona": {
      "x": 30.433,
      "y": 12.106,
@@ -4378,7 +4378,7 @@
      949
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/words__legal__set__common.png",
+    "fichero": "layers/planeswalker/words__legal__set__common.png",
     "zona": {
      "x": 47.86,
      "y": 41.813,
@@ -4400,7 +4400,7 @@
      949
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/words__legal__set__uncomon.png",
+    "fichero": "layers/planeswalker/words__legal__set__uncomon.png",
     "zona": {
      "x": 47.86,
      "y": 41.813,
@@ -4422,7 +4422,7 @@
      949
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/words__legal__set__rare.png",
+    "fichero": "layers/planeswalker/words__legal__set__rare.png",
     "zona": {
      "x": 47.86,
      "y": 41.813,
@@ -4444,7 +4444,7 @@
      949
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/words__legal__set__mythic-rare.png",
+    "fichero": "layers/planeswalker/words__legal__set__mythic-rare.png",
     "zona": {
      "x": 47.86,
      "y": 41.813,
@@ -4644,7 +4644,7 @@
      1713
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/words__legal__dot.png",
+    "fichero": "layers/planeswalker/words__legal__dot.png",
     "zona": {
      "x": 8.485,
      "y": 83.32,
@@ -4713,7 +4713,7 @@
      409
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/words__mana-shit__colorless__colorless.png",
+    "fichero": "layers/planeswalker/words__mana-shit__colorless__colorless.png",
     "zona": {
      "x": 46.183,
      "y": 13.48,
@@ -4764,7 +4764,7 @@
      409
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/words__mana-shit__blue.png",
+    "fichero": "layers/planeswalker/words__mana-shit__blue.png",
     "zona": {
      "x": 50.857,
      "y": 13.48,
@@ -4786,7 +4786,7 @@
      409
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/words__mana-shit__white.png",
+    "fichero": "layers/planeswalker/words__mana-shit__white.png",
     "zona": {
      "x": 41.509,
      "y": 13.48,
@@ -4808,7 +4808,7 @@
      409
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/words__mana-shit__red.png",
+    "fichero": "layers/planeswalker/words__mana-shit__red.png",
     "zona": {
      "x": 55.531,
      "y": 13.48,
@@ -4830,7 +4830,7 @@
      409
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/words__mana-shit__green.png",
+    "fichero": "layers/planeswalker/words__mana-shit__green.png",
     "zona": {
      "x": 36.835,
      "y": 13.48,
@@ -4852,7 +4852,7 @@
      409
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/words__mana-shit__black.png",
+    "fichero": "layers/planeswalker/words__mana-shit__black.png",
     "zona": {
      "x": 32.16,
      "y": 13.48,
@@ -5090,7 +5090,7 @@
      1325
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/words__tap-symbol.png",
+    "fichero": "layers/planeswalker/words__tap-symbol.png",
     "zona": {
      "x": 54.261,
      "y": 61.854,
@@ -5112,7 +5112,7 @@
      1550
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/words__tap-symbol-copy-2.png",
+    "fichero": "layers/planeswalker/words__tap-symbol-copy-2.png",
     "zona": {
      "x": 9.653,
      "y": 73.299,
@@ -5134,7 +5134,7 @@
      1385
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/words__colorless-rules__colorless.png",
+    "fichero": "layers/planeswalker/words__colorless-rules__colorless.png",
     "zona": {
      "x": 5.284,
      "y": 64.906,
@@ -5243,7 +5243,7 @@
      1801
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/small-scanlines__b.png",
+    "fichero": "layers/planeswalker/small-scanlines__b.png",
     "zona": {
      "x": 0.0,
      "y": 0.458,
@@ -5265,7 +5265,7 @@
      1805
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/small-scanlines__g.png",
+    "fichero": "layers/planeswalker/small-scanlines__g.png",
     "zona": {
      "x": 0.0,
      "y": 0.661,
@@ -5287,7 +5287,7 @@
      1797
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/small-scanlines__r.png",
+    "fichero": "layers/planeswalker/small-scanlines__r.png",
     "zona": {
      "x": 0.0,
      "y": 0.254,
@@ -5309,7 +5309,7 @@
      1552
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/small-scanlines__vertical.png",
+    "fichero": "layers/planeswalker/small-scanlines__vertical.png",
     "zona": {
      "x": 0.0,
      "y": 12.717,
@@ -5331,7 +5331,7 @@
      941
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeswalker/tap-symbol-copy.png",
+    "fichero": "layers/planeswalker/tap-symbol-copy.png",
     "zona": {
      "x": 23.117,
      "y": 35.556,
@@ -5359,7 +5359,7 @@
      1792
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeta/background.png",
+    "fichero": "layers/planet/background.png",
     "zona": {
      "x": 0.0,
      "y": 0.0,
@@ -5381,7 +5381,7 @@
      1855
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeta/background-copy.png",
+    "fichero": "layers/planet/background-copy.png",
     "zona": {
      "x": 0.0,
      "y": 0.0,
@@ -5403,7 +5403,7 @@
      299
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeta/frame__flare.png",
+    "fichero": "layers/planet/frame__flare.png",
     "zona": {
      "x": 5.792,
      "y": 3.713,
@@ -5425,7 +5425,7 @@
      535
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeta/frame__nameplate.png",
+    "fichero": "layers/planet/frame__nameplate.png",
     "zona": {
      "x": 6.706,
      "y": 12.971,
@@ -5447,7 +5447,7 @@
      1792
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeta/frame__border.png",
+    "fichero": "layers/planet/frame__border.png",
     "zona": {
      "x": 0.0,
      "y": 0.0,
@@ -5469,7 +5469,7 @@
      1719
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeta/frame__textbox.png",
+    "fichero": "layers/planet/frame__textbox.png",
     "zona": {
      "x": 4.827,
      "y": 72.231,
@@ -5491,7 +5491,7 @@
      638
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeta/frame__mana-box__1-mana.png",
+    "fichero": "layers/planet/frame__mana-box__1-mana.png",
     "zona": {
      "x": 24.285,
      "y": 22.636,
@@ -5513,7 +5513,7 @@
      638
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeta/frame__mana-box__3-mana.png",
+    "fichero": "layers/planet/frame__mana-box__3-mana.png",
     "zona": {
      "x": 21.491,
      "y": 22.636,
@@ -5535,7 +5535,7 @@
      1744
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeta/frame__typeline__expand-textbox__extra-textbox-2.png",
+    "fichero": "layers/planet/frame__typeline__expand-textbox__extra-textbox-2.png",
     "zona": {
      "x": 4.827,
      "y": 75.283,
@@ -5557,7 +5557,7 @@
      1614
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeta/frame__typeline__expand-textbox__extra-textbox.png",
+    "fichero": "layers/planet/frame__typeline__expand-textbox__extra-textbox.png",
     "zona": {
      "x": 4.827,
      "y": 68.671,
@@ -5579,7 +5579,7 @@
      1413
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeta/frame__typeline__expand-textbox__typeline.png",
+    "fichero": "layers/planet/frame__typeline__expand-textbox__typeline.png",
     "zona": {
      "x": 3.709,
      "y": 62.77,
@@ -5601,7 +5601,7 @@
      1386
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeta/frame__typeline__set__common.png",
+    "fichero": "layers/planet/frame__typeline__set__common.png",
     "zona": {
      "x": 44.557,
      "y": 64.042,
@@ -5623,7 +5623,7 @@
      1386
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeta/frame__typeline__set__uncomon.png",
+    "fichero": "layers/planet/frame__typeline__set__uncomon.png",
     "zona": {
      "x": 44.557,
      "y": 64.042,
@@ -5645,7 +5645,7 @@
      1386
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeta/frame__typeline__set__rare.png",
+    "fichero": "layers/planet/frame__typeline__set__rare.png",
     "zona": {
      "x": 44.557,
      "y": 64.042,
@@ -5667,7 +5667,7 @@
      1386
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeta/frame__typeline__set__mythic-rare.png",
+    "fichero": "layers/planet/frame__typeline__set__mythic-rare.png",
     "zona": {
      "x": 44.557,
      "y": 64.042,
@@ -5879,7 +5879,7 @@
      1760
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeta/words__legal__dot.png",
+    "fichero": "layers/planet/words__legal__dot.png",
     "zona": {
      "x": 8.993,
      "y": 85.813,
@@ -5948,7 +5948,7 @@
      590
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeta/words__mana-shit__colorless__colorless.png",
+    "fichero": "layers/planet/words__mana-shit__colorless__colorless.png",
     "zona": {
      "x": 26.927,
      "y": 22.687,
@@ -5999,7 +5999,7 @@
      590
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeta/words__mana-shit__blue.png",
+    "fichero": "layers/planet/words__mana-shit__blue.png",
     "zona": {
      "x": 29.417,
      "y": 22.687,
@@ -6021,7 +6021,7 @@
      590
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeta/words__mana-shit__blue-copy.png",
+    "fichero": "layers/planet/words__mana-shit__blue-copy.png",
     "zona": {
      "x": 24.743,
      "y": 22.687,
@@ -6043,7 +6043,7 @@
      590
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeta/words__mana-shit__red.png",
+    "fichero": "layers/planet/words__mana-shit__red.png",
     "zona": {
      "x": 34.091,
      "y": 22.687,
@@ -6065,7 +6065,7 @@
      589
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeta/words__mana-shit__white.png",
+    "fichero": "layers/planet/words__mana-shit__white.png",
     "zona": {
      "x": 30.687,
      "y": 22.636,
@@ -6087,7 +6087,7 @@
      590
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeta/words__mana-shit__green.png",
+    "fichero": "layers/planet/words__mana-shit__green.png",
     "zona": {
      "x": 30.738,
      "y": 22.687,
@@ -6109,7 +6109,7 @@
      590
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeta/words__mana-shit__black.png",
+    "fichero": "layers/planet/words__mana-shit__black.png",
     "zona": {
      "x": 30.738,
      "y": 22.687,
@@ -6160,7 +6160,7 @@
      1535
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeta/words__colorless-rules__colorless.png",
+    "fichero": "layers/planet/words__colorless-rules__colorless.png",
     "zona": {
      "x": 19.306,
      "y": 72.638,
@@ -6211,7 +6211,7 @@
      1535
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeta/words__red-rules.png",
+    "fichero": "layers/planet/words__red-rules.png",
     "zona": {
      "x": 22.456,
      "y": 72.638,
@@ -6346,7 +6346,7 @@
      1801
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeta/small-scanlines__b.png",
+    "fichero": "layers/planet/small-scanlines__b.png",
     "zona": {
      "x": 0.0,
      "y": 0.458,
@@ -6368,7 +6368,7 @@
      1805
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeta/small-scanlines__g.png",
+    "fichero": "layers/planet/small-scanlines__g.png",
     "zona": {
      "x": 0.0,
      "y": 0.661,
@@ -6390,7 +6390,7 @@
      1797
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeta/small-scanlines__r.png",
+    "fichero": "layers/planet/small-scanlines__r.png",
     "zona": {
      "x": 0.0,
      "y": 0.254,
@@ -6412,7 +6412,7 @@
      1552
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeta/small-scanlines__vertical.png",
+    "fichero": "layers/planet/small-scanlines__vertical.png",
     "zona": {
      "x": 0.0,
      "y": 12.717,
@@ -6434,7 +6434,7 @@
      941
     ],
     "tipo": "imagen",
-    "fichero": "capas/planeta/tap-symbol.png",
+    "fichero": "layers/planet/tap-symbol.png",
     "zona": {
      "x": 23.117,
      "y": 35.556,
@@ -6462,7 +6462,7 @@
      1855
     ],
     "tipo": "imagen",
-    "fichero": "capas/espectral/backgrounds__background.png",
+    "fichero": "layers/spectral/backgrounds__background.png",
     "zona": {
      "x": 0.0,
      "y": 0.0,
@@ -6484,7 +6484,7 @@
      1769
     ],
     "tipo": "imagen",
-    "fichero": "capas/espectral/frame__blue-box.png",
+    "fichero": "layers/spectral/frame__blue-box.png",
     "zona": {
      "x": 2.235,
      "y": 60.125,
@@ -6506,7 +6506,7 @@
      1792
     ],
     "tipo": "imagen",
-    "fichero": "capas/espectral/frame__blue-frame.png",
+    "fichero": "layers/spectral/frame__blue-frame.png",
     "zona": {
      "x": 0.0,
      "y": 0.0,
@@ -6528,7 +6528,7 @@
      244
     ],
     "tipo": "imagen",
-    "fichero": "capas/espectral/frame__color.png",
+    "fichero": "layers/spectral/frame__color.png",
     "zona": {
      "x": 5.843,
      "y": 7.427,
@@ -6550,7 +6550,7 @@
      336
     ],
     "tipo": "imagen",
-    "fichero": "capas/espectral/frame__nameplate.png",
+    "fichero": "layers/spectral/frame__nameplate.png",
     "zona": {
      "x": 2.947,
      "y": 2.747,
@@ -6572,7 +6572,7 @@
      1329
     ],
     "tipo": "imagen",
-    "fichero": "capas/espectral/frame__typeline__blue-typeline.png",
+    "fichero": "layers/spectral/frame__typeline__blue-typeline.png",
     "zona": {
      "x": 3.709,
      "y": 58.497,
@@ -6594,7 +6594,7 @@
      1302
     ],
     "tipo": "imagen",
-    "fichero": "capas/espectral/frame__typeline__set__common.png",
+    "fichero": "layers/spectral/frame__typeline__set__common.png",
     "zona": {
      "x": 44.557,
      "y": 59.769,
@@ -6616,7 +6616,7 @@
      1302
     ],
     "tipo": "imagen",
-    "fichero": "capas/espectral/frame__typeline__set__uncomon.png",
+    "fichero": "layers/spectral/frame__typeline__set__uncomon.png",
     "zona": {
      "x": 44.557,
      "y": 59.769,
@@ -6638,7 +6638,7 @@
      1302
     ],
     "tipo": "imagen",
-    "fichero": "capas/espectral/frame__typeline__set__rare.png",
+    "fichero": "layers/spectral/frame__typeline__set__rare.png",
     "zona": {
      "x": 44.557,
      "y": 59.769,
@@ -6660,7 +6660,7 @@
      1302
     ],
     "tipo": "imagen",
-    "fichero": "capas/espectral/frame__typeline__set__mythic-rare.png",
+    "fichero": "layers/spectral/frame__typeline__set__mythic-rare.png",
     "zona": {
      "x": 44.557,
      "y": 59.769,
@@ -6747,7 +6747,7 @@
      438
     ],
     "tipo": "imagen",
-    "fichero": "capas/espectral/frame__mana-box__mana-box-1-3.png",
+    "fichero": "layers/spectral/frame__mana-box__mana-box-1-3.png",
     "zona": {
      "x": 20.17,
      "y": 12.869,
@@ -6894,7 +6894,7 @@
      1792
     ],
     "tipo": "imagen",
-    "fichero": "capas/espectral/words__legal__dot.png",
+    "fichero": "layers/spectral/words__legal__dot.png",
     "zona": {
      "x": 0.0,
      "y": 0.0,
@@ -6963,7 +6963,7 @@
      381
     ],
     "tipo": "imagen",
-    "fichero": "capas/espectral/words__mana-shit__colorless__colorless.png",
+    "fichero": "layers/spectral/words__mana-shit__colorless__colorless.png",
     "zona": {
      "x": 24.743,
      "y": 12.055,
@@ -7014,7 +7014,7 @@
      380
     ],
     "tipo": "imagen",
-    "fichero": "capas/espectral/words__mana-shit__white.png",
+    "fichero": "layers/spectral/words__mana-shit__white.png",
     "zona": {
      "x": 30.687,
      "y": 12.005,
@@ -7036,7 +7036,7 @@
      381
     ],
     "tipo": "imagen",
-    "fichero": "capas/espectral/words__mana-shit__green.png",
+    "fichero": "layers/spectral/words__mana-shit__green.png",
     "zona": {
      "x": 30.738,
      "y": 12.055,
@@ -7058,7 +7058,7 @@
      381
     ],
     "tipo": "imagen",
-    "fichero": "capas/espectral/words__mana-shit__blue.png",
+    "fichero": "layers/spectral/words__mana-shit__blue.png",
     "zona": {
      "x": 31.754,
      "y": 12.055,
@@ -7080,7 +7080,7 @@
      381
     ],
     "tipo": "imagen",
-    "fichero": "capas/espectral/words__mana-shit__black.png",
+    "fichero": "layers/spectral/words__mana-shit__black.png",
     "zona": {
      "x": 30.738,
      "y": 12.055,
@@ -7102,7 +7102,7 @@
      381
     ],
     "tipo": "imagen",
-    "fichero": "capas/espectral/words__mana-shit__red.png",
+    "fichero": "layers/spectral/words__mana-shit__red.png",
     "zona": {
      "x": 29.417,
      "y": 12.055,
@@ -7189,7 +7189,7 @@
      1480
     ],
     "tipo": "imagen",
-    "fichero": "capas/espectral/words__colorless-rules__colorless.png",
+    "fichero": "layers/spectral/words__colorless-rules__colorless.png",
     "zona": {
      "x": 17.528,
      "y": 69.942,
@@ -7240,7 +7240,7 @@
      1480
     ],
     "tipo": "imagen",
-    "fichero": "capas/espectral/words__red-rules.png",
+    "fichero": "layers/spectral/words__red-rules.png",
     "zona": {
      "x": 20.831,
      "y": 69.942,
@@ -7357,7 +7357,7 @@
      1801
     ],
     "tipo": "imagen",
-    "fichero": "capas/espectral/small-scanlines__b.png",
+    "fichero": "layers/spectral/small-scanlines__b.png",
     "zona": {
      "x": 0.0,
      "y": 0.458,
@@ -7379,7 +7379,7 @@
      1805
     ],
     "tipo": "imagen",
-    "fichero": "capas/espectral/small-scanlines__g.png",
+    "fichero": "layers/spectral/small-scanlines__g.png",
     "zona": {
      "x": 0.0,
      "y": 0.661,
@@ -7401,7 +7401,7 @@
      1797
     ],
     "tipo": "imagen",
-    "fichero": "capas/espectral/small-scanlines__r.png",
+    "fichero": "layers/spectral/small-scanlines__r.png",
     "zona": {
      "x": 0.0,
      "y": 0.254,
@@ -7423,7 +7423,7 @@
      1552
     ],
     "tipo": "imagen",
-    "fichero": "capas/espectral/small-scanlines__vertical.png",
+    "fichero": "layers/spectral/small-scanlines__vertical.png",
     "zona": {
      "x": 0.0,
      "y": 12.717,
@@ -7445,7 +7445,7 @@
      941
     ],
     "tipo": "imagen",
-    "fichero": "capas/espectral/tap-symbol.png",
+    "fichero": "layers/spectral/tap-symbol.png",
     "zona": {
      "x": 23.117,
      "y": 35.556,
@@ -7473,7 +7473,7 @@
      1792
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/background.png",
+    "fichero": "layers/tarot/background.png",
     "zona": {
      "x": 0.0,
      "y": 0.0,
@@ -7495,7 +7495,7 @@
      1855
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/background-copy.png",
+    "fichero": "layers/tarot/background-copy.png",
     "zona": {
      "x": 0.0,
      "y": 0.0,
@@ -7517,7 +7517,7 @@
      1107
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/backgrounds__balatro.png",
+    "fichero": "layers/tarot/backgrounds__balatro.png",
     "zona": {
      "x": 0.0,
      "y": 11.954,
@@ -7539,7 +7539,7 @@
      1223
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/backgrounds__colorless.png",
+    "fichero": "layers/tarot/backgrounds__colorless.png",
     "zona": {
      "x": 0.0,
      "y": 4.476,
@@ -7561,7 +7561,7 @@
      1223
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/backgrounds__gold.png",
+    "fichero": "layers/tarot/backgrounds__gold.png",
     "zona": {
      "x": 0.0,
      "y": 4.476,
@@ -7583,7 +7583,7 @@
      1223
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/backgrounds__green.png",
+    "fichero": "layers/tarot/backgrounds__green.png",
     "zona": {
      "x": 0.0,
      "y": 4.476,
@@ -7605,7 +7605,7 @@
      1223
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/backgrounds__red.png",
+    "fichero": "layers/tarot/backgrounds__red.png",
     "zona": {
      "x": 0.0,
      "y": 4.476,
@@ -7627,7 +7627,7 @@
      1231
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/backgrounds__black.png",
+    "fichero": "layers/tarot/backgrounds__black.png",
     "zona": {
      "x": 0.0,
      "y": 4.883,
@@ -7649,7 +7649,7 @@
      1231
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/backgrounds__blue.png",
+    "fichero": "layers/tarot/backgrounds__blue.png",
     "zona": {
      "x": 0.0,
      "y": 4.883,
@@ -7671,7 +7671,7 @@
      1223
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/backgrounds__white.png",
+    "fichero": "layers/tarot/backgrounds__white.png",
     "zona": {
      "x": 0.0,
      "y": 4.476,
@@ -7693,7 +7693,7 @@
      1705
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/frame__non-legendary.png",
+    "fichero": "layers/tarot/frame__non-legendary.png",
     "zona": {
      "x": 2.235,
      "y": 56.869,
@@ -7715,7 +7715,7 @@
      1946
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/frame__rules-box.png",
+    "fichero": "layers/tarot/frame__rules-box.png",
     "zona": {
      "x": 0.0,
      "y": 66.534,
@@ -7737,7 +7737,7 @@
      1792
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/frame__frame.png",
+    "fichero": "layers/tarot/frame__frame.png",
     "zona": {
      "x": 0.0,
      "y": 0.0,
@@ -7759,7 +7759,7 @@
      1552
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/frame__typeline__rules-extender.png",
+    "fichero": "layers/tarot/frame__typeline__rules-extender.png",
     "zona": {
      "x": 5.03,
      "y": 55.242,
@@ -7781,7 +7781,7 @@
      1161
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/frame__typeline__typeline.png",
+    "fichero": "layers/tarot/frame__typeline__typeline.png",
     "zona": {
      "x": 3.658,
      "y": 49.951,
@@ -7803,7 +7803,7 @@
      1134
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/frame__typeline__set__common.png",
+    "fichero": "layers/tarot/frame__typeline__set__common.png",
     "zona": {
      "x": 44.557,
      "y": 51.223,
@@ -7825,7 +7825,7 @@
      1134
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/frame__typeline__set__uncomon.png",
+    "fichero": "layers/tarot/frame__typeline__set__uncomon.png",
     "zona": {
      "x": 44.557,
      "y": 51.223,
@@ -7847,7 +7847,7 @@
      1134
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/frame__typeline__set__rare.png",
+    "fichero": "layers/tarot/frame__typeline__set__rare.png",
     "zona": {
      "x": 44.557,
      "y": 51.223,
@@ -7869,7 +7869,7 @@
      1134
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/frame__typeline__set__mythic-rare.png",
+    "fichero": "layers/tarot/frame__typeline__set__mythic-rare.png",
     "zona": {
      "x": 44.557,
      "y": 51.223,
@@ -8081,7 +8081,7 @@
      1760
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/words__legal__dot.png",
+    "fichero": "layers/tarot/words__legal__dot.png",
     "zona": {
      "x": 8.027,
      "y": 85.813,
@@ -8150,7 +8150,7 @@
      359
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/words__mana-shit__colorless__colorless.png",
+    "fichero": "layers/tarot/words__mana-shit__colorless__colorless.png",
     "zona": {
      "x": 27.08,
      "y": 10.936,
@@ -8201,7 +8201,7 @@
      359
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/words__mana-shit__blue.png",
+    "fichero": "layers/tarot/words__mana-shit__blue.png",
     "zona": {
      "x": 36.428,
      "y": 10.936,
@@ -8223,7 +8223,7 @@
      359
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/words__mana-shit__blue-copy-2.png",
+    "fichero": "layers/tarot/words__mana-shit__blue-copy-2.png",
     "zona": {
      "x": 27.08,
      "y": 10.936,
@@ -8245,7 +8245,7 @@
      358
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/words__mana-shit__white.png",
+    "fichero": "layers/tarot/words__mana-shit__white.png",
     "zona": {
      "x": 30.687,
      "y": 10.886,
@@ -8267,7 +8267,7 @@
      359
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/words__mana-shit__green.png",
+    "fichero": "layers/tarot/words__mana-shit__green.png",
     "zona": {
      "x": 30.738,
      "y": 10.936,
@@ -8289,7 +8289,7 @@
      359
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/words__mana-shit__black.png",
+    "fichero": "layers/tarot/words__mana-shit__black.png",
     "zona": {
      "x": 30.738,
      "y": 10.936,
@@ -8311,7 +8311,7 @@
      359
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/words__mana-shit__red.png",
+    "fichero": "layers/tarot/words__mana-shit__red.png",
     "zona": {
      "x": 31.754,
      "y": 10.936,
@@ -8362,7 +8362,7 @@
      1438
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/words__colorless-copy-2__colorless.png",
+    "fichero": "layers/tarot/words__colorless-copy-2__colorless.png",
     "zona": {
      "x": 41.001,
      "y": 67.704,
@@ -8543,7 +8543,7 @@
      1801
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/small-scanlines__b.png",
+    "fichero": "layers/tarot/small-scanlines__b.png",
     "zona": {
      "x": 0.0,
      "y": 0.458,
@@ -8565,7 +8565,7 @@
      1805
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/small-scanlines__g.png",
+    "fichero": "layers/tarot/small-scanlines__g.png",
     "zona": {
      "x": 0.0,
      "y": 0.661,
@@ -8587,7 +8587,7 @@
      1797
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/small-scanlines__r.png",
+    "fichero": "layers/tarot/small-scanlines__r.png",
     "zona": {
      "x": 0.0,
      "y": 0.254,
@@ -8609,7 +8609,7 @@
      1552
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/small-scanlines__vertical.png",
+    "fichero": "layers/tarot/small-scanlines__vertical.png",
     "zona": {
      "x": 0.0,
      "y": 12.717,
@@ -8631,7 +8631,7 @@
      941
     ],
     "tipo": "imagen",
-    "fichero": "capas/tarot/tap-symbol.png",
+    "fichero": "layers/tarot/tap-symbol.png",
     "zona": {
      "x": 23.117,
      "y": 35.556,
@@ -8659,7 +8659,7 @@
      1792
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/background-copy.png",
+    "fichero": "layers/voucher/background-copy.png",
     "zona": {
      "x": 0.0,
      "y": 0.0,
@@ -8681,7 +8681,7 @@
      1792
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/layer-26.png",
+    "fichero": "layers/voucher/layer-26.png",
     "zona": {
      "x": 25.606,
      "y": 0.0,
@@ -8703,7 +8703,7 @@
      1855
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/layer-41.png",
+    "fichero": "layers/voucher/layer-41.png",
     "zona": {
      "x": 0.0,
      "y": 0.0,
@@ -8725,7 +8725,7 @@
      1107
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/backgrounds__balatro.png",
+    "fichero": "layers/voucher/backgrounds__balatro.png",
     "zona": {
      "x": 0.0,
      "y": 11.954,
@@ -8747,7 +8747,7 @@
      1223
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/backgrounds__colorless.png",
+    "fichero": "layers/voucher/backgrounds__colorless.png",
     "zona": {
      "x": 0.0,
      "y": 4.476,
@@ -8769,7 +8769,7 @@
      1223
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/backgrounds__gold.png",
+    "fichero": "layers/voucher/backgrounds__gold.png",
     "zona": {
      "x": 0.0,
      "y": 4.476,
@@ -8791,7 +8791,7 @@
      1223
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/backgrounds__green.png",
+    "fichero": "layers/voucher/backgrounds__green.png",
     "zona": {
      "x": 0.0,
      "y": 4.476,
@@ -8813,7 +8813,7 @@
      1223
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/backgrounds__red.png",
+    "fichero": "layers/voucher/backgrounds__red.png",
     "zona": {
      "x": 0.0,
      "y": 4.476,
@@ -8835,7 +8835,7 @@
      1231
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/backgrounds__black.png",
+    "fichero": "layers/voucher/backgrounds__black.png",
     "zona": {
      "x": 0.0,
      "y": 4.883,
@@ -8857,7 +8857,7 @@
      1231
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/backgrounds__blue.png",
+    "fichero": "layers/voucher/backgrounds__blue.png",
     "zona": {
      "x": 0.0,
      "y": 4.883,
@@ -8879,7 +8879,7 @@
      1223
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/backgrounds__white.png",
+    "fichero": "layers/voucher/backgrounds__white.png",
     "zona": {
      "x": 0.0,
      "y": 4.476,
@@ -8901,7 +8901,7 @@
      434
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/frame__alt-nameplate.png",
+    "fichero": "layers/voucher/frame__alt-nameplate.png",
     "zona": {
      "x": 0.0,
      "y": 0.0,
@@ -8923,7 +8923,7 @@
      1755
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/frame__color-match.png",
+    "fichero": "layers/voucher/frame__color-match.png",
     "zona": {
      "x": 0.864,
      "y": 84.745,
@@ -8945,7 +8945,7 @@
      1792
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/frame__border.png",
+    "fichero": "layers/voucher/frame__border.png",
     "zona": {
      "x": 0.0,
      "y": 0.966,
@@ -8967,7 +8967,7 @@
      434
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/frame__nameplate.png",
+    "fichero": "layers/voucher/frame__nameplate.png",
     "zona": {
      "x": 1.067,
      "y": 0.966,
@@ -8989,7 +8989,7 @@
      1736
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/frame__rules-box.png",
+    "fichero": "layers/voucher/frame__rules-box.png",
     "zona": {
      "x": 2.896,
      "y": 68.569,
@@ -9011,7 +9011,7 @@
      1623
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/frame__typeline__rules-extender.png",
+    "fichero": "layers/voucher/frame__typeline__rules-extender.png",
     "zona": {
      "x": 2.896,
      "y": 62.821,
@@ -9033,7 +9033,7 @@
      1388
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/frame__typeline__typeline.png",
+    "fichero": "layers/voucher/frame__typeline__typeline.png",
     "zona": {
      "x": 2.693,
      "y": 60.532,
@@ -9055,7 +9055,7 @@
      1361
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/frame__typeline__set__common.png",
+    "fichero": "layers/voucher/frame__typeline__set__common.png",
     "zona": {
      "x": 44.557,
      "y": 62.77,
@@ -9077,7 +9077,7 @@
      1361
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/frame__typeline__set__uncomon.png",
+    "fichero": "layers/voucher/frame__typeline__set__uncomon.png",
     "zona": {
      "x": 44.557,
      "y": 62.77,
@@ -9099,7 +9099,7 @@
      1361
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/frame__typeline__set__rare.png",
+    "fichero": "layers/voucher/frame__typeline__set__rare.png",
     "zona": {
      "x": 44.557,
      "y": 62.77,
@@ -9121,7 +9121,7 @@
      1361
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/frame__typeline__set__mythic-rare.png",
+    "fichero": "layers/voucher/frame__typeline__set__mythic-rare.png",
     "zona": {
      "x": 44.557,
      "y": 62.77,
@@ -9363,7 +9363,7 @@
      1758
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/words__legal__dot.png",
+    "fichero": "layers/voucher/words__legal__dot.png",
     "zona": {
      "x": 5.538,
      "y": 85.711,
@@ -9432,7 +9432,7 @@
      215
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/words__mana-shit__colorless__colorless.png",
+    "fichero": "layers/voucher/words__mana-shit__colorless__colorless.png",
     "zona": {
      "x": 45.523,
      "y": 3.612,
@@ -9483,7 +9483,7 @@
      215
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/words__mana-shit__red.png",
+    "fichero": "layers/voucher/words__mana-shit__red.png",
     "zona": {
      "x": 50.197,
      "y": 3.612,
@@ -9505,7 +9505,7 @@
      214
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/words__mana-shit__white.png",
+    "fichero": "layers/voucher/words__mana-shit__white.png",
     "zona": {
      "x": 53.804,
      "y": 3.561,
@@ -9527,7 +9527,7 @@
      215
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/words__mana-shit__green.png",
+    "fichero": "layers/voucher/words__mana-shit__green.png",
     "zona": {
      "x": 54.871,
      "y": 3.612,
@@ -9549,7 +9549,7 @@
      215
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/words__mana-shit__green-copy.png",
+    "fichero": "layers/voucher/words__mana-shit__green-copy.png",
     "zona": {
      "x": 50.197,
      "y": 3.612,
@@ -9571,7 +9571,7 @@
      215
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/words__mana-shit__blue.png",
+    "fichero": "layers/voucher/words__mana-shit__blue.png",
     "zona": {
      "x": 54.871,
      "y": 3.612,
@@ -9593,7 +9593,7 @@
      215
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/words__mana-shit__blue-copy.png",
+    "fichero": "layers/voucher/words__mana-shit__blue-copy.png",
     "zona": {
      "x": 50.197,
      "y": 3.612,
@@ -9615,7 +9615,7 @@
      215
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/words__mana-shit__black.png",
+    "fichero": "layers/voucher/words__mana-shit__black.png",
     "zona": {
      "x": 53.855,
      "y": 3.612,
@@ -9779,7 +9779,7 @@
      1580
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/words__colorless-copy-2__colorless.png",
+    "fichero": "layers/voucher/words__colorless-copy-2__colorless.png",
     "zona": {
      "x": 47.656,
      "y": 74.673,
@@ -9836,7 +9836,7 @@
      1801
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/small-scanlines__b.png",
+    "fichero": "layers/voucher/small-scanlines__b.png",
     "zona": {
      "x": 0.0,
      "y": 0.458,
@@ -9858,7 +9858,7 @@
      1805
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/small-scanlines__g.png",
+    "fichero": "layers/voucher/small-scanlines__g.png",
     "zona": {
      "x": 0.0,
      "y": 0.661,
@@ -9880,7 +9880,7 @@
      1797
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/small-scanlines__r.png",
+    "fichero": "layers/voucher/small-scanlines__r.png",
     "zona": {
      "x": 0.0,
      "y": 0.254,
@@ -9902,7 +9902,7 @@
      1552
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/small-scanlines__vertical.png",
+    "fichero": "layers/voucher/small-scanlines__vertical.png",
     "zona": {
      "x": 0.0,
      "y": 12.717,
@@ -9924,7 +9924,7 @@
      941
     ],
     "tipo": "imagen",
-    "fichero": "capas/vale/tap-symbol.png",
+    "fichero": "layers/voucher/tap-symbol.png",
     "zona": {
      "x": 23.117,
      "y": 35.556,

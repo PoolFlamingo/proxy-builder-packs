@@ -2,7 +2,7 @@
  "id": "balatro",
  "nombre": "Balatro",
  "version": 2,
- "origen": "Plantillas Balatro (arte de fans; Balatro es de LocalThunk/Playstack) · letra m6x11plus de Daniel Linssen",
+ "origen": "Balatro templates (fan art; Balatro belongs to LocalThunk/Playstack) · m6x11plus font by Daniel Linssen",
  "escalado": "pixel",
  "colores": {
   "W": "white",
@@ -122,37 +122,37 @@
   }
  },
  "simbolos": {
-  "W": "simbolos/W.png",
-  "U": "simbolos/U.png",
-  "B": "simbolos/B.png",
-  "R": "simbolos/R.png",
-  "G": "simbolos/G.png",
-  "C": "simbolos/C.png",
-  "T": "simbolos/T.png",
-  "0": "simbolos/0.png",
-  "1": "simbolos/1.png",
-  "2": "simbolos/2.png",
-  "3": "simbolos/3.png",
-  "4": "simbolos/4.png",
-  "5": "simbolos/5.png",
-  "6": "simbolos/6.png",
-  "7": "simbolos/7.png",
-  "8": "simbolos/8.png",
-  "9": "simbolos/9.png",
-  "10": "simbolos/10.png",
-  "11": "simbolos/11.png",
-  "12": "simbolos/12.png",
-  "13": "simbolos/13.png",
-  "14": "simbolos/14.png",
-  "15": "simbolos/15.png",
-  "16": "simbolos/16.png",
-  "17": "simbolos/17.png",
-  "18": "simbolos/18.png",
-  "19": "simbolos/19.png",
-  "20": "simbolos/20.png",
-  "X": "simbolos/X.png",
-  "Y": "simbolos/Y.png",
-  "Z": "simbolos/Z.png"
+  "W": "symbols/W.png",
+  "U": "symbols/U.png",
+  "B": "symbols/B.png",
+  "R": "symbols/R.png",
+  "G": "symbols/G.png",
+  "C": "symbols/C.png",
+  "T": "symbols/T.png",
+  "0": "symbols/0.png",
+  "1": "symbols/1.png",
+  "2": "symbols/2.png",
+  "3": "symbols/3.png",
+  "4": "symbols/4.png",
+  "5": "symbols/5.png",
+  "6": "symbols/6.png",
+  "7": "symbols/7.png",
+  "8": "symbols/8.png",
+  "9": "symbols/9.png",
+  "10": "symbols/10.png",
+  "11": "symbols/11.png",
+  "12": "symbols/12.png",
+  "13": "symbols/13.png",
+  "14": "symbols/14.png",
+  "15": "symbols/15.png",
+  "16": "symbols/16.png",
+  "17": "symbols/17.png",
+  "18": "symbols/18.png",
+  "19": "symbols/19.png",
+  "20": "symbols/20.png",
+  "X": "symbols/X.png",
+  "Y": "symbols/Y.png",
+  "Z": "symbols/Z.png"
  },
  "separacionCoste": 0.122,
  "plantillaPie": {
@@ -165,7 +165,7 @@
     "es": "Común",
     "en": "Common"
    },
-   "fondo": "etiquetas/common.png",
+   "fondo": "labels/common.png",
    "color": "#ffffff"
   },
   "uncommon": {
@@ -173,7 +173,7 @@
     "es": "Infrecuente",
     "en": "Uncommon"
    },
-   "fondo": "etiquetas/uncommon.png",
+   "fondo": "labels/uncommon.png",
    "color": "#ffffff"
   },
   "rare": {
@@ -181,7 +181,7 @@
     "es": "Rara",
     "en": "Rare"
    },
-   "fondo": "etiquetas/rare.png",
+   "fondo": "labels/rare.png",
    "color": "#ffffff"
   },
   "mythic": {
@@ -189,7 +189,7 @@
     "es": "Mítica",
     "en": "Mythic"
    },
-   "fondo": "etiquetas/mythic.png",
+   "fondo": "labels/mythic.png",
    "color": "#ffffff"
   },
   "special": {
@@ -197,7 +197,7 @@
     "es": "Especial",
     "en": "Special"
    },
-   "fondo": "etiquetas/special.png",
+   "fondo": "labels/special.png",
    "color": "#ffffff"
   },
   "bonus": {
@@ -205,7 +205,7 @@
     "es": "Bonus",
     "en": "Bonus"
    },
-   "fondo": "etiquetas/bonus.png",
+   "fondo": "labels/bonus.png",
    "color": "#ffffff"
   },
   "legendary": {
@@ -213,7 +213,7 @@
     "es": "Legendaria",
     "en": "Legendary"
    },
-   "fondo": "etiquetas/legendary.png",
+   "fondo": "labels/legendary.png",
    "color": "#ffffff"
   },
   "plains": {
@@ -221,7 +221,7 @@
     "es": "Llanura",
     "en": "Plains"
    },
-   "fondo": "etiquetas/plains.png",
+   "fondo": "labels/plains.png",
    "color": "#ffffff"
   },
   "island": {
@@ -229,7 +229,7 @@
     "es": "Isla",
     "en": "Island"
    },
-   "fondo": "etiquetas/island.png",
+   "fondo": "labels/island.png",
    "color": "#ffffff"
   },
   "swamp": {
@@ -237,7 +237,7 @@
     "es": "Pantano",
     "en": "Swamp"
    },
-   "fondo": "etiquetas/swamp.png",
+   "fondo": "labels/swamp.png",
    "color": "#ffffff"
   },
   "mountain": {
@@ -245,7 +245,7 @@
     "es": "Montaña",
     "en": "Mountain"
    },
-   "fondo": "etiquetas/mountain.png",
+   "fondo": "labels/mountain.png",
    "color": "#ffffff"
   },
   "forest": {
@@ -253,7 +253,7 @@
     "es": "Bosque",
     "en": "Forest"
    },
-   "fondo": "etiquetas/forest.png",
+   "fondo": "labels/forest.png",
    "color": "#ffffff"
   },
   "wastes": {
@@ -261,7 +261,7 @@
     "es": "Páramo",
     "en": "Wastes"
    },
-   "fondo": "etiquetas/wastes.png",
+   "fondo": "labels/wastes.png",
    "color": "#ffffff"
   }
  },
@@ -273,7 +273,7 @@
   "fondo": "#3f4a4d",
   "borde": "#2b3638",
   "texto": "#f5b244",
-  "pngLealtad": "capas/planeswalker/frame__tick-1-box.png"
+  "pngLealtad": "layers/planeswalker/frame__tick-1-box.png"
  },
  "sustituir": {
   "—": "-",
@@ -301,13 +301,13 @@
    },
    "fondo": [
     {
-     "png": "capas/joker/background.png"
+     "png": "layers/joker/background.png"
     },
     {
-     "png": "capas/joker/layer-37.png"
+     "png": "layers/joker/layer-37.png"
     },
     {
-     "png": "capas/joker/backgrounds__{color}.png",
+     "png": "layers/joker/backgrounds__{color}.png",
      "en": {
       "x": 0.0,
       "y": 4.883,
@@ -318,10 +318,10 @@
    ],
    "capas": [
     {
-     "png": "capas/joker/frame__frame.png"
+     "png": "layers/joker/frame__frame.png"
     },
     {
-     "png": "capas/joker/frame__non-legendary.png",
+     "png": "layers/joker/frame__non-legendary.png",
      "en": {
       "x": 2.235,
       "y": "yTipo+6.765",
@@ -334,7 +334,7 @@
      ]
     },
     {
-     "png": "capas/joker/frame__typeline.png",
+     "png": "layers/joker/frame__typeline.png",
      "en": {
       "x": 1.27,
       "y": "yTipo+0.000",
@@ -343,7 +343,7 @@
      }
     },
     {
-     "png": "capas/joker/frame__p-t.png",
+     "png": "layers/joker/frame__p-t.png",
      "en": {
       "x": 43.135,
       "y": 77.623,
@@ -355,7 +355,7 @@
      }
     },
     {
-     "png": "capas/joker/frame__mana-box__1-mana.png",
+     "png": "layers/joker/frame__mana-box__1-mana.png",
      "en": {
       "x": 53.804,
       "y": 12.106,
@@ -370,7 +370,7 @@
      }
     },
     {
-     "png": "capas/joker/frame__mana-box__2-mana.png",
+     "png": "layers/joker/frame__mana-box__2-mana.png",
      "en": {
       "x": 49.13,
       "y": 12.106,
@@ -385,7 +385,7 @@
      }
     },
     {
-     "png": "capas/joker/frame__mana-box__3-mana.png",
+     "png": "layers/joker/frame__mana-box__3-mana.png",
      "en": {
       "x": 44.456,
       "y": 12.106,
@@ -400,7 +400,7 @@
      }
     },
     {
-     "png": "capas/joker/frame__mana-box__4-mana.png",
+     "png": "layers/joker/frame__mana-box__4-mana.png",
      "en": {
       "x": 39.781,
       "y": 12.106,
@@ -415,7 +415,7 @@
      }
     },
     {
-     "png": "capas/joker/frame__mana-box__5-mana.png",
+     "png": "layers/joker/frame__mana-box__5-mana.png",
      "en": {
       "x": 35.107,
       "y": 12.106,
@@ -430,7 +430,7 @@
      }
     },
     {
-     "png": "capas/joker/frame__mana-box__6-mana.png",
+     "png": "layers/joker/frame__mana-box__6-mana.png",
      "en": {
       "x": 30.433,
       "y": 12.106,
@@ -445,27 +445,27 @@
      }
     },
     {
-     "png": "capas/joker/small-scanlines__b.png",
+     "png": "layers/joker/small-scanlines__b.png",
      "mezcla": "oscurecer",
      "opacidad": 0.051
     },
     {
-     "png": "capas/joker/small-scanlines__g.png",
+     "png": "layers/joker/small-scanlines__g.png",
      "mezcla": "oscurecer",
      "opacidad": 0.051
     },
     {
-     "png": "capas/joker/small-scanlines__r.png",
+     "png": "layers/joker/small-scanlines__r.png",
      "mezcla": "oscurecer",
      "opacidad": 0.051
     },
     {
-     "png": "capas/joker/small-scanlines__vertical.png",
+     "png": "layers/joker/small-scanlines__vertical.png",
      "mezcla": "oscurecer",
      "opacidad": 0.09
     },
     {
-     "png": "capas/joker/layer-40.png"
+     "png": "layers/joker/layer-40.png"
     }
    ],
    "huecos": {
@@ -562,13 +562,13 @@
    },
    "fondo": [
     {
-     "png": "capas/joker/background.png"
+     "png": "layers/joker/background.png"
     },
     {
-     "png": "capas/joker/layer-37.png"
+     "png": "layers/joker/layer-37.png"
     },
     {
-     "png": "capas/joker/backgrounds__{color}.png",
+     "png": "layers/joker/backgrounds__{color}.png",
      "en": {
       "x": 0.0,
       "y": 4.883,
@@ -579,10 +579,10 @@
    ],
    "capas": [
     {
-     "png": "capas/planeswalker/frame__frame.png"
+     "png": "layers/planeswalker/frame__frame.png"
     },
     {
-     "png": "capas/planeswalker/frame__p-t.png",
+     "png": "layers/planeswalker/frame__p-t.png",
      "en": {
       "x": 43.135,
       "y": 77.623,
@@ -594,7 +594,7 @@
      }
     },
     {
-     "png": "capas/planeswalker/frame__tick-seperator.png",
+     "png": "layers/planeswalker/frame__tick-seperator.png",
      "en": {
       "x": 0.0,
       "y": 58.039,
@@ -603,7 +603,7 @@
      }
     },
     {
-     "png": "capas/planeswalker/frame__mana-box__1-mana.png",
+     "png": "layers/planeswalker/frame__mana-box__1-mana.png",
      "en": {
       "x": 53.804,
       "y": 12.106,
@@ -618,7 +618,7 @@
      }
     },
     {
-     "png": "capas/planeswalker/frame__mana-box__2-mana.png",
+     "png": "layers/planeswalker/frame__mana-box__2-mana.png",
      "en": {
       "x": 49.13,
       "y": 12.106,
@@ -633,7 +633,7 @@
      }
     },
     {
-     "png": "capas/planeswalker/frame__mana-box__3-mana.png",
+     "png": "layers/planeswalker/frame__mana-box__3-mana.png",
      "en": {
       "x": 44.456,
       "y": 12.106,
@@ -648,7 +648,7 @@
      }
     },
     {
-     "png": "capas/planeswalker/frame__mana-box__4-mana.png",
+     "png": "layers/planeswalker/frame__mana-box__4-mana.png",
      "en": {
       "x": 39.781,
       "y": 12.106,
@@ -663,7 +663,7 @@
      }
     },
     {
-     "png": "capas/planeswalker/frame__mana-box__5-mana.png",
+     "png": "layers/planeswalker/frame__mana-box__5-mana.png",
      "en": {
       "x": 35.107,
       "y": 12.106,
@@ -678,7 +678,7 @@
      }
     },
     {
-     "png": "capas/planeswalker/frame__mana-box__6-mana.png",
+     "png": "layers/planeswalker/frame__mana-box__6-mana.png",
      "en": {
       "x": 30.433,
       "y": 12.106,
@@ -693,22 +693,22 @@
      }
     },
     {
-     "png": "capas/joker/small-scanlines__b.png",
+     "png": "layers/joker/small-scanlines__b.png",
      "mezcla": "oscurecer",
      "opacidad": 0.051
     },
     {
-     "png": "capas/joker/small-scanlines__g.png",
+     "png": "layers/joker/small-scanlines__g.png",
      "mezcla": "oscurecer",
      "opacidad": 0.051
     },
     {
-     "png": "capas/joker/small-scanlines__r.png",
+     "png": "layers/joker/small-scanlines__r.png",
      "mezcla": "oscurecer",
      "opacidad": 0.051
     },
     {
-     "png": "capas/joker/small-scanlines__vertical.png",
+     "png": "layers/joker/small-scanlines__vertical.png",
      "mezcla": "oscurecer",
      "opacidad": 0.09
     }
@@ -799,12 +799,12 @@
    },
    "fondo": [
     {
-     "png": "capas/espectral/backgrounds__background.png"
+     "png": "layers/spectral/backgrounds__background.png"
     }
    ],
    "capas": [
     {
-     "png": "capas/espectral/frame__blue-box.png",
+     "png": "layers/spectral/frame__blue-box.png",
      "en": {
       "x": 2.235,
       "y": "yTipo+1.628",
@@ -813,10 +813,10 @@
      }
     },
     {
-     "png": "capas/espectral/frame__blue-frame.png"
+     "png": "layers/spectral/frame__blue-frame.png"
     },
     {
-     "png": "capas/espectral/frame__typeline__blue-typeline.png",
+     "png": "layers/spectral/frame__typeline__blue-typeline.png",
      "en": {
       "x": 3.709,
       "y": "yTipo+0.000",
@@ -825,7 +825,7 @@
      }
     },
     {
-     "png": "capas/espectral/frame__mana-box__mana-box-1-3.png",
+     "png": "layers/spectral/frame__mana-box__mana-box-1-3.png",
      "en": {
       "x": 20.17,
       "y": 12.869,
@@ -834,7 +834,7 @@
      }
     },
     {
-     "png": "capas/comun/cuadro-izq-{color1}.png",
+     "png": "layers/common/box-left-{color1}.png",
      "en": {
       "x": 5.843,
       "y": 7.427,
@@ -843,7 +843,7 @@
      }
     },
     {
-     "png": "capas/comun/cuadro-der-{color2}.png",
+     "png": "layers/common/box-right-{color2}.png",
      "en": {
       "x": 5.843,
       "y": 7.427,
@@ -938,12 +938,12 @@
    },
    "fondo": [
     {
-     "png": "capas/tarot/background-copy.png"
+     "png": "layers/tarot/background-copy.png"
     }
    ],
    "capas": [
     {
-     "png": "capas/tarot/frame__rules-box.png",
+     "png": "layers/tarot/frame__rules-box.png",
      "en": {
       "x": 0.0,
       "y": "yTipo+5.000",
@@ -952,10 +952,10 @@
      }
     },
     {
-     "png": "capas/tarot/frame__frame.png"
+     "png": "layers/tarot/frame__frame.png"
     },
     {
-     "png": "capas/tarot/frame__typeline__rules-extender.png",
+     "png": "layers/tarot/frame__typeline__rules-extender.png",
      "en": {
       "x": 5.03,
       "y": "yTipo+5.000",
@@ -964,7 +964,7 @@
      }
     },
     {
-     "png": "capas/tarot/frame__typeline__typeline.png",
+     "png": "layers/tarot/frame__typeline__typeline.png",
      "en": {
       "x": 3.658,
       "y": "yTipo+0.000",
@@ -1059,12 +1059,12 @@
    },
    "fondo": [
     {
-     "png": "capas/planeta/background-copy.png"
+     "png": "layers/planet/background-copy.png"
     }
    ],
    "capas": [
     {
-     "png": "capas/planeta/frame__flare.png",
+     "png": "layers/planet/frame__flare.png",
      "en": {
       "x": 5.792,
       "y": 3.713,
@@ -1073,7 +1073,7 @@
      }
     },
     {
-     "png": "capas/planeta/frame__nameplate.png",
+     "png": "layers/planet/frame__nameplate.png",
      "en": {
       "x": 6.706,
       "y": 12.971,
@@ -1082,10 +1082,10 @@
      }
     },
     {
-     "png": "capas/planeta/frame__border.png"
+     "png": "layers/planet/frame__border.png"
     },
     {
-     "png": "capas/planeta/frame__textbox.png",
+     "png": "layers/planet/frame__textbox.png",
      "en": {
       "x": 4.827,
       "y": 72.231,
@@ -1094,7 +1094,7 @@
      }
     },
     {
-     "png": "capas/planeta/frame__mana-box__1-mana.png",
+     "png": "layers/planet/frame__mana-box__1-mana.png",
      "en": {
       "x": 24.285,
       "y": 22.636,
@@ -1109,7 +1109,7 @@
      }
     },
     {
-     "png": "capas/planeta/frame__mana-box__3-mana.png",
+     "png": "layers/planet/frame__mana-box__3-mana.png",
      "en": {
       "x": 21.491,
       "y": 22.636,
@@ -1124,7 +1124,7 @@
      }
     },
     {
-     "png": "capas/planeta/frame__typeline__expand-textbox__extra-textbox.png",
+     "png": "layers/planet/frame__typeline__expand-textbox__extra-textbox.png",
      "en": {
       "x": 4.827,
       "y": "yTipo+5.901",
@@ -1133,7 +1133,7 @@
      }
     },
     {
-     "png": "capas/planeta/frame__typeline__expand-textbox__typeline.png",
+     "png": "layers/planet/frame__typeline__expand-textbox__typeline.png",
      "en": {
       "x": 3.709,
       "y": "yTipo+0.000",
@@ -1227,10 +1227,10 @@
    },
    "fondo": [
     {
-     "png": "capas/vale/background-copy.png"
+     "png": "layers/voucher/background-copy.png"
     },
     {
-     "png": "capas/vale/layer-26.png",
+     "png": "layers/voucher/layer-26.png",
      "en": {
       "x": 25.606,
       "y": 0.0,
@@ -1239,12 +1239,12 @@
      }
     },
     {
-     "png": "capas/vale/layer-41.png"
+     "png": "layers/voucher/layer-41.png"
     }
    ],
    "capas": [
     {
-     "png": "capas/vale/frame__color-match.png",
+     "png": "layers/voucher/frame__color-match.png",
      "en": {
       "x": 0.864,
       "y": 84.745,
@@ -1253,7 +1253,7 @@
      }
     },
     {
-     "png": "capas/vale/frame__border.png",
+     "png": "layers/voucher/frame__border.png",
      "en": {
       "x": 0.0,
       "y": 0.966,
@@ -1262,7 +1262,7 @@
      }
     },
     {
-     "png": "capas/vale/frame__nameplate.png",
+     "png": "layers/voucher/frame__nameplate.png",
      "en": {
       "x": 1.067,
       "y": 0.966,
@@ -1271,7 +1271,7 @@
      }
     },
     {
-     "png": "capas/vale/frame__rules-box.png",
+     "png": "layers/voucher/frame__rules-box.png",
      "en": {
       "x": 2.896,
       "y": 68.569,
@@ -1280,7 +1280,7 @@
      }
     },
     {
-     "png": "capas/vale/frame__typeline__rules-extender.png",
+     "png": "layers/voucher/frame__typeline__rules-extender.png",
      "en": {
       "x": 2.896,
       "y": "yTipo+2.289",
@@ -1293,7 +1293,7 @@
      ]
     },
     {
-     "png": "capas/vale/frame__typeline__typeline.png",
+     "png": "layers/voucher/frame__typeline__typeline.png",
      "en": {
       "x": 2.693,
       "y": "yTipo+0.000",
@@ -1389,15 +1389,15 @@
    },
    "fondo": [
     {
-     "png": "capas/tierra/background-copy.png"
+     "png": "layers/land/background-copy.png"
     },
     {
-     "png": "capas/tierra/layer-39.png"
+     "png": "layers/land/layer-39.png"
     }
    ],
    "capas": [
     {
-     "png": "capas/tierra/frame__basic-land-format__typeline.png",
+     "png": "layers/land/frame__basic-land-format__typeline.png",
      "en": {
       "x": 3.76,
       "y": 79.76,
@@ -1406,7 +1406,7 @@
      }
     },
     {
-     "png": "capas/tierra/frame__non-basic-land-format__rules-box.png",
+     "png": "layers/land/frame__non-basic-land-format__rules-box.png",
      "en": {
       "x": 3.76,
       "y": 72.994,
@@ -1415,7 +1415,7 @@
      }
     },
     {
-     "png": "capas/tierra/frame__non-basic-land-format__box-extension.png",
+     "png": "layers/land/frame__non-basic-land-format__box-extension.png",
      "en": {
       "x": 4.877,
       "y": "yTipo+0.000",
@@ -1428,7 +1428,7 @@
      ]
     },
     {
-     "png": "capas/tierra/frame__non-basic-land-format__name-plate.png",
+     "png": "layers/land/frame__non-basic-land-format__name-plate.png",
      "en": {
       "x": 2.947,
       "y": 2.849,
@@ -1437,7 +1437,7 @@
      }
     },
     {
-     "png": "capas/comun/cuadro-izq-{color1}.png",
+     "png": "layers/common/box-left-{color1}.png",
      "en": {
       "x": 5.843,
       "y": 7.427,
@@ -1446,7 +1446,7 @@
      }
     },
     {
-     "png": "capas/comun/cuadro-der-{color2}.png",
+     "png": "layers/common/box-right-{color2}.png",
      "en": {
       "x": 5.843,
       "y": 7.427,
@@ -1540,15 +1540,15 @@
      },
      "fondo": [
       {
-       "png": "capas/tierra/background-copy.png"
+       "png": "layers/land/background-copy.png"
       },
       {
-       "png": "capas/tierra/backgrounds__basic.png"
+       "png": "layers/land/backgrounds__basic.png"
       }
      ],
      "capas": [
       {
-       "png": "capas/tierra/frame__basic-land-format__typeline.png",
+       "png": "layers/land/frame__basic-land-format__typeline.png",
        "en": {
         "x": 3.76,
         "y": 79.76,

@@ -1,19 +1,19 @@
 #!/usr/bin/env python3
-"""Paso D8 del plan (Fase D, Balatro): monta el pack a partir de lo que exportó
-`convertir.py` (capas e inventario).
+"""Step D8 of the plan (phase D, Balatro): builds the pack from what
+`convert.py` exported (layers and inventory).
 
-    python -I construir.py <carpeta del pack> <carpeta del Drive> <m6x11plus.ttf>
+    python -I build.py <pack folder> <Drive folder> <m6x11plus.ttf>
 
-Escribe en la carpeta del pack:
+Writes into the pack folder:
 
-- `simbolos/`: las fichas de maná (W U B R G), {C}, {T} y el genérico del 0 al
-  20 y X (la ficha incolora con el número en m6x11plus, como en el PSD);
-- `etiquetas/`: las pastillas de rareza, legendaria y tipos de tierra, sin el
-  texto en inglés que traen pintado (lo pone el motor en el idioma del diseño);
-- `capas/comun/`: los cuadros de color junto al título, uno por color;
-- `letras/`: la letra y su nota de licencia;
-- `extras/`: reversos, fichas, tierras básicas y cartas hechas del Drive,
-  recortadas al área de la carta (sin los 3 mm de sangrado);
+- `symbols/`: the mana chips (W U B R G), {C}, {T} and the generic 0 to 20
+  and X (the colourless chip with the number in m6x11plus, as in the PSD);
+- `labels/`: the rarity, legendary and land-type pills, without the English
+  text painted on them (the engine writes it in the design's language);
+- `layers/common/`: the colour boxes next to the title, one per colour;
+- `fonts/`: the font and its licence note;
+- `extras/`: card backs, tokens, basic lands and ready-made cards from the
+  Drive, cropped to the card area (without the 3 mm of bleed);
 - `pack.json`.
 """
 
@@ -29,21 +29,26 @@ from PIL import Image, ImageDraw, ImageFont
 PACK = Path(sys.argv[1])
 DRIVE = Path(sys.argv[2])
 LETRA = Path(sys.argv[3])
-INV = json.loads((PACK / "fuente" / "inventario.json").read_text())
-CAPAS = PACK / "capas"
+INV = json.loads((PACK / "source" / "inventory.json").read_text())
+CAPAS = PACK / "layers"
 
-# La letra: altura de mayúscula / cuerpo (704/1152) y píxeles por mm del PSD.
+# Folder under `layers/` of the templates whose id is not already English
+# (the ids stay as they are: saved designs refer to them).
+FOLDERS = {"tierra": "land", "planeta": "planet", "espectral": "spectral", "vale": "voucher"}
+IDS = {v: k for k, v in FOLDERS.items()}
+
+# The font: capital height / body (704/1152) and PSD pixels per mm.
 MAYUS = 704 / 1152
 PX_MM = 1240 / 63
 
 
 def cap(px):
-    """La altura de mayúscula en mm de un texto de `px` del PSD."""
+    """The capital height in mm of a text of `px` in the PSD."""
     return round(px * MAYUS / PX_MM, 3)
 
 
 def zona(plantilla, ruta):
-    """La zona (mm) de la capa `ruta` (como en el inventario) de una plantilla."""
+    """The zone (mm) of layer `ruta` (as in the inventory) of a template."""
     for e in INV[plantilla]["capas"]:
         if e["ruta"] == ruta:
             return dict(e["zona"])
@@ -51,7 +56,7 @@ def zona(plantilla, ruta):
 
 
 def ztexto(plantilla, ruta):
-    """La zona de la capa de **texto** `ruta` (hay barras y textos con el mismo nombre)."""
+    """The zone of the **text** layer `ruta` (there are bars and texts with the same name)."""
     for e in INV[plantilla]["capas"]:
         if e["ruta"] == ruta and e.get("tipo") == "texto":
             return dict(e["zona"])
@@ -66,27 +71,27 @@ def fichero(plantilla, ruta):
 
 
 def capa(plantilla, ruta, **extra):
-    """Una capa PNG del pack en su zona."""
+    """A PNG layer of the pack in its zone."""
     c = {"png": fichero(plantilla, ruta), "en": zona(plantilla, ruta)}
     c.update(extra)
     return c
 
 
 def toda(plantilla, ruta, **extra):
-    """Una capa que cubre la carta entera (sin `en`)."""
+    """A layer that covers the whole card (no `en`)."""
     c = {"png": fichero(plantilla, ruta)}
     c.update(extra)
     return c
 
 
-# ── Colores ────────────────────────────────────────────────────────────────
+# ── Colours ────────────────────────────────────────────────────────────────
 
-# La palabra de cada paleta en los nombres de fichero (`{color}`).
+# The word of each palette in the file names (`{color}`).
 PALABRA = {
     "W": "white", "U": "blue", "B": "black", "R": "red", "G": "green",
     "gold": "gold", "artifact": "colorless", "land": "colorless", "colorless": "colorless",
 }
-# El color de cada ficha (el de su relleno), para los cuadros del título.
+# The colour of each chip (its fill), for the title boxes.
 FICHA = {
     "white": (235, 246, 248), "blue": (0, 156, 253), "black": (79, 99, 103),
     "red": (253, 95, 85), "green": (85, 163, 131), "colorless": (123, 123, 123),
@@ -98,19 +103,19 @@ def hexa(c):
     return "#%02x%02x%02x" % c
 
 
-# ── Símbolos ───────────────────────────────────────────────────────────────
+# ── Symbols ───────────────────────────────────────────────────────────────
 
 def simbolos():
-    d = PACK / "simbolos"
+    d = PACK / "symbols"
     d.mkdir(exist_ok=True)
     out = {}
     base = CAPAS / "joker"
     for codigo, nombre in [("W", "white"), ("U", "blue"), ("B", "black"), ("R", "red"), ("G", "green")]:
         shutil.copy(base / f"words__mana-10-pixels-apart__{nombre}.png", d / f"{codigo}.png")
-        out[codigo] = f"simbolos/{codigo}.png"
+        out[codigo] = f"symbols/{codigo}.png"
     incolora = Image.open(base / "words__mana-10-pixels-apart__colorless__colorless.png").convert("RGBA")
-    # {C}: la ficha incolora con el rombo (de la plantilla de tierra), al tamaño de las demás.
-    t = CAPAS / "tierra"
+    # {C}: the colourless chip with the diamond (from the land template), at the size of the others.
+    t = CAPAS / FOLDERS["tierra"]
     ficha = Image.open(t / "symbols__colorless-copy-4__colorless.png").convert("RGBA")
     rombo = Image.open(t / "symbols__colorless-copy-4__colorless-symbol.png").convert("RGBA")
     c = Image.new("RGBA", ficha.size)
@@ -119,27 +124,27 @@ def simbolos():
     zr = zona("tierra", "Symbols / Colorless copy 4 / Colorless Symbol")
     c.alpha_composite(rombo, (round((zr["x"] - zf["x"]) * PX_MM), round((zr["y"] - zf["y"]) * PX_MM)))
     c.resize(incolora.size, Image.NEAREST).save(d / "C.png")
-    out["C"] = "simbolos/C.png"
+    out["C"] = "symbols/C.png"
     shutil.copy(base / "words__tap-symbol.png", d / "T.png")
-    out["T"] = "simbolos/T.png"
-    # El genérico: la ficha incolora con el número (66 px en el PSD, blanco).
+    out["T"] = "symbols/T.png"
+    # The generic: the colourless chip with the number (66 px in the PSD, white).
     letra = ImageFont.truetype(str(LETRA), 66)
     for n in [str(i) for i in range(21)] + ["X", "Y", "Z"]:
         im = incolora.copy()
         dib = ImageDraw.Draw(im)
-        dib.fontmode = "1"  # sin suavizar: es una letra de píxeles
+        dib.fontmode = "1"  # no anti-aliasing: it is a pixel font
         x0, y0, x1, y1 = dib.textbbox((0, 0), n, font=letra)
         dib.text(((im.width - (x1 - x0)) / 2 - x0, (im.height - (y1 - y0)) / 2 - y0), n,
                  font=letra, fill=(255, 255, 255, 255))
         im.save(d / f"{n}.png")
-        out[n] = f"simbolos/{n}.png"
+        out[n] = f"symbols/{n}.png"
     return out
 
 
-# ── Etiquetas ──────────────────────────────────────────────────────────────
+# ── Labels ──────────────────────────────────────────────────────────────
 
 def limpiar_pastilla(origen: Path, destino: Path):
-    """Quita el texto de una pastilla: el interior, del color de relleno."""
+    """Removes the text of a pill: the inside, in the fill colour."""
     im = Image.open(origen).convert("RGBA")
     px = im.load()
     cuenta = collections.Counter(px[x, y] for y in range(im.height) for x in range(im.width) if px[x, y][3] == 255)
@@ -147,7 +152,7 @@ def limpiar_pastilla(origen: Path, destino: Path):
     for y in range(im.height):
         fila = [x for x in range(im.width) if px[x, y] == relleno]
         if len(fila) < im.width * 0.3:
-            continue  # bordes de arriba y abajo
+            continue  # top and bottom edges
         a, b = fila[0], fila[-1]
         for x in range(a, b + 1):
             if px[x, y][3] == 255:
@@ -156,7 +161,7 @@ def limpiar_pastilla(origen: Path, destino: Path):
 
 
 ETIQUETAS = {
-    # valor: (fichero de origen, texto es, texto en)
+    # value: (source file, Spanish text, English text)
     "common": ("joker/words__legal__set__common.png", "Común", "Common"),
     "uncommon": ("joker/words__legal__set__uncomon.png", "Infrecuente", "Uncommon"),
     "rare": ("joker/words__legal__set__rare.png", "Rara", "Rare"),
@@ -164,75 +169,78 @@ ETIQUETAS = {
     "special": ("joker/words__legal__set__mythic-rare.png", "Especial", "Special"),
     "bonus": ("joker/words__legal__set__mythic-rare.png", "Bonus", "Bonus"),
     "legendary": ("joker/words__legal__set__mythic-rare.png", "Legendaria", "Legendary"),
-    "plains": ("tierra/frame__basic-land-format__land-type__plains.png", "Llanura", "Plains"),
-    "island": ("tierra/frame__basic-land-format__land-type__island.png", "Isla", "Island"),
-    "swamp": ("tierra/frame__basic-land-format__land-type__swamp.png", "Pantano", "Swamp"),
-    "mountain": ("tierra/frame__basic-land-format__land-type__mountain.png", "Montaña", "Mountain"),
-    "forest": ("tierra/frame__basic-land-format__land-type__forest.png", "Bosque", "Forest"),
+    "plains": ("land/frame__basic-land-format__land-type__plains.png", "Llanura", "Plains"),
+    "island": ("land/frame__basic-land-format__land-type__island.png", "Isla", "Island"),
+    "swamp": ("land/frame__basic-land-format__land-type__swamp.png", "Pantano", "Swamp"),
+    "mountain": ("land/frame__basic-land-format__land-type__mountain.png", "Montaña", "Mountain"),
+    "forest": ("land/frame__basic-land-format__land-type__forest.png", "Bosque", "Forest"),
     "wastes": ("joker/words__legal__set__common.png", "Páramo", "Wastes"),
 }
 
 
 def etiquetas():
-    d = PACK / "etiquetas"
+    d = PACK / "labels"
     d.mkdir(exist_ok=True)
     out = {}
     for valor, (origen, es, en) in ETIQUETAS.items():
         destino = d / f"{valor}.png"
         limpiar_pastilla(CAPAS / origen, destino)
-        out[valor] = {"texto": {"es": es, "en": en}, "fondo": f"etiquetas/{valor}.png", "color": "#ffffff"}
+        out[valor] = {"texto": {"es": es, "en": en}, "fondo": f"labels/{valor}.png", "color": "#ffffff"}
     return out
 
 
-# ── Cuadros de color del título ────────────────────────────────────────────
+# ── Colour boxes of the title ────────────────────────────────────────────
 
 def cuadros():
-    """Los cuadros a los lados del título (capa «Color» de Espectral): uno a
-    la izquierda (primer color) y otro a la derecha (segundo), en cada color."""
-    tira = Image.open(CAPAS / "espectral" / "frame__color.png").convert("RGBA")
-    d = CAPAS / "comun"
+    """The boxes at the sides of the title (the «Color» layer of Spectral): one on
+    the left (first colour) and one on the right (second), in each colour."""
+    tira = Image.open(CAPAS / FOLDERS["espectral"] / "frame__color.png").convert("RGBA")
+    d = CAPAS / "common"
     d.mkdir(exist_ok=True)
     mitad = tira.width // 2
     for palabra, color in FICHA.items():
-        for lado, caja in (("izq", (0, 0, mitad, tira.height)), ("der", (mitad, 0, tira.width, tira.height))):
+        for lado, caja in (("left", (0, 0, mitad, tira.height)), ("right", (mitad, 0, tira.width, tira.height))):
             im = Image.new("RGBA", tira.size)
             trozo = tira.crop(caja)
             r, g, b, a = trozo.split()
             relleno = Image.new("RGBA", trozo.size, color + (255,))
             relleno.putalpha(a)
             im.paste(relleno, (caja[0], 0))
-            im.save(d / f"cuadro-{lado}-{palabra}.png")
+            im.save(d / f"box-{lado}-{palabra}.png")
     z = zona("espectral", "Frame / Color")
     return z
 
 
-# ── Letras y extras ────────────────────────────────────────────────────────
+# ── Fonts and extras ────────────────────────────────────────────────────────
 
 def letras():
-    d = PACK / "letras"
+    d = PACK / "fonts"
     d.mkdir(exist_ok=True)
     shutil.copy(LETRA, d / "m6x11plus.ttf")
-    (d / "m6x11plus-LICENCIA.txt").write_text(
+    (d / "m6x11plus-LICENSE.txt").write_text(
         "m6x11plus — Daniel Linssen (managore).\n"
-        "Licencia (de la propia letra): «Free to use with attribution».\n"
-        "Se usa en el pack Balatro de Proxy Builder con este crédito.\n"
+        "Licence (of the font itself): «Free to use with attribution».\n"
+        "Used in Proxy Builder's Balatro pack with this credit.\n"
     )
 
 
 CARTA = (62, 62, 1302, 1792)
 
+# Folder under `extras/` of each extra type (the type values are the app's).
+EXTRA_FOLDERS = {"reverso": "backs", "ficha": "tokens", "tierra": "lands", "carta": "cards"}
+
 
 def extras():
-    """Las imágenes del Drive, recortadas a la carta, y su lista."""
+    """The Drive images, cropped to the card, and their list."""
     lista = []
     d = PACK / "extras"
     for tipo, carpeta in [("reverso", "Cardbacks"), ("ficha", "Tokens"), ("carta", "Extra Cards")]:
         for f in sorted((DRIVE / carpeta).glob("*.png")):
-            lista.append((tipo, f, f"{tipo}s/{f.name}"))
+            lista.append((tipo, f, f"{EXTRA_FOLDERS[tipo]}/{f.name}"))
     for f in sorted((DRIVE / "Basic Lands").glob("*/*.png")):
-        lista.append(("tierra", f, f"tierras/{f.parent.name}/{f.name}"))
+        lista.append(("tierra", f, f"{EXTRA_FOLDERS['tierra']}/{f.parent.name}/{f.name}"))
     for f in sorted(DRIVE.glob("*.png")):
-        lista.append(("carta", f, f"cartas/{f.name}"))
+        lista.append(("carta", f, f"{EXTRA_FOLDERS['carta']}/{f.name}"))
     out = []
     for tipo, origen, rel in lista:
         destino = d / rel
@@ -260,21 +268,21 @@ def ampliar(z, dx=0.0, dy=0.0, dw=0.0, dh=0.0):
             "w": round(z["w"] + dw, 3), "h": round(z["h"] + dh, 3)}
 
 
-TINTA = "#3f4a4d"      # el texto de las reglas
-TITULO = "#4f6367"     # títulos y tipo sobre claro
-AMARILLO = "#f5b244"   # F/R, lealtad, nombres de habilidad
-AZUL = "#0093ff"       # lo resaltado
+TINTA = "#3f4a4d"      # the rules text
+TITULO = "#4f6367"     # titles and type on light
+AMARILLO = "#f5b244"   # P/T, loyalty, ability names
+AZUL = "#0093ff"       # highlighted text
 
 
 def coste_variable(plantilla, grupo):
-    """Las cajas del coste de 1 a 6 símbolos (las que tenga la plantilla)."""
+    """The cost boxes for 1 to 6 symbols (those the template has)."""
     capas = []
     for e in INV[plantilla]["capas"]:
         r = e["ruta"]
         if r.startswith(grupo) and e.get("tipo") == "imagen":
             n = r.split("/")[-1].strip().split(" ")[0]
             if n.isdigit():
-                # La de N se usa con N símbolos; la de 6, con 6 o más.
+                # The one for N is used with N symbols; the one for 6, with 6 or more.
                 rango = [int(n), int(n)] if n != "6" else [6, 20]
                 capas.append(capa(plantilla, r, si={"simbolos": rango}))
     return capas
@@ -296,9 +304,9 @@ def barrido(plantilla):
 
 
 def fin_de_barra(plantilla, ruta_barra, z_tipo):
-    """Dónde acaba (mm) la barra clara de la línea de tipo, a la altura de su
-    texto: el texto es del mismo color que el borde oscuro de la barra, así que
-    lo que pase de ahí no se ve."""
+    """Where (mm) the light bar of the type line ends, at the height of its
+    text: the text is the same colour as the bar's dark edge, so whatever goes
+    past that is not seen."""
     z = zona(plantilla, ruta_barra)
     img = Image.open(PACK / fichero(plantilla, ruta_barra)).convert("RGBA")
     k = img.width / z["w"]
@@ -306,15 +314,15 @@ def fin_de_barra(plantilla, ruta_barra, z_tipo):
     x = round((z_tipo["x"] - z["x"]) * k)
     claro = lambda p: p[3] > 200 and (p[0] + p[1] + p[2]) / 3 > 150  # noqa: E731
     if not claro(img.getpixel((x, y))):
-        raise ValueError(f"{plantilla}: el texto del tipo no empieza en la barra clara")
+        raise ValueError(f"{plantilla}: the type text does not start on the light bar")
     while x < img.width - 1 and claro(img.getpixel((x + 1, y))):
         x += 1
     return z["x"] + (x + 1) / k
 
 
 def tipo_hasta(z_tipo, z_pastilla, fin_barra=None, **extra):
-    """La línea de tipo desde su texto hasta la pastilla (o hasta el final de
-    su barra clara, si acaba antes)."""
+    """The type line from its text to the pill (or to the end of its light
+    bar, if that comes first)."""
     fin = z_pastilla["x"] - 0.6
     if fin_barra is not None:
         fin = min(fin, fin_barra - 0.5)
@@ -322,14 +330,14 @@ def tipo_hasta(z_tipo, z_pastilla, fin_barra=None, **extra):
                   "h": z_tipo["h"]}, **extra)
 
 
-# El pie del pack: una línea, como el texto legal de las plantillas
-# («JOK • Balatro 001/001»), en dos columnas que van seguidas (o la segunda en
-# el tabulador, donde lo haya).
+# The pack's footer: one line, like the templates' legal text
+# («JOK • Balatro 001/001»), in two columns that follow each other (or the
+# second at the tab stop, where there is one).
 PLANTILLA_PIE = "{set} • {lang} {num} {rarity}\t{original} {brush} {artist}"
 
 
 def pie(plantilla, ancho, color, x=None, y=None, tabs=None, px=40.91):
-    """El pie en la línea del texto legal de la plantilla (o en `x`, `y`)."""
+    """The footer on the line of the template's legal text (or at `x`, `y`)."""
     try:
         z = ztexto(plantilla, "Words / Legal / Set Identifier")
     except KeyError:
@@ -339,26 +347,26 @@ def pie(plantilla, ancho, color, x=None, y=None, tabs=None, px=40.91):
                  rol="pie", mayuscula=cap(px), color=color, tabs=tabs or [], interlinea=alto)
 
 
-# ── La caja de reglas que crece (como hace el autor carta a carta: con poco
-# texto, la línea de tipo baja y el arte gana sitio; con mucho, sube). El motor
-# calcula `yTipo` (arriba de la barra del tipo) y lo que se mueve con ella va
-# con expresiones.
+# ── The rules box that grows (as the author does card by card: with little
+# text the type line goes down and the art gains room; with a lot, it goes up).
+# The engine computes `yTipo` (top of the type bar) and whatever moves with it
+# is given as expressions.
 
 def en_y(y, ref):
-    """`y` (mm, en la plantilla) relativa a la barra del tipo en `ref`."""
+    """`y` (mm, in the template) relative to the type bar at `ref`."""
     return f"yTipo{y - ref:+.3f}"
 
 
 def con_tipo(h, ref):
-    """Un hueco que se mueve con la barra del tipo."""
+    """A slot that moves with the type bar."""
     h = dict(h)
     h["y"] = en_y(h["y"], ref)
     return h
 
 
 def movil(c, ref, hasta=None, tramos=None):
-    """Una capa que se mueve con la barra del tipo; con `hasta`, su borde de
-    abajo se queda en ese mm (y se estira por el medio)."""
+    """A layer that moves with the type bar; with `hasta`, its bottom edge
+    stays at that mm (and it stretches in the middle)."""
     c = dict(c)
     z = dict(c["en"])
     off = z["y"] - ref
@@ -379,8 +387,8 @@ def caja(fondo, alto_min, alto_max, barra, arriba=0.8, abajo=0.8):
 def comunes(z_cuadros):
     return {
         "cuadros": [
-            {"png": "capas/comun/cuadro-izq-{color1}.png", "en": z_cuadros},
-            {"png": "capas/comun/cuadro-der-{color2}.png", "en": z_cuadros},
+            {"png": "layers/common/box-left-{color1}.png", "en": z_cuadros},
+            {"png": "layers/common/box-right-{color2}.png", "en": z_cuadros},
         ]
     }
 
@@ -389,7 +397,7 @@ def estilos(z_cuadros):
     c = comunes(z_cuadros)
     e = {}
 
-    # ── Joker (criaturas, artefactos…): marco oscuro, arte arriba.
+    # ── Joker (creatures, artifacts…): dark frame, art on top.
     j = "joker"
     YJ = zona(j, "Frame / Typeline")["y"]
     e["joker"] = {
@@ -400,7 +408,7 @@ def estilos(z_cuadros):
         "fondo": [
             toda(j, "Background"),
             toda(j, "Layer 37"),
-            {"png": "capas/joker/backgrounds__{color}.png", "en": zona(j, "Backgrounds / Blue")},
+            {"png": "layers/joker/backgrounds__{color}.png", "en": zona(j, "Backgrounds / Blue")},
         ],
         "capas": [
             toda(j, "Frame / Frame"),
@@ -420,19 +428,19 @@ def estilos(z_cuadros):
             "fr": hueco(zona(j, "Frame / P/T"), rol="fr", mayuscula=cap(95), color=AMARILLO, alinear="centro"),
             "pie": pie(j, 42.9, "#ffe5b4", px=50),
         },
-        # El arte es una ventana fija del marco: la caja no baja de la de la
-        # plantilla, solo sube con mucho texto.
+        # The art is a fixed window of the frame: the box is never smaller than
+        # the template's, it only grows with a lot of text.
         "caja": caja(81.3, 25.8, 40.0, 82.15 - 26.705 - YJ, 1.0, 1.0),
         "layouts": {"ficha": {}},
     }
-    # Sin F/R, las reglas centradas en la caja (Arcane Signet).
+    # Without P/T, the rules centred in the box (Arcane Signet).
     e["joker"]["huecos"]["reglas"]["alinear"] = "inicio"
 
-    # ── Planeswalker: el Joker con las casillas de lealtad.
+    # ── Planeswalker: the Joker with the loyalty boxes.
     p = "planeswalker"
     e["planeswalker"] = json.loads(json.dumps(e["joker"]))
     e["planeswalker"]["nombre"] = {"es": "Planeswalker", "en": "Planeswalker"}
-    # Las casillas de lealtad van en sitios fijos: aquí la caja no se mueve.
+    # The loyalty boxes sit in fixed places: here the box does not move.
     del e["planeswalker"]["caja"]
     e["planeswalker"]["capas"] = [
         toda(p, "Frame / Frame"),
@@ -449,7 +457,7 @@ def estilos(z_cuadros):
         rol="reglas", mayuscula=cap(60), color=TINTA)
     e["planeswalker"]["arte"] = hueco({"x": 2.23, "y": 14.24, "w": 58.53, "h": 26.5})
 
-    # ── Espectral: marco claro, arte a toda la carta, título en cartel.
+    # ── Spectral: light frame, full-card art, title on a nameplate.
     s = "espectral"
     YS = zona(s, "Frame / Typeline / Blue Typeline")["y"]
     e["espectral"] = {
@@ -476,10 +484,10 @@ def estilos(z_cuadros):
         "caja": caja(82.0, 12.0, 42.0, 5.951),
         "layouts": {"ficha": {}},
     }
-    # El coste: las fichas dentro de la pestaña bajo el título.
+    # The cost: the chips inside the tab under the title.
     e["espectral"]["huecos"]["coste"] = hueco({"x": 10.0, "y": 12.05, "w": 43.0, "h": 4.17}, alinear="centro")
 
-    # ── Tarot: marco dorado, arte a toda la carta, reglas sobre oscuro.
+    # ── Tarot: golden frame, full-card art, rules on dark.
     t = "tarot"
     YT = zona(t, "Frame / Typeline / Typeline")["y"]
     e["tarot"] = {
@@ -506,14 +514,14 @@ def estilos(z_cuadros):
         "layouts": {"ficha": {}},
     }
 
-    # ── Planeta: fondo turquesa, el arte flota entre el cartel y el tipo.
+    # ── Planet: turquoise background, the art floats between the nameplate and the type.
     pl = "planeta"
     YP = zona(pl, "Frame / Typeline / Expand Textbox / Typeline")["y"]
     e["planeta"] = {
         "nombre": {"es": "Planeta", "en": "Planet"},
         "base": "classic",
         "radio": 3.0,
-        # El arte llega hasta la barra del tipo, esté donde esté.
+        # The art reaches the type bar, wherever it is.
         "arte": hueco({"x": 6.0, "y": 29.5, "w": 51.0, "h": "yTipo-29.0"}),
         "fondo": [toda(pl, "Background copy")],
         "capas": [
@@ -534,12 +542,12 @@ def estilos(z_cuadros):
             "reglas": hueco({"x": 6.5, "y": 69.3, "w": 50.0, "h": 14.5}, rol="reglas", mayuscula=cap(70), color=TITULO),
             "pie": pie(pl, 51.0, "#dff5fc"),
         },
-        # La barra no baja de donde tapa el borde de arriba de la caja fija.
+        # The bar never goes lower than where it covers the top edge of the fixed box.
         "caja": caja(83.6, 10.5, 37.5, 5.951),
         "layouts": {"ficha": {}},
     }
 
-    # ── Vale: carta blanca con muescas, cartel arriba con el coste.
+    # ── Voucher: white card with notches, nameplate on top with the cost.
     v = "vale"
     YV = zona(v, "Frame / Typeline / Typeline")["y"]
     e["vale"] = {
@@ -564,16 +572,16 @@ def estilos(z_cuadros):
             "reglas": hueco({"x": 4.5, "y": 68.3, "w": 54.0, "h": 15.8}, rol="reglas", mayuscula=cap(72), color=TITULO, alinearV="inicio"),
             "pie": pie(v, 58.5, "#ffffff", tabs=[36.3]),
         },
-        # Encima de la muesca de abajo.
+        # Above the bottom notch.
         "caja": caja(80.6, 11.0, 40.0, 6.918),
         "layouts": {"ficha": {}},
     }
-    # El cartel claro u oscuro según la variante.
+    # The light or dark nameplate depending on the variant.
     capas_v = e["vale"]["capas"]
     capas_v[1] = capa(v, "Frame / Nameplate")
 
 
-    # ── Tierra: básica (esquinas de naipe) y no básica (reglas sobre el tipo).
+    # ── Land: basic (playing-card corners) and non-basic (rules above the type).
     ti = "tierra"
     YTI = zona(ti, "Frame / Non-Basic Land Format / Box Extension")["y"]
     e["tierra"] = {
@@ -583,8 +591,8 @@ def estilos(z_cuadros):
         "arte": hueco({"x": 3.0, "y": 13.5, "w": 57.0, "h": "yTipo-11.5"}),
         "fondo": [toda(ti, "Background copy"), toda(ti, "Layer 39")],
         "capas": [
-            # La caja de las reglas va encima de la barra del tipo y crece hacia
-            # arriba: aquí `yTipo` es su borde de arriba (barra 0).
+            # The rules box sits above the type bar and grows upwards: here
+            # `yTipo` is its top edge (bar 0).
             movil(capa(ti, "Frame / Non-Basic Land Format / Box Extension"), YTI, hasta=75.5, tramos=[1.6, 0.0]),
             capa(ti, "Frame / Non-Basic Land Format / Rules Box"),
             capa(ti, "Frame / Basic Land Format / Typeline"),
@@ -597,7 +605,7 @@ def estilos(z_cuadros):
             "etiqueta": hueco(zona(ti, "Frame / Non-Basic Land Format / SET / Rare"), rol="tipo", mayuscula=cap(63), sombra=True),
             "reglas": hueco({"x": 6.5, "y": 60.5, "w": 50.0, "h": 18.5}, rol="reglas", mayuscula=cap(72), color=TINTA, alinear="centro"),
             "pie": pie(ti, 51.0, TITULO, x=5.8, y=86.0),
-            # Las tierras no tienen coste; si es otra carta, bajo el cartel.
+            # Lands have no cost; if it is another card, under the nameplate.
             "coste": hueco({"x": 30.0, "y": 14.8, "w": 30.0, "h": 4.17}, alinear="fin"),
         },
         "caja": caja(79.3, 12.0, 46.0, 0.0, 1.4, 0.6),
@@ -622,7 +630,7 @@ def estilos(z_cuadros):
 
 
 def paletas():
-    """Las paletas del pack (para las variables de los SVG de respaldo y la tinta)."""
+    """The pack's palettes (for the fallback SVG variables and the ink)."""
     def p(claro, medio, oscuro):
         return {"claro": claro, "medio": medio, "oscuro": oscuro, "tinte": claro,
                 "caja": "#e6edf2", "tinta": TINTA}
@@ -640,11 +648,11 @@ def paletas():
 
 
 def podar(pack):
-    """Deja en `capas/` solo los PNG que usa `pack.json` (con `{color}`,
-    `{color1}` y `{color2}` en cada color)."""
+    """Leaves in `layers/` only the PNGs that `pack.json` uses (with `{color}`,
+    `{color1}` and `{color2}` in every colour)."""
     texto = json.dumps(pack)
     usados = set()
-    for ruta in set(re.findall(r'"(capas/[^"]+\.png)"', texto)):
+    for ruta in set(re.findall(r'"(layers/[^"]+\.png)"', texto)):
         variantes = [ruta]
         for marca in ("{color}", "{color1}", "{color2}"):
             variantes = [v.replace(marca, p) for v in variantes for p in set(PALABRA.values())] \
@@ -655,20 +663,21 @@ def podar(pack):
         if str(f.relative_to(PACK)) not in usados:
             f.unlink()
             quitados += 1
-    print("capas sin usar quitadas:", quitados)
+    print("unused layers removed:", quitados)
 
 
 def en_orden_del_psd(pack):
-    """Las capas de cada estilo (y de sus layouts) en el orden del PSD de donde
-    salen, de abajo arriba: si no, una caja que en el PSD va debajo del marco
-    lo tapa. Las que no salen de un PSD (los cuadros de color) van encima."""
+    """The layers of each style (and of its layouts) in the order of the PSD
+    they come from, bottom to top: otherwise a box that is under the frame in
+    the PSD would cover it. Those that do not come from a PSD (the colour
+    boxes) go on top."""
     def orden(c):
         ruta = c.get("png") or c.get("svg") or ""
         partes = ruta.split("/")
-        if len(partes) >= 3 and partes[0] == "capas" and partes[1] in INV:
-            # `{color}` en la ruta: vale la de cualquier color.
+        if len(partes) >= 3 and partes[0] == "layers" and IDS.get(partes[1], partes[1]) in INV:
+            # `{color}` in the path: the one of any colour will do.
             patron = re.compile(re.escape(ruta).replace(r"\{color\}", "[^/]+"))
-            for i, e in enumerate(INV[partes[1]]["capas"]):
+            for i, e in enumerate(INV[IDS.get(partes[1], partes[1])]["capas"]):
                 if patron.fullmatch(e.get("fichero") or ""):
                     return i
         return 10_000
@@ -688,7 +697,7 @@ def main():
         "id": "balatro",
         "nombre": "Balatro",
         "version": 2,
-        "origen": "Plantillas Balatro (arte de fans; Balatro es de LocalThunk/Playstack) · letra m6x11plus de Daniel Linssen",
+        "origen": "Balatro templates (fan art; Balatro belongs to LocalThunk/Playstack) · m6x11plus font by Daniel Linssen",
         "escalado": "pixel",
         "colores": PALABRA,
         "paletas": paletas(),
@@ -699,14 +708,14 @@ def main():
         "etiquetas": eti,
         "coloresTexto": {"resalte": AZUL, "habilidad": AMARILLO},
         "insignias": {"fondo": "#3f4a4d", "borde": "#2b3638", "texto": AMARILLO,
-                      "pngLealtad": "capas/planeswalker/frame__tick-1-box.png"},
+                      "pngLealtad": "layers/planeswalker/frame__tick-1-box.png"},
         "sustituir": {"—": "-", "–": "-", "−": "-", "•": "-", "·": "-", "’": "'", "“": "\"", "”": "\""},
         "estilos": estilos(z_cuadros),
     }
     en_orden_del_psd(pack)
     (PACK / "pack.json").write_text(json.dumps(pack, ensure_ascii=False, indent=1))
     podar(pack)
-    print("pack.json:", len(pack["estilos"]), "estilos,", len(sim), "símbolos,", len(eti), "etiquetas")
+    print("pack.json:", len(pack["estilos"]), "styles,", len(sim), "symbols,", len(eti), "labels")
 
 
 if __name__ == "__main__":

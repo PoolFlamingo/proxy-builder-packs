@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""La entrada del pack en el manifiesto de la app
-(`src-tauri/assets/packs-descargables.json` de Proxy Builder): cada fichero
-con su SHA-256 y el commit del repositorio de packs donde están.
+"""The pack's entry in the app's manifest
+(`src-tauri/assets/packs-descargables.json` of Proxy Builder): every file
+with its SHA-256 and the commit of the packs repository where they are.
 
-    python -I manifiesto.py <carpeta del pack> <commit> > entrada.json
+    python -I manifest.py <pack folder> <commit> > entry.json
 """
 
 import hashlib
@@ -19,11 +19,11 @@ def sha(f: Path) -> str:
     return hashlib.sha256(f.read_bytes()).hexdigest()
 
 
-FUERA = {"fuente", "extras", "letras", "dorados"}
+OUTSIDE = {"source", "extras", "fonts", "golden"}
 ficheros = {}
 for f in sorted(pack.rglob("*")):
     rel = f.relative_to(pack)
-    if f.is_dir() or rel.parts[0] in FUERA or rel.name in ("extras.json", "README.md", "CREDITOS.md"):
+    if f.is_dir() or rel.parts[0] in OUTSIDE or rel.name in ("extras.json", "README.md", "CREDITS.md"):
         continue
     ficheros[str(rel).replace("\\", "/")] = sha(f)
 
@@ -32,11 +32,11 @@ for e in json.loads((pack / "extras.json").read_text()):
     extras.append({**e, "ruta": "extras/" + e["ruta"], "sha256": sha(pack / "extras" / e["ruta"])})
 
 letras = []
-for t in sorted((pack / "letras").glob("*.ttf")):
-    lic = t.with_name(t.stem + "-LICENCIA.txt")
+for t in sorted((pack / "fonts").glob("*.ttf")):
+    lic = t.with_name(t.stem + "-LICENSE.txt")
     letras.append({
-        "ruta": f"letras/{t.name}", "sha256": sha(t),
-        "licencia": f"letras/{lic.name}", "licencia_sha256": sha(lic),
+        "ruta": f"fonts/{t.name}", "sha256": sha(t),
+        "licencia": f"fonts/{lic.name}", "licencia_sha256": sha(lic),
     })
 
 pj = json.loads((pack / "pack.json").read_text())

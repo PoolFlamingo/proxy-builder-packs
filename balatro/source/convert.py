@@ -1,21 +1,21 @@
 #!/usr/bin/env python3
-"""Paso D1 del plan (Fase D, Balatro): de los PSD de las plantillas a capas
-PNG en coordenadas de la carta y un inventario.
+"""Step D1 of the plan (phase D, Balatro): from the template PSDs to PNG
+layers in card coordinates, plus an inventory.
 
-    python -I convertir.py <carpeta con los PSD> <carpeta de salida>
+    python -I convert.py <folder with the PSDs> <output folder>
 
-Para cada plantilla (Balatro.psd → `joker`, Balatro-Land.psd → `tierra`…):
+For each template (Balatro.psd → `joker`, Balatro-Land.psd → `tierra`…):
 
-- cada capa de imagen que no sea la ilustración de ejemplo, el texto ni las
-  muestras de color se exporta recortada al área de la carta (62,62)–(1302,1792)
-  de un lienzo de 1365×1855 (unos 500 PPP con 3 mm de sangrado), a
-  `capas/<plantilla>/<grupo>__<capa>.png`, con su zona en mm;
-- de cada capa de texto se apunta caja, tamaño, color por tramos y alineación;
-- se recompone con lo visible y se compara con la composición del PSD.
+- every image layer that is not the sample artwork, text or colour swatches is
+  exported cropped to the card area (62,62)–(1302,1792) of a 1365×1855 canvas
+  (about 500 PPP with 3 mm of bleed), to
+  `layers/<template folder>/<group>__<layer>.png`, with its zone in mm;
+- for every text layer the box, size, colour per run and alignment are noted;
+- the visible layers are recomposed and compared with the PSD's own composite.
 
-Todo va a `inventario.json` (y un resumen en `inventario.md`).
+Everything goes to `inventory.json` (and a summary in `inventory.md`).
 
-Necesita psd-tools, pillow, numpy (un venv aparte).
+Needs psd-tools, pillow and numpy (in a separate venv).
 """
 
 import json
@@ -37,13 +37,16 @@ PLANTILLAS = {
     "Balatro-Voucher.psd": "vale",
 }
 
-# El área de la carta en el lienzo del PSD y lo que mide (mm).
+# Folder of `layers/` for the templates whose id is not already English.
+FOLDERS = {"tierra": "land", "planeta": "planet", "espectral": "spectral", "vale": "voucher"}
+
+# The card area on the PSD canvas and its size (mm).
 CARTA = (62, 62, 1302, 1792)
 ANCHO_MM, ALTO_MM = 63.0, 88.0
 PX_X = (CARTA[2] - CARTA[0]) / ANCHO_MM
 PX_Y = (CARTA[3] - CARTA[1]) / ALTO_MM
 
-# Lo que no se exporta: la ilustración de ejemplo y las ayudas.
+# Not exported: the sample artwork and the helper layers.
 FUERA = {"ART", "Color Swatches"}
 
 
@@ -62,7 +65,7 @@ def mm(x0, y0, x1, y1):
 
 
 def recortar(img: Image.Image, bbox):
-    """La imagen de la capa (en `bbox` del lienzo) recortada al área de la carta."""
+    """The layer image (at `bbox` on the canvas) cropped to the card area."""
     x0, y0, x1, y1 = bbox
     cx0, cy0 = max(x0, CARTA[0]), max(y0, CARTA[1])
     cx1, cy1 = min(x1, CARTA[2]), min(y1, CARTA[3])
@@ -96,12 +99,12 @@ def texto(capa):
             "tramos": tramos,
             "alinear": {0: "inicio", 1: "fin", 2: "centro"}.get(int(just), "inicio"),
         }
-    except Exception as e:  # noqa: BLE001 - es un inventario: se apunta y se sigue
+    except Exception as e:  # noqa: BLE001 - it is an inventory: note it and carry on
         return {"error": str(e)}
 
 
 def recorrer(psd, nombre, salida: Path, inventario):
-    capas_dir = salida / "capas" / nombre
+    capas_dir = salida / "layers" / FOLDERS.get(nombre, nombre)
     capas_dir.mkdir(parents=True, exist_ok=True)
 
     def visitar(grupo, ruta, visible_padre):
@@ -115,7 +118,7 @@ def recorrer(psd, nombre, salida: Path, inventario):
                 continue
             if capa.bbox == (0, 0, 0, 0):
                 continue
-            # Las capas de recorte van compuestas con su base (abajo).
+            # Clipping layers are already composited with their base (below).
             if getattr(capa, "clipping", False):
                 continue
             entrada = {
@@ -151,7 +154,7 @@ def recorrer(psd, nombre, salida: Path, inventario):
 
 
 def recomponer(psd, salida: Path, nombre, inventario):
-    """Lo visible del inventario, en orden, contra la composición del PSD."""
+    """What is visible in the inventory, in order, against the PSD composite."""
     lienzo = Image.new("RGBA", (CARTA[2] - CARTA[0], CARTA[3] - CARTA[1]), (0, 0, 0, 0))
     for e in inventario:
         if e.get("tipo") != "imagen" or not e["visible"] or e["mezcla"] not in ("normal", "pass_through"):
@@ -168,8 +171,8 @@ def recomponer(psd, salida: Path, nombre, inventario):
         capa.paste(img, (x, y))
         lienzo = Image.alpha_composite(lienzo, capa)
     def dentro(capa):
-        # Lo mismo que se exporta: sin la ilustración, los textos, las ayudas
-        # ni las capas con otra mezcla (el barrido va aparte).
+        # The same as what is exported: no artwork, texts, helper layers or
+        # layers with another blend mode (the sweep lines go separately).
         n = capa
         while n is not None and hasattr(n, "name"):
             if n.name in FUERA:
@@ -184,10 +187,10 @@ def recomponer(psd, salida: Path, nombre, inventario):
     a = np.asarray(lienzo, dtype=np.int16)[..., :3]
     b = np.asarray(ref, dtype=np.int16)[..., :3]
     diff = float(np.abs(a - b).mean())
-    vistas = salida / "fuente" / "vistas"
+    vistas = salida / "source" / "views"
     vistas.mkdir(parents=True, exist_ok=True)
     ref.save(vistas / f"{nombre}-psd.png")
-    lienzo.save(vistas / f"{nombre}-capas.png")
+    lienzo.save(vistas / f"{nombre}-layers.png")
     return diff
 
 
@@ -200,19 +203,19 @@ def main():
         recorrer(psd, nombre, salida, inventario)
         diff = recomponer(psd, salida, nombre, inventario)
         todo[nombre] = {"psd": fichero, "diferencia_media": round(diff, 2), "capas": inventario}
-        print(f"{nombre}: {len(inventario)} capas, diferencia media {diff:.2f}/255")
-    (salida / "fuente" / "inventario.json").write_text(json.dumps(todo, ensure_ascii=False, indent=1))
-    lineas = ["# Inventario de las plantillas Balatro", ""]
+        print(f"{nombre}: {len(inventario)} layers, mean difference {diff:.2f}/255")
+    (salida / "source" / "inventory.json").write_text(json.dumps(todo, ensure_ascii=False, indent=1))
+    lineas = ["# Inventory of the Balatro templates", ""]
     for nombre, d in todo.items():
-        lineas += [f"## {nombre} ({d['psd']}) — diferencia {d['diferencia_media']}/255", "",
-                   "| Capa | Tipo | Visible | Mezcla | Zona (mm) | Fichero / texto |", "|---|---|---|---|---|---|"]
+        lineas += [f"## {nombre} ({d['psd']}) — difference {d['diferencia_media']}/255", "",
+                   "| Layer | Type | Visible | Blend | Zone (mm) | File / text |", "|---|---|---|---|---|---|"]
         for e in d["capas"]:
             z = e.get("zona", {})
             zona = f"{z.get('x')},{z.get('y')} {z.get('w')}×{z.get('h')}"
             extra = e.get("fichero") or repr(e.get("texto", ""))[:40]
             lineas.append(f"| {e['ruta']} | {e.get('tipo')} | {e['visible']} | {e['mezcla']} | {zona} | {extra} |")
         lineas.append("")
-    (salida / "fuente" / "inventario.md").write_text("\n".join(lineas))
+    (salida / "source" / "inventory.md").write_text("\n".join(lineas))
 
 
 if __name__ == "__main__":
