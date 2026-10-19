@@ -379,8 +379,11 @@ def movil(c, ref, hasta=None, tramos=None):
     return c
 
 
-def caja(fondo, alto_min, alto_max, barra, arriba=0.8, abajo=0.8):
-    return {"fondo": fondo, "altoMin": alto_min, "altoMax": alto_max, "barraTipo": barra,
+def caja(fondo, alto_min, alto_max, barra, arriba=0.8, abajo=0.8, comodo=None):
+    """`comodo`: up to where the box grows before the text shrinks a little
+    (to 85 %), so long rules do not eat the art."""
+    extra = {"altoComodo": comodo} if comodo else {}
+    return {**extra, "fondo": fondo, "altoMin": alto_min, "altoMax": alto_max, "barraTipo": barra,
             "padArriba": arriba, "padAbajo": abajo}
 
 
@@ -430,7 +433,7 @@ def estilos(z_cuadros):
         },
         # The art is a fixed window of the frame: the box is never smaller than
         # the template's, it only grows with a lot of text.
-        "caja": caja(81.3, 25.8, 40.0, 82.15 - 26.705 - YJ, 1.0, 1.0),
+        "caja": caja(81.3, 25.8, 40.0, 82.15 - 26.705 - YJ, 1.0, 1.0, comodo=30.0),
         "layouts": {"ficha": {}},
     }
     # Without P/T, the rules centred in the box (Arcane Signet).
@@ -481,7 +484,7 @@ def estilos(z_cuadros):
             "reglas": hueco({"x": 6.5, "y": 65.0, "w": 50.0, "h": 19.0}, rol="reglas", mayuscula=cap(72), color=TITULO, alinear="centro"),
             "pie": pie(s, 51.0, "#bfc7d5"),
         },
-        "caja": caja(82.0, 12.0, 42.0, 5.951),
+        "caja": caja(82.0, 12.0, 42.0, 5.951, comodo=28.0),
         "layouts": {"ficha": {}},
     }
     # The cost: the chips inside the tab under the title.
@@ -510,7 +513,7 @@ def estilos(z_cuadros):
             "reglas": hueco({"x": 6.0, "y": 56.5, "w": 51.0, "h": 26.0}, rol="reglas", mayuscula=cap(70), color="#ffffff", alinear="centro"),
             "pie": pie(t, 53.0, "#a58547"),
         },
-        "caja": caja(82.0, 12.0, 42.0, 5.951),
+        "caja": caja(82.0, 12.0, 42.0, 5.951, comodo=28.0),
         "layouts": {"ficha": {}},
     }
 
@@ -543,7 +546,7 @@ def estilos(z_cuadros):
             "pie": pie(pl, 51.0, "#dff5fc"),
         },
         # The bar never goes lower than where it covers the top edge of the fixed box.
-        "caja": caja(83.6, 10.5, 37.5, 5.951),
+        "caja": caja(83.6, 10.5, 37.5, 5.951, comodo=22.0),
         "layouts": {"ficha": {}},
     }
 
@@ -573,7 +576,7 @@ def estilos(z_cuadros):
             "pie": pie(v, 58.5, "#ffffff", tabs=[36.3]),
         },
         # Above the bottom notch.
-        "caja": caja(80.6, 11.0, 40.0, 6.918),
+        "caja": caja(80.6, 11.0, 40.0, 6.918, comodo=22.0),
         "layouts": {"ficha": {}},
     }
     # The light or dark nameplate depending on the variant.
@@ -608,7 +611,7 @@ def estilos(z_cuadros):
             # Lands have no cost; if it is another card, under the nameplate.
             "coste": hueco({"x": 30.0, "y": 14.8, "w": 30.0, "h": 4.17}, alinear="fin"),
         },
-        "caja": caja(79.3, 12.0, 46.0, 0.0, 1.4, 0.6),
+        "caja": caja(79.3, 12.0, 46.0, 0.0, 1.4, 0.6, comodo=28.0),
         "layoutSi": [{"si": {"basica": True}, "layout": "basica"}],
         "layouts": {
             "basica": {
