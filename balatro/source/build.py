@@ -508,7 +508,7 @@ def estilos(z_cuadros):
             "tipo": con_tipo(tipo_hasta(ztexto(t, "Frame / Typeline / Typeline"), zona(t, "Frame / Typeline / SET / Rare"), fin_de_barra(t, "Frame / Typeline / Typeline", ztexto(t, "Frame / Typeline / Typeline")), rol="tipo", mayuscula=cap(75), color=TITULO), YT),
             "etiqueta": con_tipo(hueco(zona(t, "Frame / Typeline / SET / Rare"), rol="tipo", mayuscula=cap(63), sombra=True), YT),
             "reglas": hueco({"x": 6.0, "y": 56.5, "w": 51.0, "h": 26.0}, rol="reglas", mayuscula=cap(70), color="#ffffff", alinear="centro"),
-            "pie": pie(t, 53.0, "#dab772"),
+            "pie": pie(t, 53.0, "#a58547"),
         },
         "caja": caja(82.0, 12.0, 42.0, 5.951),
         "layouts": {"ficha": {}},
