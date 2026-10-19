@@ -1,0 +1,9939 @@
+{
+ "joker": {
+  "psd": "Balatro.psd",
+  "diferencia_media": 0.0,
+  "capas": [
+   {
+    "ruta": "Background",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     62,
+     62,
+     1302,
+     1792
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/background.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 63.0,
+     "h": 88.0
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Background copy",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     62,
+     62,
+     1302,
+     1792
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/background-copy.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 63.0,
+     "h": 88.0
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Layer 37",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     0,
+     0,
+     1365,
+     1855
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/layer-37.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 63.0,
+     "h": 88.0
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Balatro",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -37,
+     297,
+     1401,
+     1107
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/backgrounds__balatro.png",
+    "zona": {
+     "x": 0.0,
+     "y": 11.954,
+     "w": 63.0,
+     "h": 41.202
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Colorless",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -156,
+     150,
+     1270,
+     1223
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/backgrounds__colorless.png",
+    "zona": {
+     "x": 0.0,
+     "y": 4.476,
+     "w": 61.374,
+     "h": 54.58
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Gold",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -156,
+     150,
+     1270,
+     1223
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/backgrounds__gold.png",
+    "zona": {
+     "x": 0.0,
+     "y": 4.476,
+     "w": 61.374,
+     "h": 54.58
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Green",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -156,
+     150,
+     1270,
+     1223
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/backgrounds__green.png",
+    "zona": {
+     "x": 0.0,
+     "y": 4.476,
+     "w": 61.374,
+     "h": 54.58
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Red",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -156,
+     150,
+     1270,
+     1223
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/backgrounds__red.png",
+    "zona": {
+     "x": 0.0,
+     "y": 4.476,
+     "w": 61.374,
+     "h": 54.58
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Black",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -156,
+     158,
+     1270,
+     1231
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/backgrounds__black.png",
+    "zona": {
+     "x": 0.0,
+     "y": 4.883,
+     "w": 61.374,
+     "h": 54.58
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Blue",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -156,
+     158,
+     1270,
+     1231
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/backgrounds__blue.png",
+    "zona": {
+     "x": 0.0,
+     "y": 4.883,
+     "w": 61.374,
+     "h": 54.58
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / White",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -156,
+     150,
+     1270,
+     1223
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/backgrounds__white.png",
+    "zona": {
+     "x": 0.0,
+     "y": 4.476,
+     "w": 61.374,
+     "h": 54.58
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Frame",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     62,
+     67,
+     1302,
+     1788
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/frame__frame.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.254,
+     "w": 63.0,
+     "h": 87.542
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Non-Legendary",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     106,
+     1152,
+     1258,
+     1677
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/frame__non-legendary.png",
+    "zona": {
+     "x": 2.235,
+     "y": 55.445,
+     "w": 58.529,
+     "h": 26.705
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Layer 19",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     106,
+     1152,
+     1258,
+     1677
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/frame__layer-19.png",
+    "zona": {
+     "x": 2.235,
+     "y": 55.445,
+     "w": 58.529,
+     "h": 26.705
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Legendary",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     106,
+     1152,
+     1252,
+     1677
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/frame__legendary.png",
+    "zona": {
+     "x": 2.235,
+     "y": 55.445,
+     "w": 58.224,
+     "h": 26.705
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / White Box",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     106,
+     342,
+     1258,
+     1001
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/frame__white-box.png",
+    "zona": {
+     "x": 2.235,
+     "y": 14.243,
+     "w": 58.529,
+     "h": 33.521
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Typeline",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     87,
+     1019,
+     1277,
+     1136
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/frame__typeline.png",
+    "zona": {
+     "x": 1.27,
+     "y": 48.68,
+     "w": 60.46,
+     "h": 5.951
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / P/T",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     911,
+     1588,
+     1221,
+     1705
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/frame__p-t.png",
+    "zona": {
+     "x": 43.135,
+     "y": 77.623,
+     "w": 15.75,
+     "h": 5.951
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Mana Box / 1 Mana",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1121,
+     300,
+     1269,
+     442
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/frame__mana-box__1-mana.png",
+    "zona": {
+     "x": 53.804,
+     "y": 12.106,
+     "w": 7.519,
+     "h": 7.223
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Mana Box / 2 Mana",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1029,
+     300,
+     1269,
+     442
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/frame__mana-box__2-mana.png",
+    "zona": {
+     "x": 49.13,
+     "y": 12.106,
+     "w": 12.194,
+     "h": 7.223
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Mana Box / 3 Mana",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     937,
+     300,
+     1269,
+     442
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/frame__mana-box__3-mana.png",
+    "zona": {
+     "x": 44.456,
+     "y": 12.106,
+     "w": 16.868,
+     "h": 7.223
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Mana Box / 4 Mana",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     845,
+     300,
+     1086,
+     442
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/frame__mana-box__4-mana.png",
+    "zona": {
+     "x": 39.781,
+     "y": 12.106,
+     "w": 12.244,
+     "h": 7.223
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Mana Box / 5 Mana",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     753,
+     300,
+     994,
+     442
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/frame__mana-box__5-mana.png",
+    "zona": {
+     "x": 35.107,
+     "y": 12.106,
+     "w": 12.244,
+     "h": 7.223
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Mana Box / 6 Mana",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     661,
+     300,
+     902,
+     442
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/frame__mana-box__6-mana.png",
+    "zona": {
+     "x": 30.433,
+     "y": 12.106,
+     "w": 12.244,
+     "h": 7.223
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Attractions / Off Lights",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1207,
+     1151,
+     1275,
+     1585
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/frame__attractions__off-lights.png",
+    "zona": {
+     "x": 58.173,
+     "y": 55.394,
+     "w": 3.455,
+     "h": 22.076
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Attractions / 6 On",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1215,
+     1526,
+     1266,
+     1577
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/frame__attractions__6-on.png",
+    "zona": {
+     "x": 58.58,
+     "y": 74.469,
+     "w": 2.591,
+     "h": 2.594
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Attractions / 5 On",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1215,
+     1453,
+     1266,
+     1504
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/frame__attractions__5-on.png",
+    "zona": {
+     "x": 58.58,
+     "y": 70.756,
+     "w": 2.591,
+     "h": 2.594
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Attractions / 4 On",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1215,
+     1380,
+     1266,
+     1431
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/frame__attractions__4-on.png",
+    "zona": {
+     "x": 58.58,
+     "y": 67.043,
+     "w": 2.591,
+     "h": 2.594
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Attractions / 3 On",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1215,
+     1307,
+     1266,
+     1358
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/frame__attractions__3-on.png",
+    "zona": {
+     "x": 58.58,
+     "y": 63.329,
+     "w": 2.591,
+     "h": 2.594
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Attractions / 2 On",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1215,
+     1234,
+     1266,
+     1285
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/frame__attractions__2-on.png",
+    "zona": {
+     "x": 58.58,
+     "y": 59.616,
+     "w": 2.591,
+     "h": 2.594
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Legal / SET / Common",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1004,
+     1044,
+     1251,
+     1109
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/words__legal__set__common.png",
+    "zona": {
+     "x": 47.86,
+     "y": 49.951,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Legal / SET / Uncomon",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1004,
+     1044,
+     1251,
+     1109
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/words__legal__set__uncomon.png",
+    "zona": {
+     "x": 47.86,
+     "y": 49.951,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Legal / SET / Rare",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1004,
+     1044,
+     1251,
+     1109
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/words__legal__set__rare.png",
+    "zona": {
+     "x": 47.86,
+     "y": 49.951,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Legal / SET / Mythic Rare",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1004,
+     1044,
+     1251,
+     1109
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/words__legal__set__mythic-rare.png",
+    "zona": {
+     "x": 47.86,
+     "y": 49.951,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Legal / Source",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     265,
+     1692,
+     552,
+     1723
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 10.314,
+     "y": 82.913,
+     "w": 14.581,
+     "h": 1.577
+    },
+    "texto": "Balatro  001/001",
+    "tramos": [
+     {
+      "texto": "B",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#ffe5b4"
+     },
+     {
+      "texto": "a",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#ffe5b4"
+     },
+     {
+      "texto": "l",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#ffe5b4"
+     },
+     {
+      "texto": "a",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#ffe5b4"
+     },
+     {
+      "texto": "t",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#ffe5b4"
+     },
+     {
+      "texto": "r",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#ffe5b4"
+     },
+     {
+      "texto": "o",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#ffe5b4"
+     },
+     {
+      "texto": " ",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#aaaaaa"
+     },
+     {
+      "texto": " ",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#aaaaaa"
+     },
+     {
+      "texto": "0",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#aaaaaa"
+     },
+     {
+      "texto": "0",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#aaaaaa"
+     },
+     {
+      "texto": "1",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#aaaaaa"
+     },
+     {
+      "texto": "/",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#aaaaaa"
+     },
+     {
+      "texto": "0",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#aaaaaa"
+     },
+     {
+      "texto": "0",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#aaaaaa"
+     },
+     {
+      "texto": "1",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#aaaaaa"
+     },
+     {
+      "texto": "",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#aaaaaa"
+     }
+    ],
+    "alinear": "inicio"
+   },
+   {
+    "ruta": "Words / Legal / Dot",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     229,
+     1700,
+     244,
+     1713
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/words__legal__dot.png",
+    "zona": {
+     "x": 8.485,
+     "y": 83.32,
+     "w": 0.762,
+     "h": 0.661
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Legal / Set Identifier",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     150,
+     1692,
+     206,
+     1723
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 4.471,
+     "y": 82.913,
+     "w": 2.845,
+     "h": 1.577
+    },
+    "texto": "JOK",
+    "tramos": [
+     {
+      "texto": "J",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#919499"
+     },
+     {
+      "texto": "O",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#aaaaaa"
+     },
+     {
+      "texto": "K",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#aaaaaa"
+     },
+     {
+      "texto": "",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#aaaaaa"
+     }
+    ],
+    "alinear": "inicio"
+   },
+   {
+    "ruta": "Words / Mana (10 pixels apart) / Colorless / Colorless",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     971,
+     327,
+     1053,
+     409
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/words__mana-10-pixels-apart__colorless__colorless.png",
+    "zona": {
+     "x": 46.183,
+     "y": 13.48,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana (10 pixels apart) / Colorless / Num",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1000,
+     345,
+     1023,
+     386
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 47.656,
+     "y": 14.395,
+     "w": 1.169,
+     "h": 2.086
+    },
+    "texto": "4",
+    "tramos": [
+     {
+      "texto": "4",
+      "letra": "m6x11plus",
+      "tam_px": 66.2,
+      "color": "#ffffff"
+     }
+    ],
+    "alinear": "centro"
+   },
+   {
+    "ruta": "Words / Mana (10 pixels apart) / Blue",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1155,
+     327,
+     1237,
+     409
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/words__mana-10-pixels-apart__blue.png",
+    "zona": {
+     "x": 55.531,
+     "y": 13.48,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana (10 pixels apart) / Blue copy",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1063,
+     327,
+     1145,
+     409
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/words__mana-10-pixels-apart__blue-copy.png",
+    "zona": {
+     "x": 50.857,
+     "y": 13.48,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana (10 pixels apart) / White",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1063,
+     327,
+     1145,
+     409
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/words__mana-10-pixels-apart__white.png",
+    "zona": {
+     "x": 50.857,
+     "y": 13.48,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana (10 pixels apart) / Red",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1155,
+     327,
+     1237,
+     409
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/words__mana-10-pixels-apart__red.png",
+    "zona": {
+     "x": 55.531,
+     "y": 13.48,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana (10 pixels apart) / Green",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     787,
+     327,
+     869,
+     409
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/words__mana-10-pixels-apart__green.png",
+    "zona": {
+     "x": 36.835,
+     "y": 13.48,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana (10 pixels apart) / Black",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1155,
+     327,
+     1237,
+     409
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/words__mana-10-pixels-apart__black.png",
+    "zona": {
+     "x": 55.531,
+     "y": 13.48,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Rules",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     160,
+     1225,
+     1183,
+     1571
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 4.979,
+     "y": 59.158,
+     "w": 51.975,
+     "h": 17.6
+    },
+    "texto": "When Edgar enters, draw a card for each artifact you control.\rTwo-Headed Coin - The first time you flip one or more coins each turn, those coins come up heads and you win those flips.",
+    "tramos": [
+     {
+      "texto": "When Edgar enters, ",
+      "letra": "m6x11plus",
+      "tam_px": 65.0,
+      "color": "#3f4a4d"
+     },
+     {
+      "texto": "draw",
+      "letra": "m6x11plus",
+      "tam_px": 65.0,
+      "color": "#0093ff"
+     },
+     {
+      "texto": " a card for each artifact you control.\r",
+      "letra": "m6x11plus",
+      "tam_px": 65.0,
+      "color": "#3f4a4d"
+     },
+     {
+      "texto": "Two-Headed Coin",
+      "letra": "m6x11plus",
+      "tam_px": 65.0,
+      "color": "#f5b244"
+     },
+     {
+      "texto": " ",
+      "letra": "m6x11plus",
+      "tam_px": 65.0,
+      "color": "#3f4a4d"
+     },
+     {
+      "texto": "-",
+      "letra": "m6x11plus",
+      "tam_px": 65.0,
+      "color": "#3f4a4d"
+     },
+     {
+      "texto": " ",
+      "letra": "m6x11plus",
+      "tam_px": 65.0,
+      "color": "#3f4a4d"
+     },
+     {
+      "texto": "The first time you flip one or more coins each turn, those coins come up ",
+      "letra": "m6x11plus",
+      "tam_px": 65.0,
+      "color": "#3f4a4d"
+     },
+     {
+      "texto": "heads",
+      "letra": "m6x11plus",
+      "tam_px": 65.0,
+      "color": "#0093ff"
+     },
+     {
+      "texto": " and you win those flips.",
+      "letra": "m6x11plus",
+      "tam_px": 65.0,
+      "color": "#3f4a4d"
+     }
+    ],
+    "alinear": "inicio"
+   },
+   {
+    "ruta": "Words / Tap Symbol",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1130,
+     1328,
+     1177,
+     1375
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/words__tap-symbol.png",
+    "zona": {
+     "x": 54.261,
+     "y": 64.398,
+     "w": 2.388,
+     "h": 2.391
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Tap Symbol copy 2",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     252,
+     1553,
+     299,
+     1600
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/words__tap-symbol-copy-2.png",
+    "zona": {
+     "x": 9.653,
+     "y": 75.843,
+     "w": 2.388,
+     "h": 2.391
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Colorless copy 2 / Colorless",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     296,
+     1486,
+     343,
+     1533
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/words__colorless-copy-2__colorless.png",
+    "zona": {
+     "x": 11.889,
+     "y": 72.435,
+     "w": 2.388,
+     "h": 2.391
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Colorless copy 2 / Num",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     313,
+     1496,
+     326,
+     1520
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 12.752,
+     "y": 72.943,
+     "w": 0.66,
+     "h": 1.221
+    },
+    "texto": "1",
+    "tramos": [
+     {
+      "texto": "1",
+      "letra": "m6x11plus",
+      "tam_px": 37.94,
+      "color": "#ffffff"
+     }
+    ],
+    "alinear": "centro"
+   },
+   {
+    "ruta": "Words / Name",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     166,
+     156,
+     1198,
+     270
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 5.284,
+     "y": 4.782,
+     "w": 52.432,
+     "h": 5.799
+    },
+    "texto": "Edgar, King of Figaro\r",
+    "tramos": [
+     {
+      "texto": "Edgar, King of Figaro\r",
+      "letra": "m6x11plus",
+      "tam_px": 145.0,
+      "color": "#ffffff"
+     }
+    ],
+    "alinear": "centro"
+   },
+   {
+    "ruta": "Words / Typeline",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     116,
+     1056,
+     946,
+     1106
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 2.744,
+     "y": 50.562,
+     "w": 42.169,
+     "h": 2.543
+    },
+    "texto": "Legendary Creature - Human Artificer Noble\r\r",
+    "tramos": [
+     {
+      "texto": "Legendary Creatur",
+      "letra": "m6x11plus",
+      "tam_px": 63.0,
+      "color": "#ffffff"
+     },
+     {
+      "texto": "e",
+      "letra": "m6x11plus",
+      "tam_px": 63.0,
+      "color": "#ffffff"
+     },
+     {
+      "texto": " ",
+      "letra": "m6x11plus",
+      "tam_px": 63.0,
+      "color": "#ffffff"
+     },
+     {
+      "texto": "-",
+      "letra": "m6x11plus",
+      "tam_px": 63.0,
+      "color": "#ffffff"
+     },
+     {
+      "texto": " ",
+      "letra": "m6x11plus",
+      "tam_px": 63.0,
+      "color": "#ffffff"
+     },
+     {
+      "texto": "Human Artificer Noble\r\r",
+      "letra": "m6x11plus",
+      "tam_px": 63.0,
+      "color": "#ffffff"
+     }
+    ],
+    "alinear": "inicio"
+   },
+   {
+    "ruta": "Words / P/T",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1010,
+     1611,
+     1117,
+     1670
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 48.165,
+     "y": 78.793,
+     "w": 5.436,
+     "h": 3.001
+    },
+    "texto": "4/5",
+    "tramos": [
+     {
+      "texto": "4",
+      "letra": "m6x11plus",
+      "tam_px": 95.0,
+      "color": "#f5b244"
+     },
+     {
+      "texto": "/",
+      "letra": "m6x11plus",
+      "tam_px": 95.0,
+      "color": "#f5b244"
+     },
+     {
+      "texto": "5",
+      "letra": "m6x11plus",
+      "tam_px": 95.0,
+      "color": "#f5b244"
+     }
+    ],
+    "alinear": "centro"
+   },
+   {
+    "ruta": "Small Scanlines / B",
+    "visible": true,
+    "mezcla": "darken",
+    "opacidad": 0.051,
+    "bbox_px": [
+     -40,
+     -9,
+     1354,
+     1870
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/small-scanlines__b.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 63.0,
+     "h": 88.0
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Small Scanlines / G",
+    "visible": true,
+    "mezcla": "darken",
+    "opacidad": 0.051,
+    "bbox_px": [
+     -40,
+     -5,
+     1354,
+     1874
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/small-scanlines__g.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 63.0,
+     "h": 88.0
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Small Scanlines / R",
+    "visible": true,
+    "mezcla": "darken",
+    "opacidad": 0.051,
+    "bbox_px": [
+     -40,
+     -13,
+     1354,
+     1865
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/small-scanlines__r.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 63.0,
+     "h": 88.0
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Small Scanlines / Vertical",
+    "visible": true,
+    "mezcla": "darken",
+    "opacidad": 0.09,
+    "bbox_px": [
+     -315,
+     -4,
+     1629,
+     1856
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/small-scanlines__vertical.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 63.0,
+     "h": 88.0
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Tap Symbol copy",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     517,
+     761,
+     697,
+     941
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/tap-symbol-copy.png",
+    "zona": {
+     "x": 23.117,
+     "y": 35.556,
+     "w": 9.145,
+     "h": 9.156
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Layer 40",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     0,
+     0,
+     1365,
+     1855
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/joker/layer-40.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 63.0,
+     "h": 88.0
+    },
+    "efectos": false,
+    "recortes": []
+   }
+  ]
+ },
+ "tierra": {
+  "psd": "Balatro-Land.psd",
+  "diferencia_media": 1.03,
+  "capas": [
+   {
+    "ruta": "Background copy",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     63,
+     63,
+     1303,
+     1793
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/background-copy.png",
+    "zona": {
+     "x": 0.051,
+     "y": 0.051,
+     "w": 62.949,
+     "h": 87.949
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Layer 38",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     0,
+     0,
+     1366,
+     1856
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/layer-38.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 63.0,
+     "h": 88.0
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Layer 39",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     0,
+     0,
+     1366,
+     1856
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/layer-39.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 63.0,
+     "h": 88.0
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Layer 1",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     63,
+     63,
+     1303,
+     1793
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/layer-1.png",
+    "zona": {
+     "x": 0.051,
+     "y": 0.051,
+     "w": 62.949,
+     "h": 87.949
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Basic",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     63,
+     63,
+     1303,
+     1793
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/backgrounds__basic.png",
+    "zona": {
+     "x": 0.051,
+     "y": 0.051,
+     "w": 62.949,
+     "h": 87.949
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Bonus",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     63,
+     63,
+     1303,
+     1793
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/backgrounds__bonus.png",
+    "zona": {
+     "x": 0.051,
+     "y": 0.051,
+     "w": 62.949,
+     "h": 87.949
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Mult",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     63,
+     63,
+     1303,
+     1793
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/backgrounds__mult.png",
+    "zona": {
+     "x": 0.051,
+     "y": 0.051,
+     "w": 62.949,
+     "h": 87.949
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Layer 32",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     63,
+     330,
+     683,
+     1561
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/backgrounds__layer-32.png",
+    "zona": {
+     "x": 0.051,
+     "y": 13.632,
+     "w": 31.5,
+     "h": 62.617
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Wild",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     63,
+     63,
+     1303,
+     1793
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/backgrounds__wild.png",
+    "zona": {
+     "x": 0.051,
+     "y": 0.051,
+     "w": 62.949,
+     "h": 87.949
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Gold",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     63,
+     63,
+     1303,
+     1793
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/backgrounds__gold.png",
+    "zona": {
+     "x": 0.051,
+     "y": 0.051,
+     "w": 62.949,
+     "h": 87.949
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Stone",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     63,
+     63,
+     1303,
+     1793
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/backgrounds__stone.png",
+    "zona": {
+     "x": 0.051,
+     "y": 0.051,
+     "w": 62.949,
+     "h": 87.949
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Steel",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     63,
+     63,
+     1303,
+     1793
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/backgrounds__steel.png",
+    "zona": {
+     "x": 0.051,
+     "y": 0.051,
+     "w": 62.949,
+     "h": 87.949
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Lucky",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     63,
+     63,
+     1303,
+     1793
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/backgrounds__lucky.png",
+    "zona": {
+     "x": 0.051,
+     "y": 0.051,
+     "w": 62.949,
+     "h": 87.949
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / References / 1Mountain",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     63,
+     63,
+     1303,
+     1793
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__references__1mountain.png",
+    "zona": {
+     "x": 0.051,
+     "y": 0.051,
+     "w": 62.949,
+     "h": 87.949
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / References / 2Mountain",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     63,
+     63,
+     1303,
+     1793
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__references__2mountain.png",
+    "zona": {
+     "x": 0.051,
+     "y": 0.051,
+     "w": 62.949,
+     "h": 87.949
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / References / 3Mountain",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     63,
+     63,
+     1303,
+     1793
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__references__3mountain.png",
+    "zona": {
+     "x": 0.051,
+     "y": 0.051,
+     "w": 62.949,
+     "h": 87.949
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / References / 4Mountain",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     63,
+     63,
+     1303,
+     1793
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__references__4mountain.png",
+    "zona": {
+     "x": 0.051,
+     "y": 0.051,
+     "w": 62.949,
+     "h": 87.949
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / References / 5Mountain",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     63,
+     63,
+     1303,
+     1793
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__references__5mountain.png",
+    "zona": {
+     "x": 0.051,
+     "y": 0.051,
+     "w": 62.949,
+     "h": 87.949
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / References / 6Mountain",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     63,
+     63,
+     1303,
+     1793
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__references__6mountain.png",
+    "zona": {
+     "x": 0.051,
+     "y": 0.051,
+     "w": 62.949,
+     "h": 87.949
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / References / 7Mountain",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     63,
+     63,
+     1303,
+     1793
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__references__7mountain.png",
+    "zona": {
+     "x": 0.051,
+     "y": 0.051,
+     "w": 62.949,
+     "h": 87.949
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / References / 8Mountain",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     63,
+     63,
+     1303,
+     1793
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__references__8mountain.png",
+    "zona": {
+     "x": 0.051,
+     "y": 0.051,
+     "w": 62.949,
+     "h": 87.949
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / References / 9Mountain",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     63,
+     63,
+     1303,
+     1793
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__references__9mountain.png",
+    "zona": {
+     "x": 0.051,
+     "y": 0.051,
+     "w": 62.949,
+     "h": 87.949
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / References / 10Mountain",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     63,
+     63,
+     1303,
+     1793
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__references__10mountain.png",
+    "zona": {
+     "x": 0.051,
+     "y": 0.051,
+     "w": 62.949,
+     "h": 87.949
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Typeline",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     136,
+     1630,
+     1231,
+     1747
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__typeline.png",
+    "zona": {
+     "x": 3.76,
+     "y": 79.76,
+     "w": 55.633,
+     "h": 5.951
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Parts / Other Assets / Layer 40",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     185,
+     357,
+     1179,
+     1497
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__parts__other-assets__layer-40.png",
+    "zona": {
+     "x": 6.249,
+     "y": 15.006,
+     "w": 50.502,
+     "h": 57.988
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Parts / Other Assets / Layer 41",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -28,
+     357,
+     1392,
+     1497
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__parts__other-assets__layer-41.png",
+    "zona": {
+     "x": 0.0,
+     "y": 15.006,
+     "w": 63.0,
+     "h": 57.988
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Parts / Other Assets / Layer 42",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -241,
+     547,
+     1605,
+     1307
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__parts__other-assets__layer-42.png",
+    "zona": {
+     "x": 0.0,
+     "y": 24.671,
+     "w": 63.0,
+     "h": 38.659
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Parts / Other Assets / Layer 43",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     243,
+     757,
+     447,
+     927
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__parts__other-assets__layer-43.png",
+    "zona": {
+     "x": 9.196,
+     "y": 35.353,
+     "w": 10.365,
+     "h": 8.647
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Parts / Other Assets / Layer 44",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     325,
+     400,
+     1039,
+     1454
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__parts__other-assets__layer-44.png",
+    "zona": {
+     "x": 13.362,
+     "y": 17.193,
+     "w": 36.276,
+     "h": 53.614
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Parts / Other Assets / Layer 45",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     363,
+     737,
+     1002,
+     1117
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__parts__other-assets__layer-45.png",
+    "zona": {
+     "x": 15.293,
+     "y": 34.335,
+     "w": 32.465,
+     "h": 19.329
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Parts / Other Assets / Layer 46",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -28,
+     -593,
+     1392,
+     2447
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__parts__other-assets__layer-46.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 63.0,
+     "h": 88.0
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Parts / Chips / Chips",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     250,
+     898,
+     395,
+     956
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__parts__chips__chips.png",
+    "zona": {
+     "x": 9.552,
+     "y": 42.525,
+     "w": 7.367,
+     "h": 2.95
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Parts / Chips / Blue Chip",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     787,
+     970,
+     975,
+     1158
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__parts__chips__blue-chip.png",
+    "zona": {
+     "x": 36.835,
+     "y": 46.187,
+     "w": 9.552,
+     "h": 9.563
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Parts / Chips / Red Chip",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     589,
+     492,
+     777,
+     680
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__parts__chips__red-chip.png",
+    "zona": {
+     "x": 26.775,
+     "y": 21.873,
+     "w": 9.552,
+     "h": 9.563
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Parts / Chips / Black Chip",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     589,
+     834,
+     777,
+     1022
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__parts__chips__black-chip.png",
+    "zona": {
+     "x": 26.775,
+     "y": 39.269,
+     "w": 9.552,
+     "h": 9.563
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Parts / Chips / Green Chip copy 8",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     589,
+     285,
+     777,
+     473
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__parts__chips__green-chip-copy-8.png",
+    "zona": {
+     "x": 26.775,
+     "y": 11.343,
+     "w": 9.552,
+     "h": 9.563
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Parts / Chips / White Chip copy 9",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     589,
+     1381,
+     777,
+     1569
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__parts__chips__white-chip-copy-9.png",
+    "zona": {
+     "x": 26.775,
+     "y": 67.094,
+     "w": 9.552,
+     "h": 9.563
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Parts / Nums / 1",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     153,
+     175,
+     1213,
+     1630
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__parts__nums__1.png",
+    "zona": {
+     "x": 4.623,
+     "y": 5.748,
+     "w": 53.855,
+     "h": 74.012
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Parts / Nums / 2",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     153,
+     175,
+     1213,
+     1630
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__parts__nums__2.png",
+    "zona": {
+     "x": 4.623,
+     "y": 5.748,
+     "w": 53.855,
+     "h": 74.012
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Parts / Nums / 3",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     153,
+     175,
+     1213,
+     1630
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__parts__nums__3.png",
+    "zona": {
+     "x": 4.623,
+     "y": 5.748,
+     "w": 53.855,
+     "h": 74.012
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Parts / Nums / 4",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     153,
+     175,
+     1213,
+     1630
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__parts__nums__4.png",
+    "zona": {
+     "x": 4.623,
+     "y": 5.748,
+     "w": 53.855,
+     "h": 74.012
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Parts / Nums / 5",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     152,
+     175,
+     1212,
+     1630
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__parts__nums__5.png",
+    "zona": {
+     "x": 4.573,
+     "y": 5.748,
+     "w": 53.855,
+     "h": 74.012
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Parts / Nums / 6",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     153,
+     175,
+     1213,
+     1630
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__parts__nums__6.png",
+    "zona": {
+     "x": 4.623,
+     "y": 5.748,
+     "w": 53.855,
+     "h": 74.012
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Parts / Nums / 7",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     153,
+     175,
+     1177,
+     1630
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__parts__nums__7.png",
+    "zona": {
+     "x": 4.623,
+     "y": 5.748,
+     "w": 52.026,
+     "h": 74.012
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Parts / Nums / 8",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     153,
+     175,
+     1213,
+     1630
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__parts__nums__8.png",
+    "zona": {
+     "x": 4.623,
+     "y": 5.748,
+     "w": 53.855,
+     "h": 74.012
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Parts / Nums / 9",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     153,
+     175,
+     1213,
+     1630
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__parts__nums__9.png",
+    "zona": {
+     "x": 4.623,
+     "y": 5.748,
+     "w": 53.855,
+     "h": 74.012
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Parts / Nums / 10",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     153,
+     175,
+     1213,
+     1630
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__parts__nums__10.png",
+    "zona": {
+     "x": 4.623,
+     "y": 5.748,
+     "w": 53.855,
+     "h": 74.012
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Parts / Nums / Bottom Letter",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1112,
+     1356,
+     1187,
+     1494
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 53.347,
+     "y": 65.822,
+     "w": 3.81,
+     "h": 7.02
+    },
+    "texto": "B",
+    "tramos": [
+     {
+      "texto": "B",
+      "letra": "m6x11plus",
+      "tam_px": -225.0,
+      "color": "#000000"
+     }
+    ],
+    "alinear": "centro"
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Parts / Nums / Top Letter",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     179,
+     362,
+     254,
+     500
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 5.944,
+     "y": 15.26,
+     "w": 3.81,
+     "h": 7.02
+    },
+    "texto": "B",
+    "tramos": [
+     {
+      "texto": "B",
+      "letra": "m6x11plus",
+      "tam_px": 225.0,
+      "color": "#000000"
+     }
+    ],
+    "alinear": "centro"
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Land Type / Island",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     940,
+     1657,
+     1187,
+     1722
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__land-type__island.png",
+    "zona": {
+     "x": 44.608,
+     "y": 81.133,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Land Type / Forest",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     940,
+     1657,
+     1187,
+     1722
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__land-type__forest.png",
+    "zona": {
+     "x": 44.608,
+     "y": 81.133,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Land Type / Mountain",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     940,
+     1657,
+     1187,
+     1722
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__land-type__mountain.png",
+    "zona": {
+     "x": 44.608,
+     "y": 81.133,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Land Type / Swamp",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     940,
+     1657,
+     1187,
+     1722
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__land-type__swamp.png",
+    "zona": {
+     "x": 44.608,
+     "y": 81.133,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Land Type / Plains",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     940,
+     1657,
+     1187,
+     1722
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__basic-land-format__land-type__plains.png",
+    "zona": {
+     "x": 44.608,
+     "y": 81.133,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Land Type / Type-Text",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     990,
+     1664,
+     1134,
+     1703
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 47.148,
+     "y": 81.489,
+     "w": 7.316,
+     "h": 1.984
+    },
+    "texto": "Forest",
+    "tramos": [
+     {
+      "texto": "F",
+      "letra": "m6x11plus",
+      "tam_px": 63.0,
+      "color": "#ffffff"
+     },
+     {
+      "texto": "o",
+      "letra": "m6x11plus",
+      "tam_px": 63.0,
+      "color": "#ffffff"
+     },
+     {
+      "texto": "r",
+      "letra": "m6x11plus",
+      "tam_px": 63.0,
+      "color": "#ffffff"
+     },
+     {
+      "texto": "e",
+      "letra": "m6x11plus",
+      "tam_px": 63.0,
+      "color": "#ffffff"
+     },
+     {
+      "texto": "s",
+      "letra": "m6x11plus",
+      "tam_px": 63.0,
+      "color": "#ffffff"
+     },
+     {
+      "texto": "t",
+      "letra": "m6x11plus",
+      "tam_px": 63.0,
+      "color": "#ffffff"
+     }
+    ],
+    "alinear": "centro"
+   },
+   {
+    "ruta": "Frame / Basic Land Format / Typeline",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     176,
+     1663,
+     734,
+     1709
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 5.792,
+     "y": 81.438,
+     "w": 28.35,
+     "h": 2.34
+    },
+    "texto": "Basic Land - Mountain",
+    "tramos": [
+     {
+      "texto": "B",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "a",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "s",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "i",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "c",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": " ",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "L",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "a",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "n",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "d",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": " ",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "-",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": " ",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "M",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "o",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "u",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "n",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "t",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "a",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "i",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "n",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     }
+    ],
+    "alinear": "inicio"
+   },
+   {
+    "ruta": "Frame / Non-Basic Land Format / Rules Box",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     136,
+     1497,
+     1231,
+     1747
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__non-basic-land-format__rules-box.png",
+    "zona": {
+     "x": 3.76,
+     "y": 72.994,
+     "w": 55.633,
+     "h": 12.717
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Non-Basic Land Format / Layer 30",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     158,
+     1271,
+     1209,
+     1501
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__non-basic-land-format__layer-30.png",
+    "zona": {
+     "x": 4.877,
+     "y": 61.498,
+     "w": 53.398,
+     "h": 11.699
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Non-Basic Land Format / Box Extension",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     158,
+     1227,
+     1209,
+     1431
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__non-basic-land-format__box-extension.png",
+    "zona": {
+     "x": 4.877,
+     "y": 59.26,
+     "w": 53.398,
+     "h": 10.377
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Non-Basic Land Format / Name Plate",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     120,
+     118,
+     1245,
+     338
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__non-basic-land-format__name-plate.png",
+    "zona": {
+     "x": 2.947,
+     "y": 2.849,
+     "w": 57.157,
+     "h": 11.191
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Non-Basic Land Format / SET / Common",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     940,
+     1657,
+     1187,
+     1722
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__non-basic-land-format__set__common.png",
+    "zona": {
+     "x": 44.608,
+     "y": 81.133,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Non-Basic Land Format / SET / Uncomon",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     940,
+     1657,
+     1187,
+     1722
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__non-basic-land-format__set__uncomon.png",
+    "zona": {
+     "x": 44.608,
+     "y": 81.133,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Non-Basic Land Format / SET / Rare",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     940,
+     1657,
+     1187,
+     1722
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__non-basic-land-format__set__rare.png",
+    "zona": {
+     "x": 44.608,
+     "y": 81.133,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Non-Basic Land Format / SET / Mythic Rare",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     940,
+     1657,
+     1187,
+     1722
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/frame__non-basic-land-format__set__mythic-rare.png",
+    "zona": {
+     "x": 44.608,
+     "y": 81.133,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Non-Basic Land Format / Rules / Rules",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     216,
+     1351,
+     1082,
+     1555
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 7.824,
+     "y": 65.568,
+     "w": 43.998,
+     "h": 10.377
+    },
+    "texto": "ot : Add or.\ro2, ot : Target creature can't be blocked this turn.",
+    "tramos": [
+     {
+      "texto": "o",
+      "letra": "Magic-Symbols-2004",
+      "tam_px": 75.0,
+      "color": "#3f4a4d"
+     },
+     {
+      "texto": "t",
+      "letra": "Magic-Symbols-2004",
+      "tam_px": 75.0,
+      "color": "#3f4a4d"
+     },
+     {
+      "texto": " ",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#3f4a4d"
+     },
+     {
+      "texto": ": Add ",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#3f4a4d"
+     },
+     {
+      "texto": "o",
+      "letra": "Magic-Symbols-2004",
+      "tam_px": 75.0,
+      "color": "#3f4a4d"
+     },
+     {
+      "texto": "r",
+      "letra": "Magic-Symbols-2004",
+      "tam_px": 75.0,
+      "color": "#3f4a4d"
+     },
+     {
+      "texto": ".\r",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#3f4a4d"
+     },
+     {
+      "texto": "o",
+      "letra": "Magic-Symbols-2004",
+      "tam_px": 75.0,
+      "color": "#3f4a4d"
+     },
+     {
+      "texto": "2",
+      "letra": "Magic-Symbols-2004",
+      "tam_px": 75.0,
+      "color": "#3f4a4d"
+     },
+     {
+      "texto": ", ",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#3f4a4d"
+     },
+     {
+      "texto": "o",
+      "letra": "Magic-Symbols-2004",
+      "tam_px": 75.0,
+      "color": "#3f4a4d"
+     },
+     {
+      "texto": "t",
+      "letra": "Magic-Symbols-2004",
+      "tam_px": 75.0,
+      "color": "#3f4a4d"
+     },
+     {
+      "texto": " ",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#3f4a4d"
+     },
+     {
+      "texto": ": ",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#3f4a4d"
+     },
+     {
+      "texto": "Target creature can't be blocked this turn.",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#3f4a4d"
+     }
+    ],
+    "alinear": "inicio"
+   },
+   {
+    "ruta": "Frame / Non-Basic Land Format / Typeline",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     176,
+     1663,
+     289,
+     1709
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 5.792,
+     "y": 81.438,
+     "w": 5.741,
+     "h": 2.34
+    },
+    "texto": "Land",
+    "tramos": [
+     {
+      "texto": "L",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "a",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "n",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "d",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     }
+    ],
+    "alinear": "inicio"
+   },
+   {
+    "ruta": "Frame / Non-Basic Land Format / Name",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     245,
+     182,
+     1121,
+     274
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 9.298,
+     "y": 6.104,
+     "w": 44.506,
+     "h": 4.68
+    },
+    "texto": "RELIQUARY TOWER",
+    "tramos": [
+     {
+      "texto": "R",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "E",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "L",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "I",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "Q",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "U",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "A",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "R",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "Y",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": " ",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "T",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "O",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "W",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "E",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "R",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     }
+    ],
+    "alinear": "centro"
+   },
+   {
+    "ruta": "Symbols / Colorless copy 3 / Colorless",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     219,
+     1435,
+     277,
+     1493
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/symbols__colorless-copy-3__colorless.png",
+    "zona": {
+     "x": 7.977,
+     "y": 69.84,
+     "w": 2.947,
+     "h": 2.95
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Symbols / Colorless copy 3 / Colorless Symbol",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     229,
+     1443,
+     270,
+     1484
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/symbols__colorless-copy-3__colorless-symbol.png",
+    "zona": {
+     "x": 8.485,
+     "y": 70.247,
+     "w": 2.083,
+     "h": 2.086
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Symbols / Colorless copy 3 / Num",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     240,
+     1448,
+     256,
+     1478
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 9.044,
+     "y": 70.502,
+     "w": 0.813,
+     "h": 1.526
+    },
+    "texto": "4",
+    "tramos": [
+     {
+      "texto": "4",
+      "letra": "m6x11plus",
+      "tam_px": 46.82,
+      "color": "#ffffff"
+     }
+    ],
+    "alinear": "centro"
+   },
+   {
+    "ruta": "Symbols / Colorless copy 4 / Colorless",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     440,
+     1350,
+     498,
+     1408
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/symbols__colorless-copy-4__colorless.png",
+    "zona": {
+     "x": 19.205,
+     "y": 65.517,
+     "w": 2.947,
+     "h": 2.95
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Symbols / Colorless copy 4 / Colorless Symbol",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     450,
+     1358,
+     491,
+     1399
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/symbols__colorless-copy-4__colorless-symbol.png",
+    "zona": {
+     "x": 19.713,
+     "y": 65.924,
+     "w": 2.083,
+     "h": 2.086
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Symbols / Colorless copy 4 / Num",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     461,
+     1363,
+     477,
+     1393
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 20.272,
+     "y": 66.178,
+     "w": 0.813,
+     "h": 1.526
+    },
+    "texto": "2",
+    "tramos": [
+     {
+      "texto": "2",
+      "letra": "m6x11plus",
+      "tam_px": 46.82,
+      "color": "#ffffff"
+     }
+    ],
+    "alinear": "centro"
+   },
+   {
+    "ruta": "Symbols / Blue",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     776,
+     1369,
+     834,
+     1427
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/symbols__blue.png",
+    "zona": {
+     "x": 36.276,
+     "y": 66.483,
+     "w": 2.947,
+     "h": 2.95
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Symbols / White",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     472,
+     1334,
+     530,
+     1392
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/symbols__white.png",
+    "zona": {
+     "x": 20.831,
+     "y": 64.703,
+     "w": 2.947,
+     "h": 2.95
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Symbols / Red",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     842,
+     1369,
+     900,
+     1427
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/symbols__red.png",
+    "zona": {
+     "x": 39.629,
+     "y": 66.483,
+     "w": 2.947,
+     "h": 2.95
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Symbols / Green",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     277,
+     1334,
+     335,
+     1392
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/symbols__green.png",
+    "zona": {
+     "x": 10.923,
+     "y": 64.703,
+     "w": 2.947,
+     "h": 2.95
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Symbols / Black",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     537,
+     1334,
+     595,
+     1392
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/symbols__black.png",
+    "zona": {
+     "x": 24.133,
+     "y": 64.703,
+     "w": 2.947,
+     "h": 2.95
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Symbols / Tap Symbol",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     219,
+     1350,
+     277,
+     1408
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/symbols__tap-symbol.png",
+    "zona": {
+     "x": 7.977,
+     "y": 65.517,
+     "w": 2.947,
+     "h": 2.95
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Symbols / Tap Symbol copy 2",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     318,
+     1435,
+     376,
+     1493
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/symbols__tap-symbol-copy-2.png",
+    "zona": {
+     "x": 13.006,
+     "y": 69.84,
+     "w": 2.947,
+     "h": 2.95
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Small Scanlines / B",
+    "visible": true,
+    "mezcla": "darken",
+    "opacidad": 0.051,
+    "bbox_px": [
+     -40,
+     -9,
+     1354,
+     1870
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/small-scanlines__b.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 63.0,
+     "h": 88.0
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Small Scanlines / G",
+    "visible": true,
+    "mezcla": "darken",
+    "opacidad": 0.051,
+    "bbox_px": [
+     -40,
+     -5,
+     1354,
+     1874
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/small-scanlines__g.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 63.0,
+     "h": 88.0
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Small Scanlines / R",
+    "visible": true,
+    "mezcla": "darken",
+    "opacidad": 0.051,
+    "bbox_px": [
+     -40,
+     -13,
+     1354,
+     1865
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/small-scanlines__r.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 63.0,
+     "h": 88.0
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Small Scanlines / Vertical",
+    "visible": true,
+    "mezcla": "darken",
+    "opacidad": 0.09,
+    "bbox_px": [
+     -315,
+     -4,
+     1629,
+     1856
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/small-scanlines__vertical.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 63.0,
+     "h": 88.0
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Tap Symbol",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     517,
+     761,
+     697,
+     941
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/tap-symbol.png",
+    "zona": {
+     "x": 23.117,
+     "y": 35.556,
+     "w": 9.145,
+     "h": 9.156
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Border",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     0,
+     0,
+     1365,
+     1855
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tierra/border.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 63.0,
+     "h": 88.0
+    },
+    "efectos": false,
+    "recortes": []
+   }
+  ]
+ },
+ "planeswalker": {
+  "psd": "Balatro-Planes.psd",
+  "diferencia_media": 0.0,
+  "capas": [
+   {
+    "ruta": "Background",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     62,
+     62,
+     1302,
+     1792
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/background.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 63.0,
+     "h": 88.0
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Layer 37",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     0,
+     0,
+     1365,
+     1855
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/layer-37.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 63.0,
+     "h": 88.0
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Balatro",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -37,
+     297,
+     1401,
+     1107
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/backgrounds__balatro.png",
+    "zona": {
+     "x": 0.0,
+     "y": 11.954,
+     "w": 63.0,
+     "h": 41.202
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Colorless",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -156,
+     150,
+     1270,
+     1223
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/backgrounds__colorless.png",
+    "zona": {
+     "x": 0.0,
+     "y": 4.476,
+     "w": 61.374,
+     "h": 54.58
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Gold",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -156,
+     150,
+     1270,
+     1223
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/backgrounds__gold.png",
+    "zona": {
+     "x": 0.0,
+     "y": 4.476,
+     "w": 61.374,
+     "h": 54.58
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Green",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -156,
+     150,
+     1270,
+     1223
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/backgrounds__green.png",
+    "zona": {
+     "x": 0.0,
+     "y": 4.476,
+     "w": 61.374,
+     "h": 54.58
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Red",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -156,
+     150,
+     1270,
+     1223
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/backgrounds__red.png",
+    "zona": {
+     "x": 0.0,
+     "y": 4.476,
+     "w": 61.374,
+     "h": 54.58
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Black",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -156,
+     158,
+     1270,
+     1231
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/backgrounds__black.png",
+    "zona": {
+     "x": 0.0,
+     "y": 4.883,
+     "w": 61.374,
+     "h": 54.58
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Blue",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -156,
+     158,
+     1270,
+     1231
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/backgrounds__blue.png",
+    "zona": {
+     "x": 0.0,
+     "y": 4.883,
+     "w": 61.374,
+     "h": 54.58
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / White",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -156,
+     150,
+     1270,
+     1223
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/backgrounds__white.png",
+    "zona": {
+     "x": 0.0,
+     "y": 4.476,
+     "w": 61.374,
+     "h": 54.58
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Frame",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     62,
+     67,
+     1302,
+     1788
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/frame__frame.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.254,
+     "w": 63.0,
+     "h": 87.542
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / P/T",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     911,
+     1588,
+     1221,
+     1705
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/frame__p-t.png",
+    "zona": {
+     "x": 43.135,
+     "y": 77.623,
+     "w": 15.75,
+     "h": 5.951
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Tick Seperator",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     62,
+     1203,
+     1302,
+     1409
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/frame__tick-seperator.png",
+    "zona": {
+     "x": 0.0,
+     "y": 58.039,
+     "w": 63.0,
+     "h": 10.479
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Tick 3 Box",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     87,
+     1439,
+     287,
+     1556
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/frame__tick-3-box.png",
+    "zona": {
+     "x": 1.27,
+     "y": 70.044,
+     "w": 10.161,
+     "h": 5.951
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Tick 2 Box",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     87,
+     1248,
+     287,
+     1365
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/frame__tick-2-box.png",
+    "zona": {
+     "x": 1.27,
+     "y": 60.328,
+     "w": 10.161,
+     "h": 5.951
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Tick 1 Box",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     87,
+     1055,
+     287,
+     1172
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/frame__tick-1-box.png",
+    "zona": {
+     "x": 1.27,
+     "y": 50.511,
+     "w": 10.161,
+     "h": 5.951
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Mana Box / 1 Mana",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1121,
+     300,
+     1269,
+     442
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/frame__mana-box__1-mana.png",
+    "zona": {
+     "x": 53.804,
+     "y": 12.106,
+     "w": 7.519,
+     "h": 7.223
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Mana Box / 2 Mana",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1029,
+     300,
+     1269,
+     442
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/frame__mana-box__2-mana.png",
+    "zona": {
+     "x": 49.13,
+     "y": 12.106,
+     "w": 12.194,
+     "h": 7.223
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Mana Box / 3 Mana",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     937,
+     300,
+     1269,
+     442
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/frame__mana-box__3-mana.png",
+    "zona": {
+     "x": 44.456,
+     "y": 12.106,
+     "w": 16.868,
+     "h": 7.223
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Mana Box / 4 Mana",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     845,
+     300,
+     1086,
+     442
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/frame__mana-box__4-mana.png",
+    "zona": {
+     "x": 39.781,
+     "y": 12.106,
+     "w": 12.244,
+     "h": 7.223
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Mana Box / 5 Mana",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     753,
+     300,
+     994,
+     442
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/frame__mana-box__5-mana.png",
+    "zona": {
+     "x": 35.107,
+     "y": 12.106,
+     "w": 12.244,
+     "h": 7.223
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Mana Box / 6 Mana",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     661,
+     300,
+     902,
+     442
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/frame__mana-box__6-mana.png",
+    "zona": {
+     "x": 30.433,
+     "y": 12.106,
+     "w": 12.244,
+     "h": 7.223
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Legal / SET / Common",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1004,
+     884,
+     1251,
+     949
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/words__legal__set__common.png",
+    "zona": {
+     "x": 47.86,
+     "y": 41.813,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Legal / SET / Uncomon",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1004,
+     884,
+     1251,
+     949
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/words__legal__set__uncomon.png",
+    "zona": {
+     "x": 47.86,
+     "y": 41.813,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Legal / SET / Rare",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1004,
+     884,
+     1251,
+     949
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/words__legal__set__rare.png",
+    "zona": {
+     "x": 47.86,
+     "y": 41.813,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Legal / SET / Mythic Rare",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1004,
+     884,
+     1251,
+     949
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/words__legal__set__mythic-rare.png",
+    "zona": {
+     "x": 47.86,
+     "y": 41.813,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Legal / Typeline",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     116,
+     893,
+     803,
+     948
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 2.744,
+     "y": 42.271,
+     "w": 34.904,
+     "h": 2.798
+    },
+    "texto": "Legendary Planeswalker - Ral",
+    "tramos": [
+     {
+      "texto": "Legendary Planeswalker",
+      "letra": "m6x11plus",
+      "tam_px": 69.0,
+      "color": "#ffffff"
+     },
+     {
+      "texto": " ",
+      "letra": "m6x11plus",
+      "tam_px": 69.0,
+      "color": "#ffffff"
+     },
+     {
+      "texto": "-",
+      "letra": "m6x11plus",
+      "tam_px": 69.0,
+      "color": "#ffffff"
+     },
+     {
+      "texto": " ",
+      "letra": "m6x11plus",
+      "tam_px": 69.0,
+      "color": "#ffffff"
+     },
+     {
+      "texto": "Ral",
+      "letra": "m6x11plus",
+      "tam_px": 69.0,
+      "color": "#ffffff"
+     }
+    ],
+    "alinear": "inicio"
+   },
+   {
+    "ruta": "Words / Legal / Source",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     265,
+     1692,
+     552,
+     1723
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 10.314,
+     "y": 82.913,
+     "w": 14.581,
+     "h": 1.577
+    },
+    "texto": "Balatro  001/001",
+    "tramos": [
+     {
+      "texto": "B",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#ffe5b4"
+     },
+     {
+      "texto": "a",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#ffe5b4"
+     },
+     {
+      "texto": "l",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#ffe5b4"
+     },
+     {
+      "texto": "a",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#ffe5b4"
+     },
+     {
+      "texto": "t",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#ffe5b4"
+     },
+     {
+      "texto": "r",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#ffe5b4"
+     },
+     {
+      "texto": "o",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#ffe5b4"
+     },
+     {
+      "texto": " ",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#aaaaaa"
+     },
+     {
+      "texto": " ",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#aaaaaa"
+     },
+     {
+      "texto": "0",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#aaaaaa"
+     },
+     {
+      "texto": "0",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#aaaaaa"
+     },
+     {
+      "texto": "1",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#aaaaaa"
+     },
+     {
+      "texto": "/",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#aaaaaa"
+     },
+     {
+      "texto": "0",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#aaaaaa"
+     },
+     {
+      "texto": "0",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#aaaaaa"
+     },
+     {
+      "texto": "1",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#aaaaaa"
+     },
+     {
+      "texto": "",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#aaaaaa"
+     }
+    ],
+    "alinear": "inicio"
+   },
+   {
+    "ruta": "Words / Legal / Dot",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     229,
+     1700,
+     244,
+     1713
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/words__legal__dot.png",
+    "zona": {
+     "x": 8.485,
+     "y": 83.32,
+     "w": 0.762,
+     "h": 0.661
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Legal / Set Identifier",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     150,
+     1692,
+     206,
+     1723
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 4.471,
+     "y": 82.913,
+     "w": 2.845,
+     "h": 1.577
+    },
+    "texto": "JOK",
+    "tramos": [
+     {
+      "texto": "J",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#919499"
+     },
+     {
+      "texto": "O",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#aaaaaa"
+     },
+     {
+      "texto": "K",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#aaaaaa"
+     },
+     {
+      "texto": "",
+      "letra": "m6x11plus",
+      "tam_px": 50.0,
+      "color": "#aaaaaa"
+     }
+    ],
+    "alinear": "inicio"
+   },
+   {
+    "ruta": "Words / Mana Shit / Colorless / Colorless",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     971,
+     327,
+     1053,
+     409
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/words__mana-shit__colorless__colorless.png",
+    "zona": {
+     "x": 46.183,
+     "y": 13.48,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana Shit / Colorless / Num",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1000,
+     345,
+     1023,
+     386
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 47.656,
+     "y": 14.395,
+     "w": 1.169,
+     "h": 2.086
+    },
+    "texto": "2",
+    "tramos": [
+     {
+      "texto": "2",
+      "letra": "m6x11plus",
+      "tam_px": 66.2,
+      "color": "#ffffff"
+     }
+    ],
+    "alinear": "centro"
+   },
+   {
+    "ruta": "Words / Mana Shit / Blue",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1063,
+     327,
+     1145,
+     409
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/words__mana-shit__blue.png",
+    "zona": {
+     "x": 50.857,
+     "y": 13.48,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana Shit / White",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     879,
+     327,
+     961,
+     409
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/words__mana-shit__white.png",
+    "zona": {
+     "x": 41.509,
+     "y": 13.48,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana Shit / Red",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1155,
+     327,
+     1237,
+     409
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/words__mana-shit__red.png",
+    "zona": {
+     "x": 55.531,
+     "y": 13.48,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana Shit / Green",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     787,
+     327,
+     869,
+     409
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/words__mana-shit__green.png",
+    "zona": {
+     "x": 36.835,
+     "y": 13.48,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana Shit / Black",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     695,
+     327,
+     777,
+     409
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/words__mana-shit__black.png",
+    "zona": {
+     "x": 32.16,
+     "y": 13.48,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Tick 3 Rules",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     312,
+     1450,
+     1157,
+     1627
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 12.702,
+     "y": 70.603,
+     "w": 42.931,
+     "h": 9.003
+    },
+    "texto": "Flip five coins. Take an extra turn after this one for each coin that comes up heads.",
+    "tramos": [
+     {
+      "texto": "Flip five coins. Take an extra turn after this one for each coin that comes up heads.",
+      "letra": "m6x11plus",
+      "tam_px": 60.0,
+      "color": "#3f4a4d"
+     }
+    ],
+    "alinear": "inicio"
+   },
+   {
+    "ruta": "Words / Tick 3 Value",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     141,
+     1462,
+     226,
+     1521
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 4.014,
+     "y": 71.214,
+     "w": 4.319,
+     "h": 3.001
+    },
+    "texto": "-7:",
+    "tramos": [
+     {
+      "texto": "-",
+      "letra": "m6x11plus",
+      "tam_px": 95.0,
+      "color": "#f5b244"
+     },
+     {
+      "texto": "7",
+      "letra": "m6x11plus",
+      "tam_px": 95.0,
+      "color": "#f5b244"
+     },
+     {
+      "texto": ":",
+      "letra": "m6x11plus",
+      "tam_px": 95.0,
+      "color": "#f5b244"
+     }
+    ],
+    "alinear": "centro"
+   },
+   {
+    "ruta": "Words / Tick 2 Rules",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     312,
+     1289,
+     1140,
+     1336
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 12.702,
+     "y": 62.414,
+     "w": 42.068,
+     "h": 2.391
+    },
+    "texto": "Ral Zarek deals 3 damage to any target.",
+    "tramos": [
+     {
+      "texto": "Ral Zarek deals 3 damage to any target.",
+      "letra": "m6x11plus",
+      "tam_px": 60.0,
+      "color": "#3f4a4d"
+     }
+    ],
+    "alinear": "inicio"
+   },
+   {
+    "ruta": "Words / Tick 2 Value",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     141,
+     1271,
+     226,
+     1330
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 4.014,
+     "y": 61.498,
+     "w": 4.319,
+     "h": 3.001
+    },
+    "texto": "-2:",
+    "tramos": [
+     {
+      "texto": "-",
+      "letra": "m6x11plus",
+      "tam_px": 95.0,
+      "color": "#f5b244"
+     },
+     {
+      "texto": "2",
+      "letra": "m6x11plus",
+      "tam_px": 95.0,
+      "color": "#f5b244"
+     },
+     {
+      "texto": ":",
+      "letra": "m6x11plus",
+      "tam_px": 95.0,
+      "color": "#f5b244"
+     },
+     {
+      "texto": "",
+      "letra": "m6x11plus",
+      "tam_px": 95.0,
+      "color": "#f5b244"
+     }
+    ],
+    "alinear": "centro"
+   },
+   {
+    "ruta": "Words / Tick 1 Rules",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     312,
+     1046,
+     1203,
+     1163
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 12.702,
+     "y": 50.053,
+     "w": 45.269,
+     "h": 5.951
+    },
+    "texto": "Tap target permanent, then untap another target permanent.",
+    "tramos": [
+     {
+      "texto": "Tap target permanent, then untap another target permanent.",
+      "letra": "m6x11plus",
+      "tam_px": 60.0,
+      "color": "#3f4a4d"
+     }
+    ],
+    "alinear": "inicio"
+   },
+   {
+    "ruta": "Words / Tick 1 Value",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     141,
+     1078,
+     226,
+     1137
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 4.014,
+     "y": 51.681,
+     "w": 4.319,
+     "h": 3.001
+    },
+    "texto": "+1:",
+    "tramos": [
+     {
+      "texto": "+",
+      "letra": "m6x11plus",
+      "tam_px": 95.0,
+      "color": "#f5b244"
+     },
+     {
+      "texto": "1",
+      "letra": "m6x11plus",
+      "tam_px": 95.0,
+      "color": "#f5b244"
+     },
+     {
+      "texto": ":",
+      "letra": "m6x11plus",
+      "tam_px": 95.0,
+      "color": "#f5b244"
+     }
+    ],
+    "alinear": "centro"
+   },
+   {
+    "ruta": "Words / Tap Symbol",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1130,
+     1278,
+     1177,
+     1325
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/words__tap-symbol.png",
+    "zona": {
+     "x": 54.261,
+     "y": 61.854,
+     "w": 2.388,
+     "h": 2.391
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Tap Symbol copy 2",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     252,
+     1503,
+     299,
+     1550
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/words__tap-symbol-copy-2.png",
+    "zona": {
+     "x": 9.653,
+     "y": 73.299,
+     "w": 2.388,
+     "h": 2.391
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Colorless Rules / Colorless",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     166,
+     1338,
+     213,
+     1385
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/words__colorless-rules__colorless.png",
+    "zona": {
+     "x": 5.284,
+     "y": 64.906,
+     "w": 2.388,
+     "h": 2.391
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Colorless Rules / Num",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     183,
+     1348,
+     196,
+     1372
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 6.148,
+     "y": 65.415,
+     "w": 0.66,
+     "h": 1.221
+    },
+    "texto": "0",
+    "tramos": [
+     {
+      "texto": "0",
+      "letra": "m6x11plus",
+      "tam_px": 37.94,
+      "color": "#ffffff"
+     }
+    ],
+    "alinear": "centro"
+   },
+   {
+    "ruta": "Words / Name",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     448,
+     165,
+     916,
+     258
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 19.611,
+     "y": 5.239,
+     "w": 23.777,
+     "h": 4.731
+    },
+    "texto": "Ral Zarek",
+    "tramos": [
+     {
+      "texto": "Ral Zarek",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#ffffff"
+     }
+    ],
+    "alinear": "centro"
+   },
+   {
+    "ruta": "Words / Loyalty",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1047,
+     1611,
+     1080,
+     1670
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 50.044,
+     "y": 78.793,
+     "w": 1.677,
+     "h": 3.001
+    },
+    "texto": "4",
+    "tramos": [
+     {
+      "texto": "4",
+      "letra": "m6x11plus",
+      "tam_px": 95.0,
+      "color": "#f5b244"
+     }
+    ],
+    "alinear": "centro"
+   },
+   {
+    "ruta": "Small Scanlines / B",
+    "visible": false,
+    "mezcla": "darken",
+    "opacidad": 0.051,
+    "bbox_px": [
+     62,
+     71,
+     1302,
+     1801
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/small-scanlines__b.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.458,
+     "w": 63.0,
+     "h": 87.542
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Small Scanlines / G",
+    "visible": false,
+    "mezcla": "darken",
+    "opacidad": 0.051,
+    "bbox_px": [
+     62,
+     75,
+     1302,
+     1805
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/small-scanlines__g.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.661,
+     "w": 63.0,
+     "h": 87.339
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Small Scanlines / R",
+    "visible": false,
+    "mezcla": "darken",
+    "opacidad": 0.051,
+    "bbox_px": [
+     62,
+     67,
+     1302,
+     1797
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/small-scanlines__r.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.254,
+     "w": 63.0,
+     "h": 87.746
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Small Scanlines / Vertical",
+    "visible": false,
+    "mezcla": "darken",
+    "opacidad": 0.09,
+    "bbox_px": [
+     -183,
+     312,
+     1547,
+     1552
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/small-scanlines__vertical.png",
+    "zona": {
+     "x": 0.0,
+     "y": 12.717,
+     "w": 63.0,
+     "h": 63.075
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Tap Symbol copy",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     517,
+     761,
+     697,
+     941
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeswalker/tap-symbol-copy.png",
+    "zona": {
+     "x": 23.117,
+     "y": 35.556,
+     "w": 9.145,
+     "h": 9.156
+    },
+    "efectos": false,
+    "recortes": []
+   }
+  ]
+ },
+ "planeta": {
+  "psd": "Balatro-Planet.psd",
+  "diferencia_media": 0.0,
+  "capas": [
+   {
+    "ruta": "Background",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     62,
+     62,
+     1302,
+     1792
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeta/background.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 63.0,
+     "h": 88.0
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Background copy",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     0,
+     0,
+     1365,
+     1855
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeta/background-copy.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 63.0,
+     "h": 88.0
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Flare",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     176,
+     135,
+     1188,
+     299
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeta/frame__flare.png",
+    "zona": {
+     "x": 5.792,
+     "y": 3.713,
+     "w": 51.416,
+     "h": 8.342
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Nameplate",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     194,
+     317,
+     1170,
+     535
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeta/frame__nameplate.png",
+    "zona": {
+     "x": 6.706,
+     "y": 12.971,
+     "w": 49.587,
+     "h": 11.089
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Border",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     62,
+     62,
+     1302,
+     1792
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeta/frame__border.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 63.0,
+     "h": 88.0
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Textbox",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     157,
+     1482,
+     1207,
+     1719
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeta/frame__textbox.png",
+    "zona": {
+     "x": 4.827,
+     "y": 72.231,
+     "w": 53.347,
+     "h": 12.055
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Mana Box / 1 Mana",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     540,
+     507,
+     824,
+     638
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeta/frame__mana-box__1-mana.png",
+    "zona": {
+     "x": 24.285,
+     "y": 22.636,
+     "w": 14.429,
+     "h": 6.664
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Mana Box / 3 Mana",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     485,
+     507,
+     879,
+     638
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeta/frame__mana-box__3-mana.png",
+    "zona": {
+     "x": 21.491,
+     "y": 22.636,
+     "w": 20.018,
+     "h": 6.664
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Typeline / Expand Textbox / Extra Textbox 2",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     157,
+     1542,
+     1207,
+     1744
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeta/frame__typeline__expand-textbox__extra-textbox-2.png",
+    "zona": {
+     "x": 4.827,
+     "y": 75.283,
+     "w": 53.347,
+     "h": 10.275
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Typeline / Expand Textbox / Extra Textbox",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     157,
+     1412,
+     1207,
+     1614
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeta/frame__typeline__expand-textbox__extra-textbox.png",
+    "zona": {
+     "x": 4.827,
+     "y": 68.671,
+     "w": 53.347,
+     "h": 10.275
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Typeline / Expand Textbox / Typeline",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     135,
+     1296,
+     1230,
+     1413
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeta/frame__typeline__expand-textbox__typeline.png",
+    "zona": {
+     "x": 3.709,
+     "y": 62.77,
+     "w": 55.633,
+     "h": 5.951
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Typeline / SET / Common",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     939,
+     1321,
+     1186,
+     1386
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeta/frame__typeline__set__common.png",
+    "zona": {
+     "x": 44.557,
+     "y": 64.042,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Typeline / SET / Uncomon",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     939,
+     1321,
+     1186,
+     1386
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeta/frame__typeline__set__uncomon.png",
+    "zona": {
+     "x": 44.557,
+     "y": 64.042,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Typeline / SET / Rare",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     939,
+     1321,
+     1186,
+     1386
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeta/frame__typeline__set__rare.png",
+    "zona": {
+     "x": 44.557,
+     "y": 64.042,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Typeline / SET / Mythic Rare",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     939,
+     1321,
+     1186,
+     1386
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeta/frame__typeline__set__mythic-rare.png",
+    "zona": {
+     "x": 44.557,
+     "y": 64.042,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Typeline / Typeline",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     175,
+     1329,
+     375,
+     1375
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 5.741,
+     "y": 64.449,
+     "w": 10.161,
+     "h": 2.34
+    },
+    "texto": "Instant",
+    "tramos": [
+     {
+      "texto": "I",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "n",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "s",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "t",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "a",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "n",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "t",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     }
+    ],
+    "alinear": "inicio"
+   },
+   {
+    "ruta": "Words / Legal / Source",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     268,
+     1742,
+     503,
+     1770
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 10.466,
+     "y": 85.457,
+     "w": 11.94,
+     "h": 1.424
+    },
+    "texto": "Balatro  001/001",
+    "tramos": [
+     {
+      "texto": "B",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#dff5fc"
+     },
+     {
+      "texto": "a",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#dff5fc"
+     },
+     {
+      "texto": "l",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#dff5fc"
+     },
+     {
+      "texto": "a",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#dff5fc"
+     },
+     {
+      "texto": "t",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#dff5fc"
+     },
+     {
+      "texto": "r",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#dff5fc"
+     },
+     {
+      "texto": "o",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#dff5fc"
+     },
+     {
+      "texto": " ",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#dff5fc"
+     },
+     {
+      "texto": " ",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#dff5fc"
+     },
+     {
+      "texto": "0",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#dff5fc"
+     },
+     {
+      "texto": "0",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#dff5fc"
+     },
+     {
+      "texto": "1",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#dff5fc"
+     },
+     {
+      "texto": "/",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#dff5fc"
+     },
+     {
+      "texto": "0",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#dff5fc"
+     },
+     {
+      "texto": "0",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#dff5fc"
+     },
+     {
+      "texto": "1",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#dff5fc"
+     },
+     {
+      "texto": "",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#dff5fc"
+     }
+    ],
+    "alinear": "inicio"
+   },
+   {
+    "ruta": "Words / Legal / Dot",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     239,
+     1749,
+     251,
+     1760
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeta/words__legal__dot.png",
+    "zona": {
+     "x": 8.993,
+     "y": 85.813,
+     "w": 0.61,
+     "h": 0.56
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Legal / Set Identifier",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     174,
+     1742,
+     220,
+     1769
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 5.69,
+     "y": 85.457,
+     "w": 2.337,
+     "h": 1.373
+    },
+    "texto": "JOK",
+    "tramos": [
+     {
+      "texto": "J",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#dff5fc"
+     },
+     {
+      "texto": "O",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#dff5fc"
+     },
+     {
+      "texto": "K",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#dff5fc"
+     },
+     {
+      "texto": "",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#dff5fc"
+     }
+    ],
+    "alinear": "inicio"
+   },
+   {
+    "ruta": "Words / Mana Shit / Colorless / Colorless",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     592,
+     508,
+     674,
+     590
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeta/words__mana-shit__colorless__colorless.png",
+    "zona": {
+     "x": 26.927,
+     "y": 22.687,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana Shit / Colorless / 2",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     621,
+     526,
+     644,
+     567
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 28.401,
+     "y": 23.602,
+     "w": 1.169,
+     "h": 2.086
+    },
+    "texto": "2",
+    "tramos": [
+     {
+      "texto": "2",
+      "letra": "m6x11plus",
+      "tam_px": 66.2,
+      "color": "#ffffff"
+     }
+    ],
+    "alinear": "centro"
+   },
+   {
+    "ruta": "Words / Mana Shit / Blue",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     641,
+     508,
+     723,
+     590
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeta/words__mana-shit__blue.png",
+    "zona": {
+     "x": 29.417,
+     "y": 22.687,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana Shit / Blue copy",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     549,
+     508,
+     631,
+     590
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeta/words__mana-shit__blue-copy.png",
+    "zona": {
+     "x": 24.743,
+     "y": 22.687,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana Shit / Red",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     733,
+     508,
+     815,
+     590
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeta/words__mana-shit__red.png",
+    "zona": {
+     "x": 34.091,
+     "y": 22.687,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana Shit / White",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     666,
+     507,
+     748,
+     589
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeta/words__mana-shit__white.png",
+    "zona": {
+     "x": 30.687,
+     "y": 22.636,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana Shit / Green",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     667,
+     508,
+     749,
+     590
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeta/words__mana-shit__green.png",
+    "zona": {
+     "x": 30.738,
+     "y": 22.687,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana Shit / Black",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     667,
+     508,
+     749,
+     590
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeta/words__mana-shit__black.png",
+    "zona": {
+     "x": 30.738,
+     "y": 22.687,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Rules",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     224,
+     1437,
+     1124,
+     1664
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 8.231,
+     "y": 69.942,
+     "w": 45.726,
+     "h": 11.547
+    },
+    "texto": "\rChoose target spell, then flip a coin. If you win the flip, gain control of that spell and you may choose new targets for it. If you lose the flip, counter that spell.",
+    "tramos": [
+     {
+      "texto": "\rChoose target spell, then flip a coin. If you win the flip, gain control of that spell and you may choose new targets for it. If you lose the flip, counter that spell.",
+      "letra": "m6x11plus",
+      "tam_px": 60.0,
+      "color": "#4f6367"
+     }
+    ],
+    "alinear": "inicio"
+   },
+   {
+    "ruta": "Words / Colorless Rules / Colorless",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     442,
+     1490,
+     487,
+     1535
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeta/words__colorless-rules__colorless.png",
+    "zona": {
+     "x": 19.306,
+     "y": 72.638,
+     "w": 2.286,
+     "h": 2.289
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Colorless Rules / 2",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     458,
+     1499,
+     471,
+     1523
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 20.119,
+     "y": 73.096,
+     "w": 0.66,
+     "h": 1.221
+    },
+    "texto": "2",
+    "tramos": [
+     {
+      "texto": "2",
+      "letra": "m6x11plus",
+      "tam_px": 36.33,
+      "color": "#ffffff"
+     }
+    ],
+    "alinear": "centro"
+   },
+   {
+    "ruta": "Words / Red Rules",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     504,
+     1490,
+     549,
+     1535
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeta/words__red-rules.png",
+    "zona": {
+     "x": 22.456,
+     "y": 72.638,
+     "w": 2.286,
+     "h": 2.289
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Name",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     285,
+     381,
+     1079,
+     467
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 11.33,
+     "y": 16.227,
+     "w": 40.34,
+     "h": 4.375
+    },
+    "texto": "INVERT POLARITY",
+    "tramos": [
+     {
+      "texto": "I",
+      "letra": "m6x11plus",
+      "tam_px": 140.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "N",
+      "letra": "m6x11plus",
+      "tam_px": 140.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "V",
+      "letra": "m6x11plus",
+      "tam_px": 140.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "E",
+      "letra": "m6x11plus",
+      "tam_px": 140.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "R",
+      "letra": "m6x11plus",
+      "tam_px": 140.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "T",
+      "letra": "m6x11plus",
+      "tam_px": 140.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": " ",
+      "letra": "m6x11plus",
+      "tam_px": 140.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "P",
+      "letra": "m6x11plus",
+      "tam_px": 140.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "O",
+      "letra": "m6x11plus",
+      "tam_px": 140.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "L",
+      "letra": "m6x11plus",
+      "tam_px": 140.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "A",
+      "letra": "m6x11plus",
+      "tam_px": 140.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "R",
+      "letra": "m6x11plus",
+      "tam_px": 140.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "I",
+      "letra": "m6x11plus",
+      "tam_px": 140.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "T",
+      "letra": "m6x11plus",
+      "tam_px": 140.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "Y",
+      "letra": "m6x11plus",
+      "tam_px": 140.0,
+      "color": "#4f6367"
+     }
+    ],
+    "alinear": "centro"
+   },
+   {
+    "ruta": "Small Scanlines / B",
+    "visible": false,
+    "mezcla": "darken",
+    "opacidad": 0.051,
+    "bbox_px": [
+     62,
+     71,
+     1302,
+     1801
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeta/small-scanlines__b.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.458,
+     "w": 63.0,
+     "h": 87.542
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Small Scanlines / G",
+    "visible": false,
+    "mezcla": "darken",
+    "opacidad": 0.051,
+    "bbox_px": [
+     62,
+     75,
+     1302,
+     1805
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeta/small-scanlines__g.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.661,
+     "w": 63.0,
+     "h": 87.339
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Small Scanlines / R",
+    "visible": false,
+    "mezcla": "darken",
+    "opacidad": 0.051,
+    "bbox_px": [
+     62,
+     67,
+     1302,
+     1797
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeta/small-scanlines__r.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.254,
+     "w": 63.0,
+     "h": 87.746
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Small Scanlines / Vertical",
+    "visible": false,
+    "mezcla": "darken",
+    "opacidad": 0.09,
+    "bbox_px": [
+     -183,
+     312,
+     1547,
+     1552
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeta/small-scanlines__vertical.png",
+    "zona": {
+     "x": 0.0,
+     "y": 12.717,
+     "w": 63.0,
+     "h": 63.075
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Tap Symbol",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     517,
+     761,
+     697,
+     941
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/planeta/tap-symbol.png",
+    "zona": {
+     "x": 23.117,
+     "y": 35.556,
+     "w": 9.145,
+     "h": 9.156
+    },
+    "efectos": false,
+    "recortes": []
+   }
+  ]
+ },
+ "espectral": {
+  "psd": "Balatro-Spectral.psd",
+  "diferencia_media": 0.0,
+  "capas": [
+   {
+    "ruta": "Backgrounds / Background",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     0,
+     0,
+     1365,
+     1855
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/espectral/backgrounds__background.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 63.0,
+     "h": 88.0
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Blue Box",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     106,
+     1244,
+     1258,
+     1769
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/espectral/frame__blue-box.png",
+    "zona": {
+     "x": 2.235,
+     "y": 60.125,
+     "w": 58.529,
+     "h": 26.705
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Blue Frame",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     62,
+     62,
+     1302,
+     1792
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/espectral/frame__blue-frame.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 63.0,
+     "h": 88.0
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Color",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     177,
+     208,
+     1188,
+     244
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/espectral/frame__color.png",
+    "zona": {
+     "x": 5.843,
+     "y": 7.427,
+     "w": 51.365,
+     "h": 1.831
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Nameplate",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     120,
+     116,
+     1245,
+     336
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/espectral/frame__nameplate.png",
+    "zona": {
+     "x": 2.947,
+     "y": 2.747,
+     "w": 57.157,
+     "h": 11.191
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Typeline / Blue Typeline",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     135,
+     1212,
+     1230,
+     1329
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/espectral/frame__typeline__blue-typeline.png",
+    "zona": {
+     "x": 3.709,
+     "y": 58.497,
+     "w": 55.633,
+     "h": 5.951
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Typeline / SET / Common",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     939,
+     1237,
+     1186,
+     1302
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/espectral/frame__typeline__set__common.png",
+    "zona": {
+     "x": 44.557,
+     "y": 59.769,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Typeline / SET / Uncomon",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     939,
+     1237,
+     1186,
+     1302
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/espectral/frame__typeline__set__uncomon.png",
+    "zona": {
+     "x": 44.557,
+     "y": 59.769,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Typeline / SET / Rare",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     939,
+     1237,
+     1186,
+     1302
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/espectral/frame__typeline__set__rare.png",
+    "zona": {
+     "x": 44.557,
+     "y": 59.769,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Typeline / SET / Mythic Rare",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     939,
+     1237,
+     1186,
+     1302
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/espectral/frame__typeline__set__mythic-rare.png",
+    "zona": {
+     "x": 44.557,
+     "y": 59.769,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Typeline / Typeline",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     175,
+     1245,
+     375,
+     1304
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 5.741,
+     "y": 60.176,
+     "w": 10.161,
+     "h": 3.001
+    },
+    "texto": "Sorcery",
+    "tramos": [
+     {
+      "texto": "S",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "o",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "r",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "c",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "e",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "r",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "y",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     }
+    ],
+    "alinear": "inicio"
+   },
+   {
+    "ruta": "Frame / Mana Box / Mana Box 1-3",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     459,
+     315,
+     903,
+     438
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/espectral/frame__mana-box__mana-box-1-3.png",
+    "zona": {
+     "x": 20.17,
+     "y": 12.869,
+     "w": 22.558,
+     "h": 6.257
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Legal / Source",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     269,
+     1742,
+     504,
+     1770
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 10.517,
+     "y": 85.457,
+     "w": 11.94,
+     "h": 1.424
+    },
+    "texto": "Balatro  001/001",
+    "tramos": [
+     {
+      "texto": "B",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#bfc7d5"
+     },
+     {
+      "texto": "a",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#bfc7d5"
+     },
+     {
+      "texto": "l",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#bfc7d5"
+     },
+     {
+      "texto": "a",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#bfc7d5"
+     },
+     {
+      "texto": "t",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#bfc7d5"
+     },
+     {
+      "texto": "r",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#bfc7d5"
+     },
+     {
+      "texto": "o",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#bfc7d5"
+     },
+     {
+      "texto": " ",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#bfc7d5"
+     },
+     {
+      "texto": " ",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#bfc7d5"
+     },
+     {
+      "texto": "0",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#bfc7d5"
+     },
+     {
+      "texto": "0",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#bfc7d5"
+     },
+     {
+      "texto": "1",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#bfc7d5"
+     },
+     {
+      "texto": "/",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#bfc7d5"
+     },
+     {
+      "texto": "0",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#bfc7d5"
+     },
+     {
+      "texto": "0",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#bfc7d5"
+     },
+     {
+      "texto": "1",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#bfc7d5"
+     },
+     {
+      "texto": "",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#bfc7d5"
+     }
+    ],
+    "alinear": "inicio"
+   },
+   {
+    "ruta": "Words / Legal / Dot",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     62,
+     62,
+     1302,
+     1792
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/espectral/words__legal__dot.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 63.0,
+     "h": 88.0
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Legal / Set Identifier",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     175,
+     1742,
+     221,
+     1769
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 5.741,
+     "y": 85.457,
+     "w": 2.337,
+     "h": 1.373
+    },
+    "texto": "JOK",
+    "tramos": [
+     {
+      "texto": "J",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#bfc7d5"
+     },
+     {
+      "texto": "O",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#bfc7d5"
+     },
+     {
+      "texto": "K",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#bfc7d5"
+     },
+     {
+      "texto": "",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#bfc7d5"
+     }
+    ],
+    "alinear": "inicio"
+   },
+   {
+    "ruta": "Words / Mana Shit / Colorless / Colorless",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     549,
+     299,
+     631,
+     381
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/espectral/words__mana-shit__colorless__colorless.png",
+    "zona": {
+     "x": 24.743,
+     "y": 12.055,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana Shit / Colorless / 1",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     578,
+     317,
+     601,
+     358
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 26.216,
+     "y": 12.971,
+     "w": 1.169,
+     "h": 2.086
+    },
+    "texto": "1",
+    "tramos": [
+     {
+      "texto": "1",
+      "letra": "m6x11plus",
+      "tam_px": 66.2,
+      "color": "#ffffff"
+     }
+    ],
+    "alinear": "centro"
+   },
+   {
+    "ruta": "Words / Mana Shit / White",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     666,
+     298,
+     748,
+     380
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/espectral/words__mana-shit__white.png",
+    "zona": {
+     "x": 30.687,
+     "y": 12.005,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana Shit / Green",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     667,
+     299,
+     749,
+     381
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/espectral/words__mana-shit__green.png",
+    "zona": {
+     "x": 30.738,
+     "y": 12.055,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana Shit / Blue",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     687,
+     299,
+     769,
+     381
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/espectral/words__mana-shit__blue.png",
+    "zona": {
+     "x": 31.754,
+     "y": 12.055,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana Shit / Black",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     667,
+     299,
+     749,
+     381
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/espectral/words__mana-shit__black.png",
+    "zona": {
+     "x": 30.738,
+     "y": 12.055,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana Shit / Red",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     641,
+     299,
+     723,
+     381
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/espectral/words__mana-shit__red.png",
+    "zona": {
+     "x": 29.417,
+     "y": 12.055,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Rules",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     205,
+     1356,
+     1134,
+     1638
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 7.265,
+     "y": 65.822,
+     "w": 47.199,
+     "h": 14.345
+    },
+    "texto": "Destroy target artifact you don't control.\rOverload o4lor (You may cast this spell for its overload cost. If you do, change \"target\" in its text to \"each.\")",
+    "tramos": [
+     {
+      "texto": "Destroy target artifact you don't control.\rOverload ",
+      "letra": "m6x11plus",
+      "tam_px": 62.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "o",
+      "letra": "Magic-Symbols-2004",
+      "tam_px": 62.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "4",
+      "letra": "Magic-Symbols-2004",
+      "tam_px": 62.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "l",
+      "letra": "m6x11plus",
+      "tam_px": 62.0,
+      "color": "#e2ebf9"
+     },
+     {
+      "texto": "o",
+      "letra": "Magic-Symbols-2004",
+      "tam_px": 62.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "r",
+      "letra": "Magic-Symbols-2004",
+      "tam_px": 62.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": " (You may cast this spell for its overload cost. If you do, change \"target\" in its text to \"each.\")",
+      "letra": "m6x11plus",
+      "tam_px": 62.0,
+      "color": "#4f6367"
+     }
+    ],
+    "alinear": "inicio"
+   },
+   {
+    "ruta": "Words / Colorless Rules / Colorless",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     407,
+     1437,
+     450,
+     1480
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/espectral/words__colorless-rules__colorless.png",
+    "zona": {
+     "x": 17.528,
+     "y": 69.942,
+     "w": 2.185,
+     "h": 2.187
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Colorless Rules / 4",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     422,
+     1446,
+     435,
+     1469
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 18.29,
+     "y": 70.4,
+     "w": 0.66,
+     "h": 1.17
+    },
+    "texto": "4",
+    "tramos": [
+     {
+      "texto": "4",
+      "letra": "m6x11plus",
+      "tam_px": 34.71,
+      "color": "#ffffff"
+     }
+    ],
+    "alinear": "centro"
+   },
+   {
+    "ruta": "Words / Red Rules",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     472,
+     1437,
+     515,
+     1480
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/espectral/words__red-rules.png",
+    "zona": {
+     "x": 20.831,
+     "y": 69.942,
+     "w": 2.185,
+     "h": 2.187
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Name",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     365,
+     178,
+     999,
+     270
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 15.394,
+     "y": 5.901,
+     "w": 32.211,
+     "h": 4.68
+    },
+    "texto": "VANDALBLAST",
+    "tramos": [
+     {
+      "texto": "V",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "A",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "N",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "D",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "A",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "L",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "B",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "L",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "A",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "S",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "T",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     }
+    ],
+    "alinear": "centro"
+   },
+   {
+    "ruta": "Small Scanlines / B",
+    "visible": false,
+    "mezcla": "darken",
+    "opacidad": 0.051,
+    "bbox_px": [
+     62,
+     71,
+     1302,
+     1801
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/espectral/small-scanlines__b.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.458,
+     "w": 63.0,
+     "h": 87.542
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Small Scanlines / G",
+    "visible": false,
+    "mezcla": "darken",
+    "opacidad": 0.051,
+    "bbox_px": [
+     62,
+     75,
+     1302,
+     1805
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/espectral/small-scanlines__g.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.661,
+     "w": 63.0,
+     "h": 87.339
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Small Scanlines / R",
+    "visible": false,
+    "mezcla": "darken",
+    "opacidad": 0.051,
+    "bbox_px": [
+     62,
+     67,
+     1302,
+     1797
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/espectral/small-scanlines__r.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.254,
+     "w": 63.0,
+     "h": 87.746
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Small Scanlines / Vertical",
+    "visible": false,
+    "mezcla": "darken",
+    "opacidad": 0.09,
+    "bbox_px": [
+     -183,
+     312,
+     1547,
+     1552
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/espectral/small-scanlines__vertical.png",
+    "zona": {
+     "x": 0.0,
+     "y": 12.717,
+     "w": 63.0,
+     "h": 63.075
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Tap Symbol",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     517,
+     761,
+     697,
+     941
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/espectral/tap-symbol.png",
+    "zona": {
+     "x": 23.117,
+     "y": 35.556,
+     "w": 9.145,
+     "h": 9.156
+    },
+    "efectos": false,
+    "recortes": []
+   }
+  ]
+ },
+ "tarot": {
+  "psd": "Balatro-Tarot.psd",
+  "diferencia_media": 0.0,
+  "capas": [
+   {
+    "ruta": "Background",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     62,
+     62,
+     1302,
+     1792
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/background.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 63.0,
+     "h": 88.0
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Background copy",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     0,
+     0,
+     1365,
+     1855
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/background-copy.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 63.0,
+     "h": 88.0
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Balatro",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -37,
+     297,
+     1401,
+     1107
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/backgrounds__balatro.png",
+    "zona": {
+     "x": 0.0,
+     "y": 11.954,
+     "w": 63.0,
+     "h": 41.202
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Colorless",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -156,
+     150,
+     1270,
+     1223
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/backgrounds__colorless.png",
+    "zona": {
+     "x": 0.0,
+     "y": 4.476,
+     "w": 61.374,
+     "h": 54.58
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Gold",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -156,
+     150,
+     1270,
+     1223
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/backgrounds__gold.png",
+    "zona": {
+     "x": 0.0,
+     "y": 4.476,
+     "w": 61.374,
+     "h": 54.58
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Green",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -156,
+     150,
+     1270,
+     1223
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/backgrounds__green.png",
+    "zona": {
+     "x": 0.0,
+     "y": 4.476,
+     "w": 61.374,
+     "h": 54.58
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Red",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -156,
+     150,
+     1270,
+     1223
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/backgrounds__red.png",
+    "zona": {
+     "x": 0.0,
+     "y": 4.476,
+     "w": 61.374,
+     "h": 54.58
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Black",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -156,
+     158,
+     1270,
+     1231
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/backgrounds__black.png",
+    "zona": {
+     "x": 0.0,
+     "y": 4.883,
+     "w": 61.374,
+     "h": 54.58
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Blue",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -156,
+     158,
+     1270,
+     1231
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/backgrounds__blue.png",
+    "zona": {
+     "x": 0.0,
+     "y": 4.883,
+     "w": 61.374,
+     "h": 54.58
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / White",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -156,
+     150,
+     1270,
+     1223
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/backgrounds__white.png",
+    "zona": {
+     "x": 0.0,
+     "y": 4.476,
+     "w": 61.374,
+     "h": 54.58
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Non-Legendary",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     106,
+     1180,
+     1258,
+     1705
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/frame__non-legendary.png",
+    "zona": {
+     "x": 2.235,
+     "y": 56.869,
+     "w": 58.529,
+     "h": 26.705
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Rules Box",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     51,
+     1370,
+     1313,
+     1946
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/frame__rules-box.png",
+    "zona": {
+     "x": 0.0,
+     "y": 66.534,
+     "w": 63.0,
+     "h": 21.466
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Frame",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     62,
+     62,
+     1302,
+     1792
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/frame__frame.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 63.0,
+     "h": 88.0
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Typeline / Rules Extender",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     161,
+     1148,
+     1203,
+     1552
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/frame__typeline__rules-extender.png",
+    "zona": {
+     "x": 5.03,
+     "y": 55.242,
+     "w": 52.94,
+     "h": 20.55
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Typeline / Typeline",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     134,
+     1044,
+     1229,
+     1161
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/frame__typeline__typeline.png",
+    "zona": {
+     "x": 3.658,
+     "y": 49.951,
+     "w": 55.633,
+     "h": 5.951
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Typeline / SET / Common",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     939,
+     1069,
+     1186,
+     1134
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/frame__typeline__set__common.png",
+    "zona": {
+     "x": 44.557,
+     "y": 51.223,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Typeline / SET / Uncomon",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     939,
+     1069,
+     1186,
+     1134
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/frame__typeline__set__uncomon.png",
+    "zona": {
+     "x": 44.557,
+     "y": 51.223,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Typeline / SET / Rare",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     939,
+     1069,
+     1186,
+     1134
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/frame__typeline__set__rare.png",
+    "zona": {
+     "x": 44.557,
+     "y": 51.223,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Typeline / SET / Mythic Rare",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     939,
+     1069,
+     1186,
+     1134
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/frame__typeline__set__mythic-rare.png",
+    "zona": {
+     "x": 44.557,
+     "y": 51.223,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Typeline / Typeline",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     175,
+     1077,
+     375,
+     1136
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 5.741,
+     "y": 51.63,
+     "w": 10.161,
+     "h": 3.001
+    },
+    "texto": "Sorcery",
+    "tramos": [
+     {
+      "texto": "S",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "o",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "r",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "c",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "e",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "r",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "y",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     }
+    ],
+    "alinear": "inicio"
+   },
+   {
+    "ruta": "Words / Legal / Source",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     249,
+     1742,
+     484,
+     1769
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 9.501,
+     "y": 85.457,
+     "w": 11.94,
+     "h": 1.373
+    },
+    "texto": "Balatro  001/001",
+    "tramos": [
+     {
+      "texto": "B",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#a58547"
+     },
+     {
+      "texto": "a",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#a58547"
+     },
+     {
+      "texto": "l",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#a58547"
+     },
+     {
+      "texto": "a",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#a58547"
+     },
+     {
+      "texto": "t",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#a58547"
+     },
+     {
+      "texto": "r",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#a58547"
+     },
+     {
+      "texto": "o",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#a58547"
+     },
+     {
+      "texto": " ",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#a58547"
+     },
+     {
+      "texto": " ",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#a58547"
+     },
+     {
+      "texto": "0",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#a58547"
+     },
+     {
+      "texto": "0",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#a58547"
+     },
+     {
+      "texto": "1",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#a58547"
+     },
+     {
+      "texto": "/",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#a58547"
+     },
+     {
+      "texto": "0",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#a58547"
+     },
+     {
+      "texto": "0",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#a58547"
+     },
+     {
+      "texto": "1",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#a58547"
+     },
+     {
+      "texto": "",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#a58547"
+     }
+    ],
+    "alinear": "inicio"
+   },
+   {
+    "ruta": "Words / Legal / Dot",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     220,
+     1749,
+     232,
+     1760
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/words__legal__dot.png",
+    "zona": {
+     "x": 8.027,
+     "y": 85.813,
+     "w": 0.61,
+     "h": 0.56
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Legal / Set Identifier",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     155,
+     1742,
+     201,
+     1769
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 4.725,
+     "y": 85.457,
+     "w": 2.337,
+     "h": 1.373
+    },
+    "texto": "JOK",
+    "tramos": [
+     {
+      "texto": "J",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#dab772"
+     },
+     {
+      "texto": "O",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "K",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#4f6367"
+     }
+    ],
+    "alinear": "inicio"
+   },
+   {
+    "ruta": "Words / Mana Shit / Colorless / Colorless",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     595,
+     277,
+     677,
+     359
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/words__mana-shit__colorless__colorless.png",
+    "zona": {
+     "x": 27.08,
+     "y": 10.936,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana Shit / Colorless / 2",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     624,
+     295,
+     647,
+     336
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 28.553,
+     "y": 11.852,
+     "w": 1.169,
+     "h": 2.086
+    },
+    "texto": "2",
+    "tramos": [
+     {
+      "texto": "2",
+      "letra": "m6x11plus",
+      "tam_px": 66.2,
+      "color": "#ffffff"
+     }
+    ],
+    "alinear": "centro"
+   },
+   {
+    "ruta": "Words / Mana Shit / Blue",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     779,
+     277,
+     861,
+     359
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/words__mana-shit__blue.png",
+    "zona": {
+     "x": 36.428,
+     "y": 10.936,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana Shit / Blue copy 2",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     595,
+     277,
+     677,
+     359
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/words__mana-shit__blue-copy-2.png",
+    "zona": {
+     "x": 27.08,
+     "y": 10.936,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana Shit / White",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     666,
+     276,
+     748,
+     358
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/words__mana-shit__white.png",
+    "zona": {
+     "x": 30.687,
+     "y": 10.886,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana Shit / Green",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     667,
+     277,
+     749,
+     359
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/words__mana-shit__green.png",
+    "zona": {
+     "x": 30.738,
+     "y": 10.936,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana Shit / Black",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     667,
+     277,
+     749,
+     359
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/words__mana-shit__black.png",
+    "zona": {
+     "x": 30.738,
+     "y": 10.936,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana Shit / Red",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     687,
+     277,
+     769,
+     359
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/words__mana-shit__red.png",
+    "zona": {
+     "x": 31.754,
+     "y": 10.936,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Rules",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     179,
+     1185,
+     1176,
+     1649
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 5.944,
+     "y": 57.124,
+     "w": 50.654,
+     "h": 23.602
+    },
+    "texto": "Flip a coin until you lose a flip or choose to stop flipping. If you lose a flip, Fiery Gambit has no effect. If you win one or more flips, Fiery Gambit deals 3 damage to target creature. If you win two or more flips, Fiery Gambit deals 6 damage to each opponent. If you win three or more flips, draw nine cards and untap all lands you control.",
+    "tramos": [
+     {
+      "texto": "Flip a coin until you lose a flip or choose to stop flipping. If you lose a flip, Fiery Gambit has no effect. If you win one or more flips, Fiery Gambit deals 3 damage to target creature. If you win two or more flips, Fiery Gambit deals 6 damage to each opponent. If you win three or more flips, draw nine cards and untap all lands you control.",
+      "letra": "m6x11plus",
+      "tam_px": 58.0,
+      "color": "#ffffff"
+     }
+    ],
+    "alinear": "inicio"
+   },
+   {
+    "ruta": "Words / Colorless copy 2 / Colorless",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     869,
+     1393,
+     914,
+     1438
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/words__colorless-copy-2__colorless.png",
+    "zona": {
+     "x": 41.001,
+     "y": 67.704,
+     "w": 2.286,
+     "h": 2.289
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Colorless copy 2 / 1",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     885,
+     1402,
+     898,
+     1425
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 41.814,
+     "y": 68.162,
+     "w": 0.66,
+     "h": 1.17
+    },
+    "texto": "1",
+    "tramos": [
+     {
+      "texto": "1",
+      "letra": "m6x11plus",
+      "tam_px": 36.33,
+      "color": "#ffffff"
+     }
+    ],
+    "alinear": "centro"
+   },
+   {
+    "ruta": "Words / Name",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     336,
+     156,
+     1028,
+     248
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 13.921,
+     "y": 4.782,
+     "w": 35.158,
+     "h": 4.68
+    },
+    "texto": "FIERY GAMBIT",
+    "tramos": [
+     {
+      "texto": "F",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "I",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "E",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "R",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "Y",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": " ",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "G",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "A",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "M",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "B",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "I",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "T",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     }
+    ],
+    "alinear": "centro"
+   },
+   {
+    "ruta": "Words / Name copy",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     495,
+     155,
+     587,
+     232
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 21.999,
+     "y": 4.731,
+     "w": 4.674,
+     "h": 3.917
+    },
+    "texto": "OF",
+    "tramos": [
+     {
+      "texto": "O",
+      "letra": "m6x11plus",
+      "tam_px": 125.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "F",
+      "letra": "m6x11plus",
+      "tam_px": 125.0,
+      "color": "#4f6367"
+     }
+    ],
+    "alinear": "centro"
+   },
+   {
+    "ruta": "Small Scanlines / B",
+    "visible": false,
+    "mezcla": "darken",
+    "opacidad": 0.051,
+    "bbox_px": [
+     62,
+     71,
+     1302,
+     1801
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/small-scanlines__b.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.458,
+     "w": 63.0,
+     "h": 87.542
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Small Scanlines / G",
+    "visible": false,
+    "mezcla": "darken",
+    "opacidad": 0.051,
+    "bbox_px": [
+     62,
+     75,
+     1302,
+     1805
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/small-scanlines__g.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.661,
+     "w": 63.0,
+     "h": 87.339
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Small Scanlines / R",
+    "visible": false,
+    "mezcla": "darken",
+    "opacidad": 0.051,
+    "bbox_px": [
+     62,
+     67,
+     1302,
+     1797
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/small-scanlines__r.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.254,
+     "w": 63.0,
+     "h": 87.746
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Small Scanlines / Vertical",
+    "visible": false,
+    "mezcla": "darken",
+    "opacidad": 0.09,
+    "bbox_px": [
+     -183,
+     312,
+     1547,
+     1552
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/small-scanlines__vertical.png",
+    "zona": {
+     "x": 0.0,
+     "y": 12.717,
+     "w": 63.0,
+     "h": 63.075
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Tap Symbol",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     517,
+     761,
+     697,
+     941
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/tarot/tap-symbol.png",
+    "zona": {
+     "x": 23.117,
+     "y": 35.556,
+     "w": 9.145,
+     "h": 9.156
+    },
+    "efectos": false,
+    "recortes": []
+   }
+  ]
+ },
+ "vale": {
+  "psd": "Balatro-Voucher.psd",
+  "diferencia_media": 0.0,
+  "capas": [
+   {
+    "ruta": "Background copy",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     62,
+     62,
+     1302,
+     1792
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/background-copy.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 63.0,
+     "h": 88.0
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Layer 26",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     566,
+     62,
+     798,
+     1792
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/layer-26.png",
+    "zona": {
+     "x": 25.606,
+     "y": 0.0,
+     "w": 11.787,
+     "h": 88.0
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Layer 41",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     0,
+     0,
+     1365,
+     1855
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/layer-41.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 63.0,
+     "h": 88.0
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Balatro",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -37,
+     297,
+     1401,
+     1107
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/backgrounds__balatro.png",
+    "zona": {
+     "x": 0.0,
+     "y": 11.954,
+     "w": 63.0,
+     "h": 41.202
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Colorless",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -156,
+     150,
+     1270,
+     1223
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/backgrounds__colorless.png",
+    "zona": {
+     "x": 0.0,
+     "y": 4.476,
+     "w": 61.374,
+     "h": 54.58
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Gold",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -156,
+     150,
+     1270,
+     1223
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/backgrounds__gold.png",
+    "zona": {
+     "x": 0.0,
+     "y": 4.476,
+     "w": 61.374,
+     "h": 54.58
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Green",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -156,
+     150,
+     1270,
+     1223
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/backgrounds__green.png",
+    "zona": {
+     "x": 0.0,
+     "y": 4.476,
+     "w": 61.374,
+     "h": 54.58
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Red",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -156,
+     150,
+     1270,
+     1223
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/backgrounds__red.png",
+    "zona": {
+     "x": 0.0,
+     "y": 4.476,
+     "w": 61.374,
+     "h": 54.58
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Black",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -156,
+     158,
+     1270,
+     1231
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/backgrounds__black.png",
+    "zona": {
+     "x": 0.0,
+     "y": 4.883,
+     "w": 61.374,
+     "h": 54.58
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / Blue",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -156,
+     158,
+     1270,
+     1231
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/backgrounds__blue.png",
+    "zona": {
+     "x": 0.0,
+     "y": 4.883,
+     "w": 61.374,
+     "h": 54.58
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Backgrounds / White",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     -156,
+     150,
+     1270,
+     1223
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/backgrounds__white.png",
+    "zona": {
+     "x": 0.0,
+     "y": 4.476,
+     "w": 61.374,
+     "h": 54.58
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Alt Nameplate",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     62,
+     62,
+     1302,
+     434
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/frame__alt-nameplate.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 63.0,
+     "h": 18.923
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Color Match",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     79,
+     1728,
+     1286,
+     1755
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/frame__color-match.png",
+    "zona": {
+     "x": 0.864,
+     "y": 84.745,
+     "w": 61.323,
+     "h": 1.373
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Border",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     62,
+     81,
+     1302,
+     1792
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/frame__border.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.966,
+     "w": 63.0,
+     "h": 87.034
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Nameplate",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     83,
+     81,
+     1281,
+     434
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/frame__nameplate.png",
+    "zona": {
+     "x": 1.067,
+     "y": 0.966,
+     "w": 60.866,
+     "h": 17.956
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Rules Box",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     119,
+     1410,
+     1245,
+     1736
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/frame__rules-box.png",
+    "zona": {
+     "x": 2.896,
+     "y": 68.569,
+     "w": 57.208,
+     "h": 16.583
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Typeline / Rules Extender",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     119,
+     1297,
+     1245,
+     1623
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/frame__typeline__rules-extender.png",
+    "zona": {
+     "x": 2.896,
+     "y": 62.821,
+     "w": 57.208,
+     "h": 16.583
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Typeline / Typeline",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     115,
+     1252,
+     1250,
+     1388
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/frame__typeline__typeline.png",
+    "zona": {
+     "x": 2.693,
+     "y": 60.532,
+     "w": 57.665,
+     "h": 6.918
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Typeline / SET / Common",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     939,
+     1296,
+     1186,
+     1361
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/frame__typeline__set__common.png",
+    "zona": {
+     "x": 44.557,
+     "y": 62.77,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Typeline / SET / Uncomon",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     939,
+     1296,
+     1186,
+     1361
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/frame__typeline__set__uncomon.png",
+    "zona": {
+     "x": 44.557,
+     "y": 62.77,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Typeline / SET / Rare",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     939,
+     1296,
+     1186,
+     1361
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/frame__typeline__set__rare.png",
+    "zona": {
+     "x": 44.557,
+     "y": 62.77,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Typeline / SET / Mythic Rare",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     939,
+     1296,
+     1186,
+     1361
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/frame__typeline__set__mythic-rare.png",
+    "zona": {
+     "x": 44.557,
+     "y": 62.77,
+     "w": 12.549,
+     "h": 3.306
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Frame / Typeline / Typeline",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     147,
+     1304,
+     473,
+     1350
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 4.319,
+     "y": 63.177,
+     "w": 16.563,
+     "h": 2.34
+    },
+    "texto": "Enchantment",
+    "tramos": [
+     {
+      "texto": "E",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "n",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "c",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "h",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "a",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "n",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "t",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "m",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "e",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "n",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "t",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "",
+      "letra": "m6x11plus",
+      "tam_px": 75.0,
+      "color": "#4f6367"
+     }
+    ],
+    "alinear": "inicio"
+   },
+   {
+    "ruta": "Words / Legal / Source",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     200,
+     1740,
+     435,
+     1768
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 7.011,
+     "y": 85.355,
+     "w": 11.94,
+     "h": 1.424
+    },
+    "texto": "Balatro  001/001",
+    "tramos": [
+     {
+      "texto": "B",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#ffffff"
+     },
+     {
+      "texto": "a",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#ffffff"
+     },
+     {
+      "texto": "l",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#ffffff"
+     },
+     {
+      "texto": "a",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#ffffff"
+     },
+     {
+      "texto": "t",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#ffffff"
+     },
+     {
+      "texto": "r",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#ffffff"
+     },
+     {
+      "texto": "o",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#ffffff"
+     },
+     {
+      "texto": " ",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#ffffff"
+     },
+     {
+      "texto": " ",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#ffffff"
+     },
+     {
+      "texto": "0",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#ffffff"
+     },
+     {
+      "texto": "0",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#ffffff"
+     },
+     {
+      "texto": "1",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#ffffff"
+     },
+     {
+      "texto": "/",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#ffffff"
+     },
+     {
+      "texto": "0",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#ffffff"
+     },
+     {
+      "texto": "0",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#ffffff"
+     },
+     {
+      "texto": "1",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#ffffff"
+     },
+     {
+      "texto": "",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#ffffff"
+     }
+    ],
+    "alinear": "inicio"
+   },
+   {
+    "ruta": "Words / Legal / Dot",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     171,
+     1747,
+     183,
+     1758
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/words__legal__dot.png",
+    "zona": {
+     "x": 5.538,
+     "y": 85.711,
+     "w": 0.61,
+     "h": 0.56
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Legal / Set Identifier",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     106,
+     1740,
+     152,
+     1767
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 2.235,
+     "y": 85.355,
+     "w": 2.337,
+     "h": 1.373
+    },
+    "texto": "JOK",
+    "tramos": [
+     {
+      "texto": "J",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#ffffff"
+     },
+     {
+      "texto": "O",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#ffffff"
+     },
+     {
+      "texto": "K",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#ffffff"
+     },
+     {
+      "texto": "",
+      "letra": "m6x11plus",
+      "tam_px": 40.91,
+      "color": "#ffffff"
+     }
+    ],
+    "alinear": "inicio"
+   },
+   {
+    "ruta": "Words / Mana Shit / Colorless / Colorless",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     958,
+     133,
+     1040,
+     215
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/words__mana-shit__colorless__colorless.png",
+    "zona": {
+     "x": 45.523,
+     "y": 3.612,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana Shit / Colorless / 1",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     987,
+     151,
+     1010,
+     192
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 46.996,
+     "y": 4.527,
+     "w": 1.169,
+     "h": 2.086
+    },
+    "texto": "1",
+    "tramos": [
+     {
+      "texto": "1",
+      "letra": "m6x11plus",
+      "tam_px": 66.2,
+      "color": "#ffffff"
+     }
+    ],
+    "alinear": "centro"
+   },
+   {
+    "ruta": "Words / Mana Shit / Red",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1050,
+     133,
+     1132,
+     215
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/words__mana-shit__red.png",
+    "zona": {
+     "x": 50.197,
+     "y": 3.612,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana Shit / White",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1121,
+     132,
+     1203,
+     214
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/words__mana-shit__white.png",
+    "zona": {
+     "x": 53.804,
+     "y": 3.561,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana Shit / Green",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1142,
+     133,
+     1224,
+     215
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/words__mana-shit__green.png",
+    "zona": {
+     "x": 54.871,
+     "y": 3.612,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana Shit / Green copy",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1050,
+     133,
+     1132,
+     215
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/words__mana-shit__green-copy.png",
+    "zona": {
+     "x": 50.197,
+     "y": 3.612,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana Shit / Blue",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1142,
+     133,
+     1224,
+     215
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/words__mana-shit__blue.png",
+    "zona": {
+     "x": 54.871,
+     "y": 3.612,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana Shit / Blue copy",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1050,
+     133,
+     1132,
+     215
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/words__mana-shit__blue-copy.png",
+    "zona": {
+     "x": 50.197,
+     "y": 3.612,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Mana Shit / Black",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1122,
+     133,
+     1204,
+     215
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/words__mana-shit__black.png",
+    "zona": {
+     "x": 53.855,
+     "y": 3.612,
+     "w": 4.166,
+     "h": 4.171
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Name",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     286,
+     274,
+     1078,
+     389
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 11.381,
+     "y": 10.784,
+     "w": 40.239,
+     "h": 5.85
+    },
+    "texto": "VIRIDIAN REVEL",
+    "tramos": [
+     {
+      "texto": "V",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "I",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "R",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "I",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "D",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "I",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "A",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "N",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": " ",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "R",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "E",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "V",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "E",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "L",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     },
+     {
+      "texto": "",
+      "letra": "m6x11plus",
+      "tam_px": 150.0,
+      "color": "#4f6367"
+     }
+    ],
+    "alinear": "centro"
+   },
+   {
+    "ruta": "Words / Rules",
+    "visible": true,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     159,
+     1422,
+     1124,
+     1613
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 4.928,
+     "y": 69.179,
+     "w": 49.028,
+     "h": 9.716
+    },
+    "texto": "Whenever an artifact is put into an opponent's graveyard from the battlefield, you may draw a card.",
+    "tramos": [
+     {
+      "texto": "Whenever an artifact is put into an opponent's graveyard from the battlefield, you may draw a card.",
+      "letra": "m6x11plus",
+      "tam_px": 65.0,
+      "color": "#4f6367"
+     }
+    ],
+    "alinear": "inicio"
+   },
+   {
+    "ruta": "Words / Colorless copy 2 / Colorless",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1000,
+     1530,
+     1050,
+     1580
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/words__colorless-copy-2__colorless.png",
+    "zona": {
+     "x": 47.656,
+     "y": 74.673,
+     "w": 2.54,
+     "h": 2.543
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Words / Colorless copy 2 / 1",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     1018,
+     1541,
+     1032,
+     1566
+    ],
+    "tipo": "texto",
+    "zona": {
+     "x": 48.571,
+     "y": 75.232,
+     "w": 0.711,
+     "h": 1.272
+    },
+    "texto": "1",
+    "tramos": [
+     {
+      "texto": "1",
+      "letra": "m6x11plus",
+      "tam_px": 40.36,
+      "color": "#c0c8d6"
+     },
+     {
+      "texto": "",
+      "letra": "m6x11plus",
+      "tam_px": 40.36,
+      "color": "#ffffff"
+     }
+    ],
+    "alinear": "centro"
+   },
+   {
+    "ruta": "Small Scanlines / B",
+    "visible": false,
+    "mezcla": "darken",
+    "opacidad": 0.051,
+    "bbox_px": [
+     62,
+     71,
+     1302,
+     1801
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/small-scanlines__b.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.458,
+     "w": 63.0,
+     "h": 87.542
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Small Scanlines / G",
+    "visible": false,
+    "mezcla": "darken",
+    "opacidad": 0.051,
+    "bbox_px": [
+     62,
+     75,
+     1302,
+     1805
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/small-scanlines__g.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.661,
+     "w": 63.0,
+     "h": 87.339
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Small Scanlines / R",
+    "visible": false,
+    "mezcla": "darken",
+    "opacidad": 0.051,
+    "bbox_px": [
+     62,
+     67,
+     1302,
+     1797
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/small-scanlines__r.png",
+    "zona": {
+     "x": 0.0,
+     "y": 0.254,
+     "w": 63.0,
+     "h": 87.746
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Small Scanlines / Vertical",
+    "visible": false,
+    "mezcla": "darken",
+    "opacidad": 0.09,
+    "bbox_px": [
+     -183,
+     312,
+     1547,
+     1552
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/small-scanlines__vertical.png",
+    "zona": {
+     "x": 0.0,
+     "y": 12.717,
+     "w": 63.0,
+     "h": 63.075
+    },
+    "efectos": false,
+    "recortes": []
+   },
+   {
+    "ruta": "Tap Symbol",
+    "visible": false,
+    "mezcla": "normal",
+    "opacidad": 1.0,
+    "bbox_px": [
+     517,
+     761,
+     697,
+     941
+    ],
+    "tipo": "imagen",
+    "fichero": "capas/vale/tap-symbol.png",
+    "zona": {
+     "x": 23.117,
+     "y": 35.556,
+     "w": 9.145,
+     "h": 9.156
+    },
+    "efectos": false,
+    "recortes": []
+   }
+  ]
+ }
+}

@@ -1,0 +1,687 @@
+[
+ {
+  "ruta": "reversos/Balatro Card Back 1.png",
+  "tipo": "reverso",
+  "nombre": "Balatro Card Back 1"
+ },
+ {
+  "ruta": "reversos/Balatro Card Back 2.png",
+  "tipo": "reverso",
+  "nombre": "Balatro Card Back 2"
+ },
+ {
+  "ruta": "fichas/Goblin (1_1, Balatro).png",
+  "tipo": "ficha",
+  "nombre": "Goblin (1 1, Balatro)"
+ },
+ {
+  "ruta": "fichas/Insect (1_1, Balatro).png",
+  "tipo": "ficha",
+  "nombre": "Insect (1 1, Balatro)"
+ },
+ {
+  "ruta": "fichas/Treasure (Balatro).png",
+  "tipo": "ficha",
+  "nombre": "Treasure (Balatro)"
+ },
+ {
+  "ruta": "cartas/Edgar, King of Figaro.png",
+  "tipo": "carta",
+  "nombre": "Edgar, King of Figaro"
+ },
+ {
+  "ruta": "cartas/Frenetic Efreet.png",
+  "tipo": "carta",
+  "nombre": "Frenetic Efreet"
+ },
+ {
+  "ruta": "tierras/Forests/10Forest.png",
+  "tipo": "tierra",
+  "nombre": "10Forest"
+ },
+ {
+  "ruta": "tierras/Forests/1Forest.png",
+  "tipo": "tierra",
+  "nombre": "1Forest"
+ },
+ {
+  "ruta": "tierras/Forests/2Forest.png",
+  "tipo": "tierra",
+  "nombre": "2Forest"
+ },
+ {
+  "ruta": "tierras/Forests/3Forest.png",
+  "tipo": "tierra",
+  "nombre": "3Forest"
+ },
+ {
+  "ruta": "tierras/Forests/4Forest.png",
+  "tipo": "tierra",
+  "nombre": "4Forest"
+ },
+ {
+  "ruta": "tierras/Forests/5Forest.png",
+  "tipo": "tierra",
+  "nombre": "5Forest"
+ },
+ {
+  "ruta": "tierras/Forests/6Forest.png",
+  "tipo": "tierra",
+  "nombre": "6Forest"
+ },
+ {
+  "ruta": "tierras/Forests/7Forest.png",
+  "tipo": "tierra",
+  "nombre": "7Forest"
+ },
+ {
+  "ruta": "tierras/Forests/8Forest.png",
+  "tipo": "tierra",
+  "nombre": "8Forest"
+ },
+ {
+  "ruta": "tierras/Forests/9Forest.png",
+  "tipo": "tierra",
+  "nombre": "9Forest"
+ },
+ {
+  "ruta": "tierras/Islands/Island(1 Balatro).png",
+  "tipo": "tierra",
+  "nombre": "Island(1 Balatro)"
+ },
+ {
+  "ruta": "tierras/Islands/Island(10 Balatro).png",
+  "tipo": "tierra",
+  "nombre": "Island(10 Balatro)"
+ },
+ {
+  "ruta": "tierras/Islands/Island(2 Balatro).png",
+  "tipo": "tierra",
+  "nombre": "Island(2 Balatro)"
+ },
+ {
+  "ruta": "tierras/Islands/Island(3 Balatro).png",
+  "tipo": "tierra",
+  "nombre": "Island(3 Balatro)"
+ },
+ {
+  "ruta": "tierras/Islands/Island(4 Balatro).png",
+  "tipo": "tierra",
+  "nombre": "Island(4 Balatro)"
+ },
+ {
+  "ruta": "tierras/Islands/Island(5 Balatro).png",
+  "tipo": "tierra",
+  "nombre": "Island(5 Balatro)"
+ },
+ {
+  "ruta": "tierras/Islands/Island(6 Balatro).png",
+  "tipo": "tierra",
+  "nombre": "Island(6 Balatro)"
+ },
+ {
+  "ruta": "tierras/Islands/Island(7 Balatro).png",
+  "tipo": "tierra",
+  "nombre": "Island(7 Balatro)"
+ },
+ {
+  "ruta": "tierras/Islands/Island(8 Balatro).png",
+  "tipo": "tierra",
+  "nombre": "Island(8 Balatro)"
+ },
+ {
+  "ruta": "tierras/Islands/Island(9 Balatro).png",
+  "tipo": "tierra",
+  "nombre": "Island(9 Balatro)"
+ },
+ {
+  "ruta": "tierras/Mountains/Mountain(1 Balatro).png",
+  "tipo": "tierra",
+  "nombre": "Mountain(1 Balatro)"
+ },
+ {
+  "ruta": "tierras/Mountains/Mountain(10 Balatro).png",
+  "tipo": "tierra",
+  "nombre": "Mountain(10 Balatro)"
+ },
+ {
+  "ruta": "tierras/Mountains/Mountain(2 Balatro).png",
+  "tipo": "tierra",
+  "nombre": "Mountain(2 Balatro)"
+ },
+ {
+  "ruta": "tierras/Mountains/Mountain(3 Balatro).png",
+  "tipo": "tierra",
+  "nombre": "Mountain(3 Balatro)"
+ },
+ {
+  "ruta": "tierras/Mountains/Mountain(4 Balatro).png",
+  "tipo": "tierra",
+  "nombre": "Mountain(4 Balatro)"
+ },
+ {
+  "ruta": "tierras/Mountains/Mountain(5 Balatro).png",
+  "tipo": "tierra",
+  "nombre": "Mountain(5 Balatro)"
+ },
+ {
+  "ruta": "tierras/Mountains/Mountain(6 Balatro).png",
+  "tipo": "tierra",
+  "nombre": "Mountain(6 Balatro)"
+ },
+ {
+  "ruta": "tierras/Mountains/Mountain(7 Balatro).png",
+  "tipo": "tierra",
+  "nombre": "Mountain(7 Balatro)"
+ },
+ {
+  "ruta": "tierras/Mountains/Mountain(8 Balatro).png",
+  "tipo": "tierra",
+  "nombre": "Mountain(8 Balatro)"
+ },
+ {
+  "ruta": "tierras/Mountains/Mountain(9 Balatro).png",
+  "tipo": "tierra",
+  "nombre": "Mountain(9 Balatro)"
+ },
+ {
+  "ruta": "tierras/Plains/10Plains.png",
+  "tipo": "tierra",
+  "nombre": "10Plains"
+ },
+ {
+  "ruta": "tierras/Plains/1Plains.png",
+  "tipo": "tierra",
+  "nombre": "1Plains"
+ },
+ {
+  "ruta": "tierras/Plains/2Plains.png",
+  "tipo": "tierra",
+  "nombre": "2Plains"
+ },
+ {
+  "ruta": "tierras/Plains/3Plains.png",
+  "tipo": "tierra",
+  "nombre": "3Plains"
+ },
+ {
+  "ruta": "tierras/Plains/4Plains.png",
+  "tipo": "tierra",
+  "nombre": "4Plains"
+ },
+ {
+  "ruta": "tierras/Plains/5Plains.png",
+  "tipo": "tierra",
+  "nombre": "5Plains"
+ },
+ {
+  "ruta": "tierras/Plains/6Plains.png",
+  "tipo": "tierra",
+  "nombre": "6Plains"
+ },
+ {
+  "ruta": "tierras/Plains/7Plains.png",
+  "tipo": "tierra",
+  "nombre": "7Plains"
+ },
+ {
+  "ruta": "tierras/Plains/8Plains.png",
+  "tipo": "tierra",
+  "nombre": "8Plains"
+ },
+ {
+  "ruta": "tierras/Plains/9Plains.png",
+  "tipo": "tierra",
+  "nombre": "9Plains"
+ },
+ {
+  "ruta": "tierras/Swamps/10Swamp.png",
+  "tipo": "tierra",
+  "nombre": "10Swamp"
+ },
+ {
+  "ruta": "tierras/Swamps/1Swamp.png",
+  "tipo": "tierra",
+  "nombre": "1Swamp"
+ },
+ {
+  "ruta": "tierras/Swamps/2Swamp.png",
+  "tipo": "tierra",
+  "nombre": "2Swamp"
+ },
+ {
+  "ruta": "tierras/Swamps/3Swamp.png",
+  "tipo": "tierra",
+  "nombre": "3Swamp"
+ },
+ {
+  "ruta": "tierras/Swamps/4Swamp.png",
+  "tipo": "tierra",
+  "nombre": "4Swamp"
+ },
+ {
+  "ruta": "tierras/Swamps/5Swamp.png",
+  "tipo": "tierra",
+  "nombre": "5Swamp"
+ },
+ {
+  "ruta": "tierras/Swamps/6Swamp.png",
+  "tipo": "tierra",
+  "nombre": "6Swamp"
+ },
+ {
+  "ruta": "tierras/Swamps/7Swamp.png",
+  "tipo": "tierra",
+  "nombre": "7Swamp"
+ },
+ {
+  "ruta": "tierras/Swamps/8Swamp.png",
+  "tipo": "tierra",
+  "nombre": "8Swamp"
+ },
+ {
+  "ruta": "tierras/Swamps/9Swamp.png",
+  "tipo": "tierra",
+  "nombre": "9Swamp"
+ },
+ {
+  "ruta": "cartas/Academy Ruins.png",
+  "tipo": "carta",
+  "nombre": "Academy Ruins"
+ },
+ {
+  "ruta": "cartas/Arcane Denial.png",
+  "tipo": "carta",
+  "nombre": "Arcane Denial"
+ },
+ {
+  "ruta": "cartas/Arcane Signet.png",
+  "tipo": "carta",
+  "nombre": "Arcane Signet"
+ },
+ {
+  "ruta": "cartas/Basilisk Collar.png",
+  "tipo": "carta",
+  "nombre": "Basilisk Collar"
+ },
+ {
+  "ruta": "cartas/Blasphemous Act.png",
+  "tipo": "carta",
+  "nombre": "Blasphemous Act"
+ },
+ {
+  "ruta": "cartas/Brainstorm.png",
+  "tipo": "carta",
+  "nombre": "Brainstorm"
+ },
+ {
+  "ruta": "cartas/Buried Ruin.png",
+  "tipo": "carta",
+  "nombre": "Buried Ruin"
+ },
+ {
+  "ruta": "cartas/Cephalid Coliseum.png",
+  "tipo": "carta",
+  "nombre": "Cephalid Coliseum"
+ },
+ {
+  "ruta": "cartas/Chance Encounter.png",
+  "tipo": "carta",
+  "nombre": "Chance Encounter"
+ },
+ {
+  "ruta": "cartas/Chaos Warp.png",
+  "tipo": "carta",
+  "nombre": "Chaos Warp"
+ },
+ {
+  "ruta": "cartas/Command Tower.png",
+  "tipo": "carta",
+  "nombre": "Command Tower"
+ },
+ {
+  "ruta": "cartas/Counterspell.png",
+  "tipo": "carta",
+  "nombre": "Counterspell"
+ },
+ {
+  "ruta": "cartas/Curiosity.png",
+  "tipo": "carta",
+  "nombre": "Curiosity"
+ },
+ {
+  "ruta": "cartas/Dig Through Time.png",
+  "tipo": "carta",
+  "nombre": "Dig Through Time"
+ },
+ {
+  "ruta": "cartas/Dress Down.png",
+  "tipo": "carta",
+  "nombre": "Dress Down"
+ },
+ {
+  "ruta": "cartas/Fabricate.png",
+  "tipo": "carta",
+  "nombre": "Fabricate"
+ },
+ {
+  "ruta": "cartas/Faithless Looting.png",
+  "tipo": "carta",
+  "nombre": "Faithless Looting"
+ },
+ {
+  "ruta": "cartas/Fellwar Stone.png",
+  "tipo": "carta",
+  "nombre": "Fellwar Stone"
+ },
+ {
+  "ruta": "cartas/Fiery Gambit.png",
+  "tipo": "carta",
+  "nombre": "Fiery Gambit"
+ },
+ {
+  "ruta": "cartas/Fiery Islet.png",
+  "tipo": "carta",
+  "nombre": "Fiery Islet"
+ },
+ {
+  "ruta": "cartas/Frantic Search.png",
+  "tipo": "carta",
+  "nombre": "Frantic Search"
+ },
+ {
+  "ruta": "cartas/Gamble.png",
+  "tipo": "carta",
+  "nombre": "Gamble"
+ },
+ {
+  "ruta": "cartas/Gitaxian Probe.png",
+  "tipo": "carta",
+  "nombre": "Gitaxian Probe"
+ },
+ {
+  "ruta": "cartas/Goblin Traprunner.png",
+  "tipo": "carta",
+  "nombre": "Goblin Traprunner"
+ },
+ {
+  "ruta": "cartas/Helm of the Host.png",
+  "tipo": "carta",
+  "nombre": "Helm of the Host"
+ },
+ {
+  "ruta": "cartas/Hullbreaker Horror.png",
+  "tipo": "carta",
+  "nombre": "Hullbreaker Horror"
+ },
+ {
+  "ruta": "cartas/Imperial Recruiter.png",
+  "tipo": "carta",
+  "nombre": "Imperial Recruiter"
+ },
+ {
+  "ruta": "cartas/Invert Polarity.png",
+  "tipo": "carta",
+  "nombre": "Invert Polarity"
+ },
+ {
+  "ruta": "cartas/Izzet Charm.png",
+  "tipo": "carta",
+  "nombre": "Izzet Charm"
+ },
+ {
+  "ruta": "cartas/Izzet Signet.png",
+  "tipo": "carta",
+  "nombre": "Izzet Signet"
+ },
+ {
+  "ruta": "cartas/Jin-Gitaxias, Core Augur.png",
+  "tipo": "carta",
+  "nombre": "Jin-Gitaxias, Core Augur"
+ },
+ {
+  "ruta": "cartas/Krark, the Thumbless.png",
+  "tipo": "carta",
+  "nombre": "Krark, the Thumbless"
+ },
+ {
+  "ruta": "cartas/Krark_s Thumb.png",
+  "tipo": "carta",
+  "nombre": "Krark's Thumb"
+ },
+ {
+  "ruta": "cartas/Laboratory Maniac.png",
+  "tipo": "carta",
+  "nombre": "Laboratory Maniac"
+ },
+ {
+  "ruta": "cartas/Lier, Disciple of the Drowned.png",
+  "tipo": "carta",
+  "nombre": "Lier, Disciple of the Drowned"
+ },
+ {
+  "ruta": "cartas/Mirror Box.png",
+  "tipo": "carta",
+  "nombre": "Mirror Box"
+ },
+ {
+  "ruta": "cartas/Mirrormade.png",
+  "tipo": "carta",
+  "nombre": "Mirrormade"
+ },
+ {
+  "ruta": "cartas/Muddle the Mixture.png",
+  "tipo": "carta",
+  "nombre": "Muddle the Mixture"
+ },
+ {
+  "ruta": "cartas/Myr Retriever.png",
+  "tipo": "carta",
+  "nombre": "Myr Retriever"
+ },
+ {
+  "ruta": "cartas/Mystic Sanctuary.png",
+  "tipo": "carta",
+  "nombre": "Mystic Sanctuary"
+ },
+ {
+  "ruta": "cartas/Narset_s Reversal.png",
+  "tipo": "carta",
+  "nombre": "Narset's Reversal"
+ },
+ {
+  "ruta": "cartas/Negate.png",
+  "tipo": "carta",
+  "nombre": "Negate"
+ },
+ {
+  "ruta": "cartas/Niv-Mizzet, Parun.png",
+  "tipo": "carta",
+  "nombre": "Niv-Mizzet, Parun"
+ },
+ {
+  "ruta": "cartas/Niv-Mizzet, the Firemind.png",
+  "tipo": "carta",
+  "nombre": "Niv-Mizzet, the Firemind"
+ },
+ {
+  "ruta": "cartas/Okaun, Eye of Chaos.png",
+  "tipo": "carta",
+  "nombre": "Okaun, Eye of Chaos"
+ },
+ {
+  "ruta": "cartas/Ophidian Eye.png",
+  "tipo": "carta",
+  "nombre": "Ophidian Eye"
+ },
+ {
+  "ruta": "cartas/Otawara, Soaring City.png",
+  "tipo": "carta",
+  "nombre": "Otawara, Soaring City"
+ },
+ {
+  "ruta": "cartas/Phantasmal Image.png",
+  "tipo": "carta",
+  "nombre": "Phantasmal Image"
+ },
+ {
+  "ruta": "cartas/Phyrexian Metamorph.png",
+  "tipo": "carta",
+  "nombre": "Phyrexian Metamorph"
+ },
+ {
+  "ruta": "cartas/Planar Chaos.png",
+  "tipo": "carta",
+  "nombre": "Planar Chaos"
+ },
+ {
+  "ruta": "cartas/Pyroblast.png",
+  "tipo": "carta",
+  "nombre": "Pyroblast"
+ },
+ {
+  "ruta": "cartas/Ral Zarek.png",
+  "tipo": "carta",
+  "nombre": "Ral Zarek"
+ },
+ {
+  "ruta": "cartas/Reliquary Tower.png",
+  "tipo": "carta",
+  "nombre": "Reliquary Tower"
+ },
+ {
+  "ruta": "cartas/Rhystic Study.png",
+  "tipo": "carta",
+  "nombre": "Rhystic Study"
+ },
+ {
+  "ruta": "cartas/Rogue_s Passage.png",
+  "tipo": "carta",
+  "nombre": "Rogue's Passage"
+ },
+ {
+  "ruta": "cartas/Sakashima of a Thousand Faces.png",
+  "tipo": "carta",
+  "nombre": "Sakashima of a Thousand Faces"
+ },
+ {
+  "ruta": "cartas/Sculpting Steel.png",
+  "tipo": "carta",
+  "nombre": "Sculpting Steel"
+ },
+ {
+  "ruta": "cartas/Shivan Reef.png",
+  "tipo": "carta",
+  "nombre": "Shivan Reef"
+ },
+ {
+  "ruta": "cartas/Sol Ring.png",
+  "tipo": "carta",
+  "nombre": "Sol Ring"
+ },
+ {
+  "ruta": "cartas/Squee_s Revenge.png",
+  "tipo": "carta",
+  "nombre": "Squee's Revenge"
+ },
+ {
+  "ruta": "cartas/Steam Vents.png",
+  "tipo": "carta",
+  "nombre": "Steam Vents"
+ },
+ {
+  "ruta": "cartas/Stitch in Time.png",
+  "tipo": "carta",
+  "nombre": "Stitch in Time"
+ },
+ {
+  "ruta": "cartas/Storm-Kiln Artist.png",
+  "tipo": "carta",
+  "nombre": "Storm-Kiln Artist"
+ },
+ {
+  "ruta": "cartas/Stormcarved Coast.png",
+  "tipo": "carta",
+  "nombre": "Stormcarved Coast"
+ },
+ {
+  "ruta": "cartas/Swiftfoot Boots.png",
+  "tipo": "carta",
+  "nombre": "Swiftfoot Boots"
+ },
+ {
+  "ruta": "cartas/Talisman of Creativity.png",
+  "tipo": "carta",
+  "nombre": "Talisman of Creativity"
+ },
+ {
+  "ruta": "cartas/Tavern Scoundrel.png",
+  "tipo": "carta",
+  "nombre": "Tavern Scoundrel"
+ },
+ {
+  "ruta": "cartas/The Locust God.png",
+  "tipo": "carta",
+  "nombre": "The Locust God"
+ },
+ {
+  "ruta": "cartas/Thought Vessel.png",
+  "tipo": "carta",
+  "nombre": "Thought Vessel"
+ },
+ {
+  "ruta": "cartas/Training Center.png",
+  "tipo": "carta",
+  "nombre": "Training Center"
+ },
+ {
+  "ruta": "cartas/Treasure Cruise.png",
+  "tipo": "carta",
+  "nombre": "Treasure Cruise"
+ },
+ {
+  "ruta": "cartas/Tribute Mage.png",
+  "tipo": "carta",
+  "nombre": "Tribute Mage"
+ },
+ {
+  "ruta": "cartas/Vandalblast.png",
+  "tipo": "carta",
+  "nombre": "Vandalblast"
+ },
+ {
+  "ruta": "cartas/Wheel of Misfortune.png",
+  "tipo": "carta",
+  "nombre": "Wheel of Misfortune"
+ },
+ {
+  "ruta": "cartas/Whir of Invention.png",
+  "tipo": "carta",
+  "nombre": "Whir of Invention"
+ },
+ {
+  "ruta": "cartas/Windfall.png",
+  "tipo": "carta",
+  "nombre": "Windfall"
+ },
+ {
+  "ruta": "cartas/Winds of Change.png",
+  "tipo": "carta",
+  "nombre": "Winds of Change"
+ },
+ {
+  "ruta": "cartas/Witch_s Clinic.png",
+  "tipo": "carta",
+  "nombre": "Witch's Clinic"
+ },
+ {
+  "ruta": "cartas/Yusri, Fortune_s Flame.png",
+  "tipo": "carta",
+  "nombre": "Yusri, Fortune's Flame"
+ },
+ {
+  "ruta": "cartas/Zndrsplt, Eye of Wisdom.png",
+  "tipo": "carta",
+  "nombre": "Zndrsplt, Eye of Wisdom"
+ }
+]
