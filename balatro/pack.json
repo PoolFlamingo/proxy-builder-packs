@@ -155,6 +155,10 @@
   "Z": "simbolos/Z.png"
  },
  "separacionCoste": 0.122,
+ "plantillaPie": {
+  "es": "{set} • {lang} {num} {rarity}\t{original} {brush} {artist}",
+  "en": "{set} • {lang} {num} {rarity}\t{original} {brush} {artist}"
+ },
  "etiquetas": {
   "common": {
    "texto": {
@@ -320,16 +324,20 @@
      "png": "capas/joker/frame__non-legendary.png",
      "en": {
       "x": 2.235,
-      "y": 55.445,
+      "y": "yTipo+6.765",
       "w": 58.529,
-      "h": 26.705
-     }
+      "h": "75.385-yTipo"
+     },
+     "tramos": [
+      1.6,
+      1.6
+     ]
     },
     {
      "png": "capas/joker/frame__typeline.png",
      "en": {
       "x": 1.27,
-      "y": 48.68,
+      "y": "yTipo+0.000",
       "w": 60.46,
       "h": 5.951
      }
@@ -437,9 +445,6 @@
      }
     },
     {
-     "png": "capas/joker/layer-40.png"
-    },
-    {
      "png": "capas/joker/small-scanlines__b.png",
      "mezcla": "oscurecer",
      "opacidad": 0.051
@@ -458,6 +463,9 @@
      "png": "capas/joker/small-scanlines__vertical.png",
      "mezcla": "oscurecer",
      "opacidad": 0.09
+    },
+    {
+     "png": "capas/joker/layer-40.png"
     }
    ],
    "huecos": {
@@ -479,7 +487,7 @@
     },
     "tipo": {
      "x": 2.744,
-     "y": 50.562,
+     "y": "yTipo+1.882",
      "w": 44.516,
      "h": 2.543,
      "rol": "tipo",
@@ -488,7 +496,7 @@
     },
     "etiqueta": {
      "x": 47.86,
-     "y": 49.951,
+     "y": "yTipo+1.271",
      "w": 12.549,
      "h": 3.306,
      "rol": "tipo",
@@ -516,19 +524,24 @@
      "alinear": "centro"
     },
     "pie": {
-     "x": 4.5,
-     "y": 82.3,
-     "w": 50.0,
-     "h": 3.3,
+     "x": 4.471,
+     "y": 82.913,
+     "w": 42.9,
+     "h": 1.6,
      "rol": "pie",
-     "mayuscula": 1.15,
+     "mayuscula": 1.552,
      "color": "#ffe5b4",
-     "tabs": [
-      8.0,
-      10.6
-     ],
+     "tabs": [],
      "interlinea": 1.6
     }
+   },
+   "caja": {
+    "fondo": 81.3,
+    "altoMin": 25.8,
+    "altoMax": 40.0,
+    "barraTipo": 6.765000000000008,
+    "padArriba": 1.0,
+    "padAbajo": 1.0
    },
    "layouts": {
     "ficha": {}
@@ -569,15 +582,6 @@
      "png": "capas/planeswalker/frame__frame.png"
     },
     {
-     "png": "capas/planeswalker/frame__tick-seperator.png",
-     "en": {
-      "x": 0.0,
-      "y": 58.039,
-      "w": 63.0,
-      "h": 10.479
-     }
-    },
-    {
      "png": "capas/planeswalker/frame__p-t.png",
      "en": {
       "x": 43.135,
@@ -587,6 +591,15 @@
      },
      "si": {
       "fr": true
+     }
+    },
+    {
+     "png": "capas/planeswalker/frame__tick-seperator.png",
+     "en": {
+      "x": 0.0,
+      "y": 58.039,
+      "w": 63.0,
+      "h": 10.479
      }
     },
     {
@@ -756,17 +769,14 @@
      "alinear": "centro"
     },
     "pie": {
-     "x": 4.5,
-     "y": 82.3,
-     "w": 50.0,
-     "h": 3.3,
+     "x": 4.471,
+     "y": 82.913,
+     "w": 42.9,
+     "h": 1.6,
      "rol": "pie",
-     "mayuscula": 1.15,
+     "mayuscula": 1.552,
      "color": "#ffe5b4",
-     "tabs": [
-      8.0,
-      10.6
-     ],
+     "tabs": [],
      "interlinea": 1.6
     }
    },
@@ -794,22 +804,22 @@
    ],
    "capas": [
     {
-     "png": "capas/espectral/frame__blue-frame.png"
-    },
-    {
      "png": "capas/espectral/frame__blue-box.png",
      "en": {
       "x": 2.235,
-      "y": 60.125,
+      "y": "yTipo+1.628",
       "w": 58.529,
-      "h": 26.705
+      "h": "85.202-yTipo"
      }
+    },
+    {
+     "png": "capas/espectral/frame__blue-frame.png"
     },
     {
      "png": "capas/espectral/frame__typeline__blue-typeline.png",
      "en": {
       "x": 3.709,
-      "y": 58.497,
+      "y": "yTipo+0.000",
       "w": 55.633,
       "h": 5.951
      }
@@ -863,7 +873,7 @@
     },
     "tipo": {
      "x": 5.741,
-     "y": 60.176,
+     "y": "yTipo+1.679",
      "w": 36.233,
      "h": 3.001,
      "rol": "tipo",
@@ -872,7 +882,7 @@
     },
     "etiqueta": {
      "x": 44.557,
-     "y": 59.769,
+     "y": "yTipo+1.272",
      "w": 12.549,
      "h": 3.306,
      "rol": "tipo",
@@ -880,9 +890,9 @@
      "sombra": true
     },
     "reglas": {
-     "x": 4.5,
+     "x": 6.5,
      "y": 65.0,
-     "w": 54.0,
+     "w": 50.0,
      "h": 19.0,
      "rol": "reglas",
      "mayuscula": 2.235,
@@ -890,19 +900,24 @@
      "alinear": "centro"
     },
     "pie": {
-     "x": 4.5,
-     "y": 84.2,
-     "w": 50.0,
-     "h": 3.0,
+     "x": 5.741,
+     "y": 85.457,
+     "w": 51.0,
+     "h": 1.6,
      "rol": "pie",
-     "mayuscula": 1.15,
+     "mayuscula": 1.27,
      "color": "#bfc7d5",
-     "tabs": [
-      8.0,
-      10.6
-     ],
+     "tabs": [],
      "interlinea": 1.6
     }
+   },
+   "caja": {
+    "fondo": 82.0,
+    "altoMin": 12.0,
+    "altoMax": 42.0,
+    "barraTipo": 5.951,
+    "padArriba": 0.8,
+    "padAbajo": 0.8
    },
    "layouts": {
     "ficha": {}
@@ -928,31 +943,31 @@
    ],
    "capas": [
     {
-     "png": "capas/tarot/frame__frame.png"
-    },
-    {
      "png": "capas/tarot/frame__rules-box.png",
      "en": {
       "x": 0.0,
-      "y": 66.534,
+      "y": "yTipo+5.000",
       "w": 63.0,
-      "h": 21.466
+      "h": "83.000-yTipo"
      }
+    },
+    {
+     "png": "capas/tarot/frame__frame.png"
     },
     {
      "png": "capas/tarot/frame__typeline__rules-extender.png",
      "en": {
       "x": 5.03,
-      "y": 55.242,
+      "y": "yTipo+5.000",
       "w": 52.94,
-      "h": 20.55
+      "h": "78.000-yTipo"
      }
     },
     {
      "png": "capas/tarot/frame__typeline__typeline.png",
      "en": {
       "x": 3.658,
-      "y": 49.951,
+      "y": "yTipo+0.000",
       "w": 55.633,
       "h": 5.951
      }
@@ -979,7 +994,7 @@
     },
     "tipo": {
      "x": 5.741,
-     "y": 51.63,
+     "y": "yTipo+1.679",
      "w": 36.182,
      "h": 3.001,
      "rol": "tipo",
@@ -988,7 +1003,7 @@
     },
     "etiqueta": {
      "x": 44.557,
-     "y": 51.223,
+     "y": "yTipo+1.272",
      "w": 12.549,
      "h": 3.306,
      "rol": "tipo",
@@ -1006,19 +1021,24 @@
      "alinear": "centro"
     },
     "pie": {
-     "x": 4.5,
-     "y": 84.2,
-     "w": 50.0,
-     "h": 3.0,
+     "x": 4.725,
+     "y": 85.457,
+     "w": 53.0,
+     "h": 1.6,
      "rol": "pie",
-     "mayuscula": 1.15,
+     "mayuscula": 1.27,
      "color": "#dab772",
-     "tabs": [
-      8.0,
-      10.6
-     ],
+     "tabs": [],
      "interlinea": 1.6
     }
+   },
+   "caja": {
+    "fondo": 82.0,
+    "altoMin": 12.0,
+    "altoMax": 42.0,
+    "barraTipo": 5.951,
+    "padArriba": 0.8,
+    "padAbajo": 0.8
    },
    "layouts": {
     "ficha": {}
@@ -1035,7 +1055,7 @@
     "x": 6.0,
     "y": 29.5,
     "w": 51.0,
-    "h": 31.0
+    "h": "yTipo-29.0"
    },
    "fondo": [
     {
@@ -1043,9 +1063,6 @@
     }
    ],
    "capas": [
-    {
-     "png": "capas/planeta/frame__border.png"
-    },
     {
      "png": "capas/planeta/frame__flare.png",
      "en": {
@@ -1062,6 +1079,18 @@
       "y": 12.971,
       "w": 49.587,
       "h": 11.089
+     }
+    },
+    {
+     "png": "capas/planeta/frame__border.png"
+    },
+    {
+     "png": "capas/planeta/frame__textbox.png",
+     "en": {
+      "x": 4.827,
+      "y": 72.231,
+      "w": 53.347,
+      "h": 12.055
      }
     },
     {
@@ -1098,25 +1127,16 @@
      "png": "capas/planeta/frame__typeline__expand-textbox__extra-textbox.png",
      "en": {
       "x": 4.827,
-      "y": 68.671,
+      "y": "yTipo+5.901",
       "w": 53.347,
-      "h": 10.275
-     }
-    },
-    {
-     "png": "capas/planeta/frame__textbox.png",
-     "en": {
-      "x": 4.827,
-      "y": 72.231,
-      "w": 53.347,
-      "h": 12.055
+      "h": "75.099-yTipo"
      }
     },
     {
      "png": "capas/planeta/frame__typeline__expand-textbox__typeline.png",
      "en": {
       "x": 3.709,
-      "y": 62.77,
+      "y": "yTipo+0.000",
       "w": 55.633,
       "h": 5.951
      }
@@ -1143,7 +1163,7 @@
     },
     "tipo": {
      "x": 5.741,
-     "y": 64.449,
+     "y": "yTipo+1.679",
      "w": 36.233,
      "h": 2.34,
      "rol": "tipo",
@@ -1152,7 +1172,7 @@
     },
     "etiqueta": {
      "x": 44.557,
-     "y": 64.042,
+     "y": "yTipo+1.272",
      "w": 12.549,
      "h": 3.306,
      "rol": "tipo",
@@ -1169,19 +1189,24 @@
      "color": "#4f6367"
     },
     "pie": {
-     "x": 4.5,
-     "y": 84.2,
-     "w": 50.0,
-     "h": 3.0,
+     "x": 5.69,
+     "y": 85.457,
+     "w": 51.0,
+     "h": 1.6,
      "rol": "pie",
-     "mayuscula": 1.15,
+     "mayuscula": 1.27,
      "color": "#dff5fc",
-     "tabs": [
-      8.0,
-      10.6
-     ],
+     "tabs": [],
      "interlinea": 1.6
     }
+   },
+   "caja": {
+    "fondo": 83.6,
+    "altoMin": 10.5,
+    "altoMax": 37.5,
+    "barraTipo": 5.951,
+    "padArriba": 0.8,
+    "padAbajo": 0.8
    },
    "layouts": {
     "ficha": {}
@@ -1198,7 +1223,7 @@
     "x": 3.0,
     "y": 18.0,
     "w": 57.0,
-    "h": 43.0
+    "h": "yTipo-17.0"
    },
    "fondo": [
     {
@@ -1219,6 +1244,15 @@
    ],
    "capas": [
     {
+     "png": "capas/vale/frame__color-match.png",
+     "en": {
+      "x": 0.864,
+      "y": 84.745,
+      "w": 61.323,
+      "h": 1.373
+     }
+    },
+    {
      "png": "capas/vale/frame__border.png",
      "en": {
       "x": 0.0,
@@ -1237,15 +1271,6 @@
      }
     },
     {
-     "png": "capas/vale/frame__typeline__rules-extender.png",
-     "en": {
-      "x": 2.896,
-      "y": 62.821,
-      "w": 57.208,
-      "h": 16.583
-     }
-    },
-    {
      "png": "capas/vale/frame__rules-box.png",
      "en": {
       "x": 2.896,
@@ -1255,21 +1280,25 @@
      }
     },
     {
+     "png": "capas/vale/frame__typeline__rules-extender.png",
+     "en": {
+      "x": 2.896,
+      "y": "yTipo+2.289",
+      "w": 57.208,
+      "h": "77.115-yTipo"
+     },
+     "tramos": [
+      0.5,
+      3.0
+     ]
+    },
+    {
      "png": "capas/vale/frame__typeline__typeline.png",
      "en": {
       "x": 2.693,
-      "y": 60.532,
+      "y": "yTipo+0.000",
       "w": 57.665,
       "h": 6.918
-     }
-    },
-    {
-     "png": "capas/vale/frame__color-match.png",
-     "en": {
-      "x": 0.864,
-      "y": 84.745,
-      "w": 61.323,
-      "h": 1.373
      }
     }
    ],
@@ -1293,7 +1322,7 @@
     },
     "tipo": {
      "x": 4.319,
-     "y": 63.177,
+     "y": "yTipo+2.645",
      "w": 36.639,
      "h": 2.34,
      "rol": "tipo",
@@ -1302,7 +1331,7 @@
     },
     "etiqueta": {
      "x": 44.557,
-     "y": 62.77,
+     "y": "yTipo+2.238",
      "w": 12.549,
      "h": 3.306,
      "rol": "tipo",
@@ -1320,19 +1349,26 @@
      "alinearV": "inicio"
     },
     "pie": {
-     "x": 4.5,
-     "y": 84.1,
-     "w": 50.0,
-     "h": 3.0,
+     "x": 2.235,
+     "y": 85.355,
+     "w": 58.5,
+     "h": 1.6,
      "rol": "pie",
-     "mayuscula": 1.15,
+     "mayuscula": 1.27,
      "color": "#ffffff",
      "tabs": [
-      8.0,
-      10.6
+      36.3
      ],
      "interlinea": 1.6
     }
+   },
+   "caja": {
+    "fondo": 80.6,
+    "altoMin": 11.0,
+    "altoMax": 40.0,
+    "barraTipo": 6.918,
+    "padArriba": 0.8,
+    "padAbajo": 0.8
    },
    "layouts": {
     "ficha": {}
@@ -1349,7 +1385,7 @@
     "x": 3.0,
     "y": 13.5,
     "w": 57.0,
-    "h": 52.0
+    "h": "yTipo-11.5"
    },
    "fondo": [
     {
@@ -1361,21 +1397,12 @@
    ],
    "capas": [
     {
-     "png": "capas/tierra/frame__non-basic-land-format__box-extension.png",
+     "png": "capas/tierra/frame__basic-land-format__typeline.png",
      "en": {
-      "x": 4.877,
-      "y": 59.26,
-      "w": 53.398,
-      "h": 10.377
-     }
-    },
-    {
-     "png": "capas/tierra/frame__non-basic-land-format__layer-30.png",
-     "en": {
-      "x": 4.877,
-      "y": 61.498,
-      "w": 53.398,
-      "h": 11.699
+      "x": 3.76,
+      "y": 79.76,
+      "w": 55.633,
+      "h": 5.951
      }
     },
     {
@@ -1388,13 +1415,17 @@
      }
     },
     {
-     "png": "capas/tierra/frame__basic-land-format__typeline.png",
+     "png": "capas/tierra/frame__non-basic-land-format__box-extension.png",
      "en": {
-      "x": 3.76,
-      "y": 79.76,
-      "w": 55.633,
-      "h": 5.951
-     }
+      "x": 4.877,
+      "y": "yTipo+0.000",
+      "w": 53.398,
+      "h": "75.500-yTipo"
+     },
+     "tramos": [
+      1.6,
+      0.0
+     ]
     },
     {
      "png": "capas/tierra/frame__non-basic-land-format__name-plate.png",
@@ -1465,19 +1496,31 @@
      "alinear": "centro"
     },
     "pie": {
-     "x": 4.5,
-     "y": 84.2,
-     "w": 50.0,
-     "h": 3.0,
+     "x": 5.8,
+     "y": 86.0,
+     "w": 51.0,
+     "h": 1.6,
      "rol": "pie",
-     "mayuscula": 1.15,
-     "color": "#ffffff",
-     "tabs": [
-      8.0,
-      10.6
-     ],
+     "mayuscula": 1.27,
+     "color": "#4f6367",
+     "tabs": [],
      "interlinea": 1.6
+    },
+    "coste": {
+     "x": 30.0,
+     "y": 14.8,
+     "w": 30.0,
+     "h": 4.17,
+     "alinear": "fin"
     }
+   },
+   "caja": {
+    "fondo": 79.3,
+    "altoMin": 12.0,
+    "altoMax": 46.0,
+    "barraTipo": 0.0,
+    "padArriba": 1.4,
+    "padAbajo": 0.6
    },
    "layoutSi": [
     {

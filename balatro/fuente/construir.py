@@ -322,10 +322,58 @@ def tipo_hasta(z_tipo, z_pastilla, fin_barra=None, **extra):
                   "h": z_tipo["h"]}, **extra)
 
 
-def pie(y, color, alto=3.3):
-    """El pie de dos líneas (número, rareza y original; set, idioma y artista)."""
-    return hueco({"x": 4.5, "y": y, "w": 50.0, "h": alto}, rol="pie", mayuscula=1.15, color=color,
-                 tabs=[8.0, 10.6], interlinea=1.6)
+# El pie del pack: una línea, como el texto legal de las plantillas
+# («JOK • Balatro 001/001»), en dos columnas que van seguidas (o la segunda en
+# el tabulador, donde lo haya).
+PLANTILLA_PIE = "{set} • {lang} {num} {rarity}\t{original} {brush} {artist}"
+
+
+def pie(plantilla, ancho, color, x=None, y=None, tabs=None, px=40.91):
+    """El pie en la línea del texto legal de la plantilla (o en `x`, `y`)."""
+    try:
+        z = ztexto(plantilla, "Words / Legal / Set Identifier")
+    except KeyError:
+        z = {"x": x, "y": y}
+    alto = 1.6
+    return hueco({"x": z["x"] if x is None else x, "y": z["y"] if y is None else y, "w": ancho, "h": alto},
+                 rol="pie", mayuscula=cap(px), color=color, tabs=tabs or [], interlinea=alto)
+
+
+# ── La caja de reglas que crece (como hace el autor carta a carta: con poco
+# texto, la línea de tipo baja y el arte gana sitio; con mucho, sube). El motor
+# calcula `yTipo` (arriba de la barra del tipo) y lo que se mueve con ella va
+# con expresiones.
+
+def en_y(y, ref):
+    """`y` (mm, en la plantilla) relativa a la barra del tipo en `ref`."""
+    return f"yTipo{y - ref:+.3f}"
+
+
+def con_tipo(h, ref):
+    """Un hueco que se mueve con la barra del tipo."""
+    h = dict(h)
+    h["y"] = en_y(h["y"], ref)
+    return h
+
+
+def movil(c, ref, hasta=None, tramos=None):
+    """Una capa que se mueve con la barra del tipo; con `hasta`, su borde de
+    abajo se queda en ese mm (y se estira por el medio)."""
+    c = dict(c)
+    z = dict(c["en"])
+    off = z["y"] - ref
+    z["y"] = en_y(z["y"], ref)
+    if hasta is not None:
+        z["h"] = f"{hasta - off:.3f}-yTipo"
+    c["en"] = z
+    if tramos:
+        c["tramos"] = tramos
+    return c
+
+
+def caja(fondo, alto_min, alto_max, barra, arriba=0.8, abajo=0.8):
+    return {"fondo": fondo, "altoMin": alto_min, "altoMax": alto_max, "barraTipo": barra,
+            "padArriba": arriba, "padAbajo": abajo}
 
 
 def comunes(z_cuadros):
@@ -343,6 +391,7 @@ def estilos(z_cuadros):
 
     # ── Joker (criaturas, artefactos…): marco oscuro, arte arriba.
     j = "joker"
+    YJ = zona(j, "Frame / Typeline")["y"]
     e["joker"] = {
         "nombre": {"es": "Joker", "en": "Joker"},
         "base": "classic",
@@ -355,8 +404,8 @@ def estilos(z_cuadros):
         ],
         "capas": [
             toda(j, "Frame / Frame"),
-            capa(j, "Frame / Non-Legendary"),
-            capa(j, "Frame / Typeline"),
+            movil(capa(j, "Frame / Non-Legendary"), YJ, hasta=82.15, tramos=[1.6, 1.6]),
+            movil(capa(j, "Frame / Typeline"), YJ),
             capa(j, "Frame / P/T", si={"fr": True}),
             *coste_variable(j, "Frame / Mana Box"),
             toda(j, "Layer 40"),
@@ -365,12 +414,15 @@ def estilos(z_cuadros):
         "huecos": {
             "titulo": hueco(zona(j, "Words / Name"), rol="titulo", mayuscula=cap(145), color="#ffffff", alinear="centro"),
             "coste": hueco({"x": 20.0, "y": 13.48, "w": 39.7, "h": 4.17}),
-            "tipo": tipo_hasta(ztexto(j, "Words / Typeline"), zona(j, "Words / Legal / SET / Rare"), rol="tipo", mayuscula=cap(63), color="#ffffff"),
-            "etiqueta": hueco(zona(j, "Words / Legal / SET / Rare"), rol="tipo", mayuscula=cap(63), sombra=True),
+            "tipo": con_tipo(tipo_hasta(ztexto(j, "Words / Typeline"), zona(j, "Words / Legal / SET / Rare"), rol="tipo", mayuscula=cap(63), color="#ffffff"), YJ),
+            "etiqueta": con_tipo(hueco(zona(j, "Words / Legal / SET / Rare"), rol="tipo", mayuscula=cap(63), sombra=True), YJ),
             "reglas": hueco({"x": 4.5, "y": 57.0, "w": 54.0, "h": 20.0}, rol="reglas", mayuscula=cap(72), color=TINTA),
             "fr": hueco(zona(j, "Frame / P/T"), rol="fr", mayuscula=cap(95), color=AMARILLO, alinear="centro"),
-            "pie": pie(82.3, "#ffe5b4"),
+            "pie": pie(j, 42.9, "#ffe5b4", px=50),
         },
+        # El arte es una ventana fija del marco: la caja no baja de la de la
+        # plantilla, solo sube con mucho texto.
+        "caja": caja(81.3, 25.8, 40.0, 82.15 - 26.705 - YJ, 1.0, 1.0),
         "layouts": {"ficha": {}},
     }
     # Sin F/R, las reglas centradas en la caja (Arcane Signet).
@@ -380,6 +432,8 @@ def estilos(z_cuadros):
     p = "planeswalker"
     e["planeswalker"] = json.loads(json.dumps(e["joker"]))
     e["planeswalker"]["nombre"] = {"es": "Planeswalker", "en": "Planeswalker"}
+    # Las casillas de lealtad van en sitios fijos: aquí la caja no se mueve.
+    del e["planeswalker"]["caja"]
     e["planeswalker"]["capas"] = [
         toda(p, "Frame / Frame"),
         capa(p, "Frame / Tick Seperator"),
@@ -397,6 +451,7 @@ def estilos(z_cuadros):
 
     # ── Espectral: marco claro, arte a toda la carta, título en cartel.
     s = "espectral"
+    YS = zona(s, "Frame / Typeline / Blue Typeline")["y"]
     e["espectral"] = {
         "nombre": {"es": "Espectral", "en": "Spectral"},
         "base": "classic",
@@ -405,19 +460,20 @@ def estilos(z_cuadros):
         "fondo": [toda(s, "Backgrounds / Background")],
         "capas": [
             toda(s, "Frame / Blue Frame"),
-            capa(s, "Frame / Blue Box"),
-            capa(s, "Frame / Typeline / Blue Typeline"),
+            movil(capa(s, "Frame / Blue Box"), YS, hasta=86.83),
+            movil(capa(s, "Frame / Typeline / Blue Typeline"), YS),
             capa(s, "Frame / Mana Box / Mana Box 1-3"),
             *c["cuadros"],
         ],
         "huecos": {
             "titulo": hueco({**zona(s, "Words / Name"), "x": 9.6, "w": 43.8}, rol="titulo", mayuscula=cap(150), color=TITULO, alinear="centro", mayusculas=True),
             "coste": hueco(zona(s, "Frame / Mana Box / Mana Box 1-3"), alinear="centro"),
-            "tipo": tipo_hasta(ztexto(s, "Frame / Typeline / Typeline"), zona(s, "Frame / Typeline / SET / Uncomon"), fin_de_barra(s, "Frame / Typeline / Blue Typeline", ztexto(s, "Frame / Typeline / Typeline")), rol="tipo", mayuscula=cap(75), color=TITULO),
-            "etiqueta": hueco(zona(s, "Frame / Typeline / SET / Uncomon"), rol="tipo", mayuscula=cap(63), sombra=True),
-            "reglas": hueco({"x": 4.5, "y": 65.0, "w": 54.0, "h": 19.0}, rol="reglas", mayuscula=cap(72), color=TITULO, alinear="centro"),
-            "pie": pie(84.2, "#bfc7d5", 3.0),
+            "tipo": con_tipo(tipo_hasta(ztexto(s, "Frame / Typeline / Typeline"), zona(s, "Frame / Typeline / SET / Uncomon"), fin_de_barra(s, "Frame / Typeline / Blue Typeline", ztexto(s, "Frame / Typeline / Typeline")), rol="tipo", mayuscula=cap(75), color=TITULO), YS),
+            "etiqueta": con_tipo(hueco(zona(s, "Frame / Typeline / SET / Uncomon"), rol="tipo", mayuscula=cap(63), sombra=True), YS),
+            "reglas": hueco({"x": 6.5, "y": 65.0, "w": 50.0, "h": 19.0}, rol="reglas", mayuscula=cap(72), color=TITULO, alinear="centro"),
+            "pie": pie(s, 51.0, "#bfc7d5"),
         },
+        "caja": caja(82.0, 12.0, 42.0, 5.951),
         "layouts": {"ficha": {}},
     }
     # El coste: las fichas dentro de la pestaña bajo el título.
@@ -425,6 +481,7 @@ def estilos(z_cuadros):
 
     # ── Tarot: marco dorado, arte a toda la carta, reglas sobre oscuro.
     t = "tarot"
+    YT = zona(t, "Frame / Typeline / Typeline")["y"]
     e["tarot"] = {
         "nombre": {"es": "Tarot", "en": "Tarot"},
         "base": "classic",
@@ -433,28 +490,31 @@ def estilos(z_cuadros):
         "fondo": [toda(t, "Background copy")],
         "capas": [
             toda(t, "Frame / Frame"),
-            capa(t, "Frame / Rules Box"),
-            capa(t, "Frame / Typeline / Rules Extender"),
-            capa(t, "Frame / Typeline / Typeline"),
+            movil({"png": fichero(t, "Frame / Rules Box"), "en": {**zona(t, "Frame / Rules Box"), "y": YT + 5.0}}, YT, hasta=88.0),
+            movil({"png": fichero(t, "Frame / Typeline / Rules Extender"), "en": {**zona(t, "Frame / Typeline / Rules Extender"), "y": YT + 5.0}}, YT, hasta=83.0),
+            movil(capa(t, "Frame / Typeline / Typeline"), YT),
         ],
         "huecos": {
             "titulo": hueco({**zona(t, "Words / Name"), "x": 4.0, "w": 55.0}, rol="titulo", mayuscula=cap(150), color=TITULO, alinear="centro", mayusculas=True),
             "coste": hueco({"x": 10.0, "y": 10.94, "w": 43.0, "h": 4.17}, alinear="centro"),
-            "tipo": tipo_hasta(ztexto(t, "Frame / Typeline / Typeline"), zona(t, "Frame / Typeline / SET / Rare"), fin_de_barra(t, "Frame / Typeline / Typeline", ztexto(t, "Frame / Typeline / Typeline")), rol="tipo", mayuscula=cap(75), color=TITULO),
-            "etiqueta": hueco(zona(t, "Frame / Typeline / SET / Rare"), rol="tipo", mayuscula=cap(63), sombra=True),
+            "tipo": con_tipo(tipo_hasta(ztexto(t, "Frame / Typeline / Typeline"), zona(t, "Frame / Typeline / SET / Rare"), fin_de_barra(t, "Frame / Typeline / Typeline", ztexto(t, "Frame / Typeline / Typeline")), rol="tipo", mayuscula=cap(75), color=TITULO), YT),
+            "etiqueta": con_tipo(hueco(zona(t, "Frame / Typeline / SET / Rare"), rol="tipo", mayuscula=cap(63), sombra=True), YT),
             "reglas": hueco({"x": 6.0, "y": 56.5, "w": 51.0, "h": 26.0}, rol="reglas", mayuscula=cap(70), color="#ffffff", alinear="centro"),
-            "pie": pie(84.2, "#dab772", 3.0),
+            "pie": pie(t, 53.0, "#dab772"),
         },
+        "caja": caja(82.0, 12.0, 42.0, 5.951),
         "layouts": {"ficha": {}},
     }
 
     # ── Planeta: fondo turquesa, el arte flota entre el cartel y el tipo.
     pl = "planeta"
+    YP = zona(pl, "Frame / Typeline / Expand Textbox / Typeline")["y"]
     e["planeta"] = {
         "nombre": {"es": "Planeta", "en": "Planet"},
         "base": "classic",
         "radio": 3.0,
-        "arte": hueco({"x": 6.0, "y": 29.5, "w": 51.0, "h": 31.0}),
+        # El arte llega hasta la barra del tipo, esté donde esté.
+        "arte": hueco({"x": 6.0, "y": 29.5, "w": 51.0, "h": "yTipo-29.0"}),
         "fondo": [toda(pl, "Background copy")],
         "capas": [
             toda(pl, "Frame / Border"),
@@ -462,45 +522,50 @@ def estilos(z_cuadros):
             capa(pl, "Frame / Nameplate"),
             capa(pl, "Frame / Mana Box / 1 Mana", si={"simbolos": [1, 2]}),
             capa(pl, "Frame / Mana Box / 3 Mana", si={"simbolos": [3, 20]}),
-            capa(pl, "Frame / Typeline / Expand Textbox / Extra Textbox"),
+            movil(capa(pl, "Frame / Typeline / Expand Textbox / Extra Textbox"), YP, hasta=81.0),
             capa(pl, "Frame / Textbox"),
-            capa(pl, "Frame / Typeline / Expand Textbox / Typeline"),
+            movil(capa(pl, "Frame / Typeline / Expand Textbox / Typeline"), YP),
         ],
         "huecos": {
             "titulo": hueco({**zona(pl, "Words / Name"), "x": 9.6, "w": 43.8}, rol="titulo", mayuscula=cap(140), color=TITULO, alinear="centro", mayusculas=True),
             "coste": hueco({"x": 10.0, "y": 22.69, "w": 43.0, "h": 4.17}, alinear="centro"),
-            "tipo": tipo_hasta(ztexto(pl, "Frame / Typeline / Typeline"), zona(pl, "Frame / Typeline / SET / Rare"), fin_de_barra(pl, "Frame / Typeline / Expand Textbox / Typeline", ztexto(pl, "Frame / Typeline / Typeline")), rol="tipo", mayuscula=cap(75), color=TITULO),
-            "etiqueta": hueco(zona(pl, "Frame / Typeline / SET / Rare"), rol="tipo", mayuscula=cap(63), sombra=True),
+            "tipo": con_tipo(tipo_hasta(ztexto(pl, "Frame / Typeline / Typeline"), zona(pl, "Frame / Typeline / SET / Rare"), fin_de_barra(pl, "Frame / Typeline / Expand Textbox / Typeline", ztexto(pl, "Frame / Typeline / Typeline")), rol="tipo", mayuscula=cap(75), color=TITULO), YP),
+            "etiqueta": con_tipo(hueco(zona(pl, "Frame / Typeline / SET / Rare"), rol="tipo", mayuscula=cap(63), sombra=True), YP),
             "reglas": hueco({"x": 6.5, "y": 69.3, "w": 50.0, "h": 14.5}, rol="reglas", mayuscula=cap(70), color=TITULO),
-            "pie": pie(84.2, "#dff5fc", 3.0),
+            "pie": pie(pl, 51.0, "#dff5fc"),
         },
+        # La barra no baja de donde tapa el borde de arriba de la caja fija.
+        "caja": caja(83.6, 10.5, 37.5, 5.951),
         "layouts": {"ficha": {}},
     }
 
     # ── Vale: carta blanca con muescas, cartel arriba con el coste.
     v = "vale"
+    YV = zona(v, "Frame / Typeline / Typeline")["y"]
     e["vale"] = {
         "nombre": {"es": "Vale", "en": "Voucher"},
         "base": "classic",
         "radio": 3.0,
-        "arte": hueco({"x": 3.0, "y": 18.0, "w": 57.0, "h": 43.0}),
+        "arte": hueco({"x": 3.0, "y": 18.0, "w": 57.0, "h": "yTipo-17.0"}),
         "fondo": [toda(v, "Background copy"), capa(v, "Layer 26"), toda(v, "Layer 41")],
         "capas": [
             capa(v, "Frame / Border"),
             capa(v, "Frame / Nameplate", si={"variante": None} if False else {}),
-            capa(v, "Frame / Typeline / Rules Extender"),
+            movil(capa(v, "Frame / Typeline / Rules Extender"), YV, hasta=79.404, tramos=[0.5, 3.0]),
             capa(v, "Frame / Rules Box"),
-            capa(v, "Frame / Typeline / Typeline"),
+            movil(capa(v, "Frame / Typeline / Typeline"), YV),
             capa(v, "Frame / Color Match"),
         ],
         "huecos": {
             "titulo": hueco({**zona(v, "Words / Name"), "x": 4.5, "w": 54.0}, rol="titulo", mayuscula=cap(150), color=TITULO, alinear="centro", mayusculas=True),
             "coste": hueco({"x": 20.0, "y": 3.61, "w": 39.04, "h": 4.17}),
-            "tipo": tipo_hasta(ztexto(v, "Frame / Typeline / Typeline"), zona(v, "Frame / Typeline / SET / Uncomon"), fin_de_barra(v, "Frame / Typeline / Typeline", ztexto(v, "Frame / Typeline / Typeline")), rol="tipo", mayuscula=cap(75), color=TITULO),
-            "etiqueta": hueco(zona(v, "Frame / Typeline / SET / Uncomon"), rol="tipo", mayuscula=cap(63), sombra=True),
+            "tipo": con_tipo(tipo_hasta(ztexto(v, "Frame / Typeline / Typeline"), zona(v, "Frame / Typeline / SET / Uncomon"), fin_de_barra(v, "Frame / Typeline / Typeline", ztexto(v, "Frame / Typeline / Typeline")), rol="tipo", mayuscula=cap(75), color=TITULO), YV),
+            "etiqueta": con_tipo(hueco(zona(v, "Frame / Typeline / SET / Uncomon"), rol="tipo", mayuscula=cap(63), sombra=True), YV),
             "reglas": hueco({"x": 4.5, "y": 68.3, "w": 54.0, "h": 15.8}, rol="reglas", mayuscula=cap(72), color=TITULO, alinearV="inicio"),
-            "pie": pie(84.1, "#ffffff", 3.0),
+            "pie": pie(v, 58.5, "#ffffff", tabs=[36.3]),
         },
+        # Encima de la muesca de abajo.
+        "caja": caja(80.6, 11.0, 40.0, 6.918),
         "layouts": {"ficha": {}},
     }
     # El cartel claro u oscuro según la variante.
@@ -510,15 +575,17 @@ def estilos(z_cuadros):
 
     # ── Tierra: básica (esquinas de naipe) y no básica (reglas sobre el tipo).
     ti = "tierra"
+    YTI = zona(ti, "Frame / Non-Basic Land Format / Box Extension")["y"]
     e["tierra"] = {
         "nombre": {"es": "Tierra", "en": "Land"},
         "base": "fullArt",
         "radio": 3.0,
-        "arte": hueco({"x": 3.0, "y": 13.5, "w": 57.0, "h": 52.0}),
+        "arte": hueco({"x": 3.0, "y": 13.5, "w": 57.0, "h": "yTipo-11.5"}),
         "fondo": [toda(ti, "Background copy"), toda(ti, "Layer 39")],
         "capas": [
-            capa(ti, "Frame / Non-Basic Land Format / Box Extension"),
-            capa(ti, "Frame / Non-Basic Land Format / Layer 30"),
+            # La caja de las reglas va encima de la barra del tipo y crece hacia
+            # arriba: aquí `yTipo` es su borde de arriba (barra 0).
+            movil(capa(ti, "Frame / Non-Basic Land Format / Box Extension"), YTI, hasta=75.5, tramos=[1.6, 0.0]),
             capa(ti, "Frame / Non-Basic Land Format / Rules Box"),
             capa(ti, "Frame / Basic Land Format / Typeline"),
             capa(ti, "Frame / Non-Basic Land Format / Name Plate"),
@@ -529,8 +596,11 @@ def estilos(z_cuadros):
             "tipo": tipo_hasta(ztexto(ti, "Frame / Basic Land Format / Typeline"), zona(ti, "Frame / Non-Basic Land Format / SET / Rare"), fin_de_barra(ti, "Frame / Basic Land Format / Typeline", ztexto(ti, "Frame / Basic Land Format / Typeline")), rol="tipo", mayuscula=cap(75), color=TITULO),
             "etiqueta": hueco(zona(ti, "Frame / Non-Basic Land Format / SET / Rare"), rol="tipo", mayuscula=cap(63), sombra=True),
             "reglas": hueco({"x": 6.5, "y": 60.5, "w": 50.0, "h": 18.5}, rol="reglas", mayuscula=cap(72), color=TINTA, alinear="centro"),
-            "pie": pie(84.2, "#ffffff", 3.0),
+            "pie": pie(ti, 51.0, TITULO, x=5.8, y=86.0),
+            # Las tierras no tienen coste; si es otra carta, bajo el cartel.
+            "coste": hueco({"x": 30.0, "y": 14.8, "w": 30.0, "h": 4.17}, alinear="fin"),
         },
+        "caja": caja(79.3, 12.0, 46.0, 0.0, 1.4, 0.6),
         "layoutSi": [{"si": {"basica": True}, "layout": "basica"}],
         "layouts": {
             "basica": {
@@ -588,6 +658,25 @@ def podar(pack):
     print("capas sin usar quitadas:", quitados)
 
 
+def en_orden_del_psd(pack):
+    """Las capas de cada estilo (y de sus layouts) en el orden del PSD de donde
+    salen, de abajo arriba: si no, una caja que en el PSD va debajo del marco
+    lo tapa. Las que no salen de un PSD (los cuadros de color) van encima."""
+    def orden(c):
+        ruta = c.get("png") or c.get("svg") or ""
+        partes = ruta.split("/")
+        if len(partes) >= 3 and partes[0] == "capas" and partes[1] in INV:
+            # `{color}` en la ruta: vale la de cualquier color.
+            patron = re.compile(re.escape(ruta).replace(r"\{color\}", "[^/]+"))
+            for i, e in enumerate(INV[partes[1]]["capas"]):
+                if patron.fullmatch(e.get("fichero") or ""):
+                    return i
+        return 10_000
+    for e in pack["estilos"].values():
+        for lista in [e.get("fondo", []), e["capas"]] + [l.get("capas") or [] for l in e.get("layouts", {}).values()]:
+            lista.sort(key=orden)
+
+
 def main():
     sim = simbolos()
     eti = etiquetas()
@@ -606,6 +695,7 @@ def main():
         "letras": {r: dict(letra) for r in ("titulo", "tipo", "reglas", "fr", "pie", "cinta")},
         "simbolos": sim,
         "separacionCoste": round(10 / 82, 3),
+        "plantillaPie": {"es": PLANTILLA_PIE, "en": PLANTILLA_PIE},
         "etiquetas": eti,
         "coloresTexto": {"resalte": AZUL, "habilidad": AMARILLO},
         "insignias": {"fondo": "#3f4a4d", "borde": "#2b3638", "texto": AMARILLO,
@@ -613,6 +703,7 @@ def main():
         "sustituir": {"—": "-", "–": "-", "−": "-", "•": "-", "·": "-", "’": "'", "“": "\"", "”": "\""},
         "estilos": estilos(z_cuadros),
     }
+    en_orden_del_psd(pack)
     (PACK / "pack.json").write_text(json.dumps(pack, ensure_ascii=False, indent=1))
     podar(pack)
     print("pack.json:", len(pack["estilos"]), "estilos,", len(sim), "símbolos,", len(eti), "etiquetas")

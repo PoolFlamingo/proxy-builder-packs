@@ -11,7 +11,7 @@ import json
 import sys
 from pathlib import Path
 
-pack = Path(sys.argv[1])
+pack = Path(sys.argv[1]).resolve()
 commit = sys.argv[2]
 
 
