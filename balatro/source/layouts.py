@@ -212,15 +212,14 @@ def layouts():
     L["clase"] = layout(cv, art, {**titulo(), "coste": hueco(20.0, 13.48, 39.7, 4.17),
                                   **tipo(70.2), **reglas(*box, top=6.4), **pie()})
 
-    # Dungeon: a band of art and the rooms in a big box.
+    # Dungeon: like the printed ones, no art and no type line; the map of
+    # rooms fills the card from the title down to the footer.
     cv = Canvas()
-    art, box = (3.0, 14.06, 57.0, 10.0), (3.0, 32.4, 57.0, 47.2)
-    cv.card(art)
-    cv.bar(1.27, 25.6, 60.46)
+    box = (3.0, 14.06, 57.0, 66.5)
+    cv.card()
     cv.box(*box)
     cv.scanlines()
-    L["mazmorra"] = layout(cv, art, {**titulo(), **tipo(25.6, etiqueta=False),
-                                     **reglas(*box, mayuscula=1.1), **pie()})
+    L["mazmorra"] = layout(cv, (0, 0, 0, 0), {**titulo(), **reglas(*box, mayuscula=1.3), **pie()})
 
     # Flip: only the top half (the other half is the same piece, turned).
     cv = Canvas()
@@ -243,16 +242,18 @@ def layouts():
     cv.box(*box)
     L["secuelaArriba"] = layout(cv, art, {**titulo(), "coste": hueco(30.0, 10.0, 28.0, 3.4),
                                           **tipo(32.4), **reglas(*box, mayuscula=2.0)}, tamano=[63, 51])
+    # The bottom half has its own art, like the printed ones: title, art,
+    # type line and rules.
     cv = Canvas(33, 63)
-    box = (1.6, 13.0, 29.8, 48.4)
-    cv.card()
+    art, box = (1.6, 7.6, 29.8, 18.0), (1.6, 32.6, 29.8, 28.8)
+    cv.card(art)
     cv.bar(0.9, 1.0, 31.2)
-    cv.bar(0.9, 6.7, 31.2)
+    cv.bar(0.9, 26.2, 31.2)
     cv.box(*box)
-    L["secuelaAbajo"] = layout(cv, (0, 0, 0, 0), {
+    L["secuelaAbajo"] = layout(cv, art, {
         "titulo": hueco(2.4, 2.7, 18.0, 2.6, rol="titulo", mayuscula=2.0, color=BLANCO),
         "coste": hueco(20.0, 2.2, 10.5, 3.2),
-        "tipo": hueco(2.4, 8.4, 28.0, 2.5, rol="tipo", mayuscula=1.956, color=BLANCO),
+        "tipo": hueco(2.4, 27.9, 28.0, 2.5, rol="tipo", mayuscula=1.956, color=BLANCO),
         **reglas(*box, mayuscula=1.9)}, tamano=[33, 63])
 
     # Fuse: the shared strip (88 x 6).
