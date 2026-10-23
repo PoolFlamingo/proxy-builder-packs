@@ -716,6 +716,10 @@ def main():
         "estilos": estilos(z_cuadros),
     }
     en_orden_del_psd(pack)
+    # The pack-level layouts (saga, class, dungeon, flip…): see `layouts.py`.
+    sys.path.insert(0, str(Path(__file__).parent))
+    from layouts import layouts
+    pack["layouts"] = layouts()
     (PACK / "pack.json").write_text(json.dumps(pack, ensure_ascii=False, indent=1))
     podar(pack)
     print("pack.json:", len(pack["estilos"]), "styles,", len(sim), "symbols,", len(eti), "labels")
