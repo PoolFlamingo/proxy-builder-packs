@@ -707,6 +707,9 @@ def main():
         "letras": {r: dict(letra) for r in ("titulo", "tipo", "reglas", "fr", "pie", "cinta")},
         "simbolos": sim,
         "separacionCoste": round(10 / 82, 3),
+        # A card with a standard style (classic, borderless…) the pack lacks is
+        # painted with the joker frame, never with the app's house frame.
+        "estiloPorDefecto": "joker",
         "plantillaPie": {"es": PLANTILLA_PIE, "en": PLANTILLA_PIE},
         "etiquetas": eti,
         "coloresTexto": {"resalte": AZUL, "habilidad": AMARILLO},

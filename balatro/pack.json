@@ -155,6 +155,7 @@
   "Z": "symbols/Z.png"
  },
  "separacionCoste": 0.122,
+ "estiloPorDefecto": "joker",
  "plantillaPie": {
   "es": "{set} • {lang} {num} {rarity}\t{original} {brush} {artist}",
   "en": "{set} • {lang} {num} {rarity}\t{original} {brush} {artist}"
