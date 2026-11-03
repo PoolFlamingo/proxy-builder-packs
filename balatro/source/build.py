@@ -144,19 +144,48 @@ def simbolos():
 # ── Labels ──────────────────────────────────────────────────────────────
 
 def limpiar_pastilla(origen: Path, destino: Path):
-    """Removes the text of a pill: the inside, in the fill colour."""
+    """Removes the text of a pill. A row whose middle is not all fill colour
+    (the text and its shadow) is replaced by the nearest clean row with the
+    same outline, so the edges and the bottom shade stay as drawn; if there
+    is none, its middle is painted in the fill colour."""
     im = Image.open(origen).convert("RGBA")
     px = im.load()
     cuenta = collections.Counter(px[x, y] for y in range(im.height) for x in range(im.width) if px[x, y][3] == 255)
     relleno = cuenta.most_common(1)[0][0]
+    a, b = im.width // 10, im.width - im.width // 10
+
+    def silueta(y):
+        opacos = [x for x in range(im.width) if px[x, y][3] > 0]
+        return (opacos[0], opacos[-1]) if opacos else None
+
+    def limpia(y):
+        medio = [px[x, y] for x in range(a, b) if px[x, y][3] == 255]
+        return bool(medio) and all(p == relleno for p in medio)
+
+    siluetas = [silueta(y) for y in range(im.height)]
+    limpias = [y for y in range(im.height) if limpia(y)]
+    filas = {y: [px[x, y] for x in range(im.width)] for y in limpias}
     for y in range(im.height):
-        fila = [x for x in range(im.width) if px[x, y] == relleno]
-        if len(fila) < im.width * 0.3:
-            continue  # top and bottom edges
-        a, b = fila[0], fila[-1]
-        for x in range(a, b + 1):
-            if px[x, y][3] == 255:
-                px[x, y] = relleno
+        if siluetas[y] is None or y in filas:
+            continue
+        medio = [px[x, y] for x in range(a, b) if px[x, y][3] == 255]
+        if relleno not in medio:
+            # The bottom shade: its own colour under the text's shadow too.
+            sombra = collections.Counter(medio).most_common(1)[0][0]
+            for x in range(a, b):
+                if px[x, y][3] == 255:
+                    px[x, y] = sombra
+            continue
+        parecidas = [z for z in limpias if siluetas[z] == siluetas[y]]
+        if parecidas:
+            z = min(parecidas, key=lambda z: abs(z - y))
+            for x in range(im.width):
+                px[x, y] = filas[z][x]
+        else:
+            i, j = siluetas[y]
+            for x in range(i + 3, j - 2):
+                if px[x, y][3] == 255:
+                    px[x, y] = relleno
     im.save(destino)
 
 
@@ -277,14 +306,23 @@ AZUL = "#0093ff"       # highlighted text
 def coste_variable(plantilla, grupo):
     """The cost boxes for 1 to 6 symbols (those the template has)."""
     capas = []
+    cajas = []
     for e in INV[plantilla]["capas"]:
         r = e["ruta"]
         if r.startswith(grupo) and e.get("tipo") == "imagen":
             n = r.split("/")[-1].strip().split(" ")[0]
             if n.isdigit():
-                # The one for N is used with N symbols; the one for 6, with 6 or more.
-                rango = [int(n), int(n)] if n != "6" else [6, 20]
-                capas.append(capa(plantilla, r, si={"simbolos": rango}))
+                cajas.append((int(n), r))
+    numeros = {n for n, _ in cajas}
+    for n, r in cajas:
+        # The one for N is used with N symbols; the one for 6, with 6 or more.
+        # The PSD's 4, 5 and 6 are only the left part that lengthens the one
+        # for 3 (they end straight, under it), so the 3 goes with 3 or more.
+        if n == 6 or (n == 3 and numeros & {4, 5, 6}):
+            rango = [n, 20]
+        else:
+            rango = [n, n]
+        capas.append(capa(plantilla, r, si={"simbolos": rango}))
     return capas
 
 
@@ -403,11 +441,19 @@ def estilos(z_cuadros):
     # ── Joker (creatures, artifacts…): dark frame, art on top.
     j = "joker"
     YJ = zona(j, "Frame / Typeline")["y"]
+    ZB = zona(j, "Frame / White Box")
+    # The type line with the box as drawn (bottom 81.3, smallest height 25.8).
+    YTIPO0 = 81.3 - 25.8 - (82.15 - 26.705 - YJ)
+    # Where the art window ends (card mm) and how far above the type line.
+    FIN_ARTE = round(ZB["y"] + ZB["h"], 3)
+    BAJO_ARTE = round(YTIPO0 - FIN_ARTE, 3)
     e["joker"] = {
         "nombre": {"es": "Joker", "en": "Joker"},
         "base": "classic",
         "radio": 3.0,
-        "arte": hueco(zona(j, "Frame / White Box")),
+        # The art ends where the type line starts: with a lot of text the box
+        # grows and the art window shortens with it (as the classic frame).
+        "arte": hueco(ZB, h=f"yTipo-{round(BAJO_ARTE + ZB['y'], 3)}"),
         "fondo": [
             toda(j, "Background"),
             toda(j, "Layer 37"),
@@ -415,6 +461,14 @@ def estilos(z_cuadros):
         ],
         "capas": [
             toda(j, "Frame / Frame"),
+            # With the box grown, the frame follows the type line up: its dark
+            # under the shortened art and the bottom edge of the art window
+            # (pixel corners included). With the box as drawn, they match the
+            # frame exactly.
+            {"png": "layers/joker/frame__frame.png", "desde": {"x": 5.0, "y": 47.85, "w": 50.0, "h": 0.8},
+             "en": {"x": 2.0, "y": f"yTipo-{BAJO_ARTE}", "w": 59.0, "h": "50.0-yTipo"}},
+            {"png": "layers/joker/frame__frame.png", "desde": {"x": 0.0, "y": 45.3, "w": 63.0, "h": FIN_ARTE - 45.3},
+             "en": {"x": 0.0, "y": f"yTipo-{round(BAJO_ARTE + FIN_ARTE - 45.3, 3)}", "w": 63.0, "h": round(FIN_ARTE - 45.3, 3)}},
             movil(capa(j, "Frame / Non-Legendary"), YJ, hasta=82.15, tramos=[1.6, 1.6]),
             movil(capa(j, "Frame / Typeline"), YJ),
             capa(j, "Frame / P/T", si={"fr": True}),
@@ -629,6 +683,22 @@ def estilos(z_cuadros):
             "ficha": {},
         },
     }
+
+    # The original name, when the collection asks for it on the ribbon: a
+    # small line under the title (in light grey on the dark frames and in grey
+    # on the light ones), above the cost and the art.
+    claro, oscuro = "#c9d3d6", "#7b8b8f"
+    for estilo, (x, y, w, h, mayuscula, color) in {
+        "joker": (5.284, 10.6, 52.432, 1.5, 1.15, claro),
+        "planeswalker": (5.284, 10.6, 52.432, 1.5, 1.15, claro),
+        "espectral": (9.6, 10.62, 43.8, 1.36, 1.0, oscuro),
+        "tarot": (4.0, 9.5, 55.0, 1.36, 1.0, oscuro),
+        "planeta": (9.6, 20.66, 43.8, 1.36, 1.0, oscuro),
+        "vale": (4.5, 16.66, 54.0, 1.3, 1.0, oscuro),
+        "tierra": (9.6, 10.82, 43.8, 1.4, 1.0, oscuro),
+    }.items():
+        e[estilo]["huecos"]["cinta"] = hueco({"x": x, "y": y, "w": w, "h": h}, rol="cinta",
+                                             mayuscula=mayuscula, color=color, alinear="centro")
     return e
 
 

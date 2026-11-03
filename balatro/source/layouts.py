@@ -33,8 +33,9 @@ SCANLINES = [
     {"png": J + "small-scanlines__vertical.png", "mezcla": "oscurecer", "opacidad": 0.09},
 ]
 # The Joker's mana boxes (63 x 88 layouts only: they sit under the title).
+# The 4, 5 and 6 boxes only lengthen the 3 to the left: the 3 goes with 3 or more.
 MANA = [
-    (1, 1, 53.804, 7.519), (2, 2, 49.13, 12.194), (3, 3, 44.456, 16.868),
+    (1, 1, 53.804, 7.519), (2, 2, 49.13, 12.194), (3, 20, 44.456, 16.868),
     (4, 4, 39.781, 12.244), (5, 5, 35.107, 12.244), (6, 20, 30.433, 12.244),
 ]
 TINTA = "#3f4a4d"
